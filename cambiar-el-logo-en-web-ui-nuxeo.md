@@ -2,10 +2,10 @@
 
 Una de las primeras tareas a abordar a la hora de personalizar la interfaz **Web UI** de Nuxeo utilizando **Studio Designer**,  es la de adaptar la apariencia de las páginas a la imagen corporativa de la empresa. Esto implica la inclusión del logo de la empresa y el uso de una paleta de colores determinada. Para ello debemos crear un nuevo tema en Studio Designer.
 
-** Cambiar el logo en Web UI
+## Cambiar el logo en Web UI
 En primer lugar debemos acceder a la pantalla **UI > Themes**  de Studio Designer y hacer clic en el **botón añadir (+)** que aparece en la esquina inferior derecha para crear un nuevo tema.
 
-Studio Designer: UI > Theme
+![Studio Designer: UI](Theme studio-deigner-ui-theme-1200x970.png "Studio Designer: UI")
 
 A continuación se nos muestra el pop-up de creación del nuevo tema. Debemos introducir el nombre que queremos darle a nuestro tema y la plantilla que deseamos usar como punto de partida. Nuxeo proporciona 4 temas por defecto: *Nuxeo, Dark, Kawaii y Light*. En este ejemplo utilizaremos el tema *Kawaii* como base para nuestro tema, al que llamaremos *velvetTheme*.
 
