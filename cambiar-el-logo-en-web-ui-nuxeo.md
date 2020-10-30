@@ -13,7 +13,7 @@ A continuación se nos muestra el pop-up de creación del nuevo tema. Debemos in
 
 Posteriormente veremos la pantalla de edición de nuestro tema, en la que se muestran cuatro elementos: la hoja de estilo, el nombre del tema, la imagen utilizada para la previsualización en la pantalla de selección de tema y el botón para añadir nuevos recursos (imágenes, videos o fuentes que utilizaremos en el tema).
 
-![Studio Designer: New theme editor](images/studio-designer-new-theme-editor-744x549.png "Studio Designer: New theme editor")
+![Studio Designer: New theme editor](images/studio-designer-new-theme-editor-1200x886.png "Studio Designer: New theme editor")
 
 Para cambiar el logo predeterminado debemos añadir un nuevo recurso pulsando sobre el botón *«ADD»* y adjuntando un fichero que debe llamarse *«logo.png»*.
 
