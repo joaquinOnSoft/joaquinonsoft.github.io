@@ -40,10 +40,9 @@ Studio Designer ha creado internamente una etiqueta llamada themes. **<THEME_NAM
 Viendo los resultados
 Una vez creado el tema y añadida la traducción tan  sólo tenemos que aplicar los cambios realizados desde Studio Designer en nuestra instancia y seleccionar el nuevo tema desde la opción de menu User Settings > Themes.
 
-Nuxeo Web UI: User settings > themes
+![Nuxeo Web UI: User settings > themes](images/nuxeo-web-ui-user-settings-themes-1200x883.png "Nuxeo Web UI: User settings > themes")
 
 ¡Voilà! ya tenemos nuestra instancia de Nuxeo con un nuevo tema que incluye un logo y colores personalizados.
 
-Web UI: Custom logo
-
+![Web UI: Custom logo](images/web-ui-custom-logo-1200x886.png "Web UI: Custom logo")
  
