@@ -1,2 +1,2 @@
-* Joaquín On Software
+# Joaquín On Software
 Desarrollo Software
