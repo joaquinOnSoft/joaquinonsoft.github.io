@@ -28,7 +28,7 @@ Una vez completados estos pasos debemos pulsar el botón «Save» para guardar n
 ## Traducciones
 Studio Designer ha creado internamente una etiqueta llamada themes. **<THEME_NAME>**, donde **<THEME_NAME>** es el nombre que le dimos a nuestro tema (en nuestro ejemplo themes.velvetTheme).  Debemos añadir una traducción en el fichero de traducciones, por defecto messages.json, (accesible desde el menú **UI > Translations**) con la etiqueta correspondiente  a nuestro tema.
 
-``` 
+```json
 {
 	"themes.velvetTheme": "Velvet"
 }
