@@ -34,7 +34,8 @@ Studio Designer ha creado internamente una etiqueta llamada themes. **<THEME_NAM
 }
 ``` 
 
-Studio Designer: UI translations
+![Studio Designer: UI translations](images/studio-designer-ui-translations-1200x607.png "Studio Designer: UI translations")
+
 
 Viendo los resultados
 Una vez creado el tema y añadida la traducción tan  sólo tenemos que aplicar los cambios realizados desde Studio Designer en nuestra instancia y seleccionar el nuevo tema desde la opción de menu User Settings > Themes.
