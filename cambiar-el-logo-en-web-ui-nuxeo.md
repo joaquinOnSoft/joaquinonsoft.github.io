@@ -1,4 +1,4 @@
-* Como cambiar el logo en Web UI (Nuxeo)
+# Como cambiar el logo en Web UI (Nuxeo)
 
 Una de las primeras tareas a abordar a la hora de personalizar la interfaz **Web UI** de Nuxeo utilizando **Studio Designer**,  es la de adaptar la apariencia de las páginas a la imagen corporativa de la empresa. Esto implica la inclusión del logo de la empresa y el uso de una paleta de colores determinada. Para ello debemos crear un nuevo tema en Studio Designer.
 
@@ -23,7 +23,7 @@ Una vez completados estos pasos debemos pulsar el botón «Save» para guardar n
 
 Studio Designer: New theme with logo
 
-** Traducciones
+## Traducciones
 Studio Designer ha creado internamente una etiqueta llamada themes. **<THEME_NAME>**, donde **<THEME_NAME>** es el nombre que le dimos a nuestro tema (en nuestro ejemplo themes.velvetTheme).  Debemos añadir una traducción en el fichero de traducciones, por defecto messages.json, (accesible desde el menú **UI > Translations**) con la etiqueta correspondiente  a nuestro tema.
 
 ``` 
