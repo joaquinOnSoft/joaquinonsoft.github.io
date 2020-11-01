@@ -44,7 +44,7 @@ myapp.target=.
 
    * Crear el fichero **elasticsearch-myapp-config.xml.nxftl** en el directorio **${NUXEO_HOME}/templates/nxserver/config** y sobrescribir la configuración del mapeo.
    
-   ``` 
+```xml 
 <component name="org.nuxeo.elasticsearch.myapp">
   <require>org.nuxeo.elasticsearch.defaultConfig</require>
   <extension target="org.nuxeo.elasticsearch.ElasticSearchComponent"
@@ -90,7 +90,7 @@ Ya hemos visto como crear una plantilla personalizada.  A continuación veremos 
 ## Indexar el contenido del archivo adjunto principal para usar con el operador common
 En la sección  de configuración correspondiente al analizador,  tenemos que añadir un nuevo analizador que utilizaremos para indexar el contenido del archivo adjunto principal:
 
-``` 
+```json
 "analyzer" : {
 
      ...
@@ -112,7 +112,7 @@ En la sección  de configuración correspondiente al analizador,  tenemos que a�
 
 Debemos actualizar la configuración de mapping del campo ecm: binarytext a la siguiente:
 
-``` 
+```json
 "properties" : {
 
     ...
@@ -143,7 +143,7 @@ Debemos actualizar la configuración de mapping del campo ecm: binarytext a la s
 
 Para utilizar la sintaxis de búsqueda de texto completo en un campo personalizado, debe crear un campo múltiple con un índice de texto completo como este:
 
-``` 
+```json
 "eval:nif" : {
     "type" : "multi_field",
     "fields" : {
@@ -162,7 +162,7 @@ Para utilizar la sintaxis de búsqueda de texto completo en un campo personaliza
 ## elasticsearch-myapp-config.xml.nxftl completo
 Este es el aspecto que tendría el fichero *elasticsearch-myapp-config.xml.nxftl* completo en nuestro ejemplo:
 
-``` 
+```xml
 <#escape x as x?xml>
 <?xml version="1.0"?>
 <component name="org.nuxeo.elasticsearch.myapp">
@@ -473,4 +473,5 @@ Este es el aspecto que tendría el fichero *elasticsearch-myapp-config.xml.nxftl
 
 ## Lecturas recomendadas
 [Elasticsearch Setup](https://doc.nuxeo.com/810/nxdoc/elasticsearch-setup/)
+
 [Configuring the Elasticsearch Mapping](https://doc.nuxeo.com/810/nxdoc/configuring-the-elasticsearch-mapping/)
