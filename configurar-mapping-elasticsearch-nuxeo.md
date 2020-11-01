@@ -77,10 +77,12 @@ nuxeo.templates=postgresql,drive,myapp
 ```  
 
 ## Reiniciar el servidor
-Re-indexar el repositorio desde la pestaña Administración **(CENTRO DE ADMINISTRACIÓN > Elasticsearch > Administrador > Re-index repository)** Nuxeo: Elasticsearch re-index
+Re-indexar el repositorio desde la pestaña Administración **(CENTRO DE ADMINISTRACIÓN > Elasticsearch > Administrador > Re-index repository)** 
+
+![Nuxeo: Elasticsearch re-index](images/nuxeo-elasticsearch-re-index.png "Nuxeo: Elasticsearch re-index")
  
 
-Configurar el mapping de Elasticsearch
+## Configurar el mapping de Elasticsearch
 
 
 Ya hemos visto como crear una plantilla personalizada.  A continuación veremos como configurar el mapping de Elasticseach en Nuxeo para dos casos de uso habituales.
