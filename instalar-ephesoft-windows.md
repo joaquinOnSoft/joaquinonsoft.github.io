@@ -10,37 +10,39 @@ Los pasos a seguir para realizar una nueva instalación se detallan en el artíc
 
 Es especialmente importante no olvidar ejecutar el instalador como usuario Administrador.
 
-Ephesoft: instalar como administrador
+![Ephesoft: instalar como administrador](images/ephesoft-install-as-administrator-744x485.png "Ephesoft: instalar como administrador")
 
 Durante la instalación se nos dará la opción de elegir la base de datos a utilizar: Oracle, MariaDB o MS SQL Server.
 
 Si elegimos MS SQL Server debemos tener en cuenta la política la política de password de SQL Server. La contraseña:
 
-No puede contener el nombre de cuenta del usuario.
-Debe tener al menos ocho caracteres de longitud.
-Tiene que contener caracteres de tres de las siguientes cuatro categorías:
-Letras mayúsculas latinas (de la A a la Z)
-Letras latinas minúsculas (de la a a la z)
-Dígitos  (0 a 9)
-Caracteres no alfanuméricos como: signo de exclamación (!), Signo de dólar ($), signo de número (#) o porcentaje (%).
+   * No puede contener el nombre de cuenta del usuario.
+   * Debe tener al menos ocho caracteres de longitud.
+   * Tiene que contener caracteres de tres de las siguientes cuatro categorías:
+   * Letras mayúsculas latinas (de la A a la Z)
+      * Letras latinas minúsculas (de la a a la z)
+      * Dígitos  (0 a 9)
+      * Caracteres no alfanuméricos como: signo de exclamación (!), Signo de dólar ($), signo de número (#) o porcentaje (%).
+
 Las contraseñas pueden tener hasta 128 caracteres de largo. Debe usar contraseñas que sean lo más largas y complejas posible.
 
 ## Instalación de la licencia
 Una vez completada la instalación debemos conseguir un fichero de licencia. Para ello debemos modificar el fichero [Ephesoft\Dependencies\licensing\]details.properties  según se indica en el tutorial Ephesoft License Installation, enviarlo a licensesARROBAephesoft.com.  Más tarde recibiremos un ficheo de licencia llamado ephesoft.lic que debermos copiar en Ephesoft\Dependencies\license-util\. A continuación debemos ejecutar el script install-license.bat dos veces como Administrador.
 
  
-
 ## Ejecutar Ephesoft como un servicio
 Por último debemos hacer que Ephesoft se ejecute como un servicio de Windows. Personalmente prefiero hacer que sea un servicio de inicio automático.
 
-Ejecutar Ephesoft como un servicio en Windows
+![Ejecutar Ephesoft como un servicio en Windows](images/ephesoft-ejecutar-como-servicio-en-windows.jpg "Ejecutar Ephesoft como un servicio en Windows")
 
 ## Acceder a Ephesoft en nuestro servidor
 Una vez instalado e iniciado el servidor sólo tenemos que abrir un navegador e introducir esta dirección
 
 http://localhost:8080/dcma/home.html
 
-Instalar Ephesoft en Windows
+
+![Instalar Ephesoft en Windows](images/instalar-ephesoft-en-windows.png "Instalar Ephesoft en Windows")
+
 
 ## Autenticación en Ephesoft
 Al hacer click sobre cualquiera de las opciones de la página de inicio se nos mostrará una página de autenticación. Durante la instalación no hemos creado ningún usuario ni grupo, pero el instalador ha creado algunos usuarios y grupos. Podemos ver los usuarios predeterminados en el fichero {EPHESOFT_ROOT_DIR}\JavaAppServer\conf\tomcat-users.xml
