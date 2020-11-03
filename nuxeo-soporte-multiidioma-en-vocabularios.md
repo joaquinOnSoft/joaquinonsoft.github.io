@@ -40,7 +40,7 @@ label.directories.ContractNature.mnda=Acuerdo mutuo de no divulgación
 label.directories.ContractNature.msa=Acuerdo marco de servicios
 ```
 
-Una vez creados estos ficheros debemos subirlos a Studio desde la opcion i18n Files accesible desde el menu CONFIGURATION > Resources
+Una vez creados estos ficheros debemos subirlos a Studio desde la opcion i18n Files accesible desde el menu **CONFIGURATION > Resources**
 
 ![nuxeo resources multilanguage](images/nuxeo-resources-multilanguage-744x344.png "nuxeo resources multilanguage")
 
