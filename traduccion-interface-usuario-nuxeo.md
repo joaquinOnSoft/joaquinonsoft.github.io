@@ -135,4 +135,4 @@ Podemos reutilizar las etiquetas definidas por Nuxeo en nuestros web elements, c
 Cualquier literal que se muestre en la interface de usuario es susceptible de traducirse utilizando el método i18n.
 
 ## Artículos relacionados
-[Nuxeo: Soporte multiidioma en vocabularios](./nuxeo-soporte-multiidioma-en-vocabularios/)
+[Nuxeo: Soporte multiidioma en vocabularios](./nuxeo-soporte-multiidioma-en-vocabularios)
