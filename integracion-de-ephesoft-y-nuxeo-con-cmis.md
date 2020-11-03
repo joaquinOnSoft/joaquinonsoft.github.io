@@ -31,7 +31,7 @@ La configuración de Nuxeo tan sólo requiere:
    - **Crear el directorio** en el que guardaremos los documentos procesados, e.g. **/DEMO/ordenenes**
    - **Dar de alta** un usuario con los permisos adecuados para poder escribir en la carpeta destino. En nuestro ejemplo usaremos el usuario **"ephesoft"**
  
-![Crear un usuario con los permisos adecuados](images/nuxeo-custom-document-type-1200x606.png "Crear un usuario con los permisos adecuados")
+![Crear un usuario con los permisos adecuados](images/nuxeo-custom-document-type-744x376.png "Crear un usuario con los permisos adecuados")
 
  
 ## Configuración de Ephesoft
@@ -49,7 +49,7 @@ En primer lugar debemos crear una clase batch (batch class). La forma más rápi
       - **Description**: Descripción de la clase batch
       - **Drop folder**: Nombre del directorio en que dejaremos los ficheros a procesar
 
-![Ephesoft copy batch class popup](images/ephesoft-copy-batch-class-popup-350x205.png "Ephesoft copy batch class popup")
+![Ephesoft copy batch class popup](images/ephesoft-copy-batch-class-popup-744x437.png "Ephesoft copy batch class popup")
 
  
 
@@ -70,7 +70,7 @@ Tras crear un nuevo tipo de documento debemos definir  los campos que vamos a qu
  
 
 
-![Ephesoft index fields](images/ephesoft-new-document-type-350x205.png "Ephesoft index fields")
+![Ephesoft index fields](images/ephesoft-new-document-type-744x437.png "Ephesoft index fields")
 
 
 ## Definir los pares clave/valor para extracción de los campos
@@ -84,7 +84,7 @@ La pantalla KV Extraction Rule nos permite definir los criteros de extración de
    - **Page**: FIRST
    - **Zone**: LEFT
 
-![Ephesoft KV index](images/ephesoft-index-fields-1200x694.png "Ephesoft KV index")
+![Ephesoft KV index](images/ephesoft-index-fields-744x430.png "Ephesoft KV index")
 
 
 > Como valores para los campos «key» y «value» se estan utilizando expresiones regulares.
@@ -100,7 +100,7 @@ Una vez procesados los documentos se exportarán a Nuxeo utilizando el CMIS. Par
    - **CMIS Server Repository Id**: Nombre del repositorio de Nuxeo que vamos a emplear. El repositorio predeterminado se llama “default”.
    - **CMIS Server Switch ON/OFF**: Debemos asegurarnos de que su valor es "ON"
    
-![Ephesoft CMIS export config](images/ephesoft-kv-index-350x205.png "Ephesoft CMIS export config")
+![Ephesoft CMIS export config](images/ephesoft-kv-index-744x437.png "Ephesoft CMIS export config")
 
  
 
