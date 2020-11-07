@@ -8,7 +8,7 @@ Nuxeo proporciona un conjunto de extensiones que nos permiten modificar el compo
 
 El sistema de plugins para **FileManager** ofrece la posibilidad de registrar la extensión que será responsable de crear un documento a partir de un mime-type determinado. Esta es la extensión por defecto:
 
-```
+```xml
 <extension point="plugins" target="org.nuxeo.ecm.platform.filemanager.service.FileManagerService">
     <documentation>
       Default plugins for the file manager.
