@@ -1,6 +1,6 @@
 # Ejecutar operaciones con permisos restringidos en Automation Script
 
-![jecutar operaciones con permisos restringidos en Automation Script](images/ejecutar-operaciones-con-permisos-restringidos-en-automation-script.png "jecutar operaciones con permisos restringidos en Automation Script")
+![Ejecutar operaciones con permisos restringidos en Automation Script](images/ejecutar-operaciones-con-permisos-restringidos-en-automation-script.png "Ejecutar operaciones con permisos restringidos en Automation Script")
 
 
 Nuxeo proporciona más de 350 operaciones que podemos utilizar desde Automation Scripts, Automation Chains… Algunas de estas operaciones requieren que el usuario tenga deteminados privilegios para poder ejecutarlas. Sin embargo a veces necesitamos ejecutar una operación con un usuario que no tiene los permisos necesarios.
