@@ -16,7 +16,7 @@ Debemos repetir la operación para crear el nuevo web  element bajo la carpeta e
 
 ![Nuxeo Web UI: create nuxeo-user-info web element](images/nuxeo-web-ui-create-nuxeouser-info-web-element-1200x643.png "Nuxeo Web UI: create nuxeo-user-info web element") 
 
-View Designer generará la estructura por defecto para nuestro web element. Hay parte del código que podemos eliminar ya que no lo vamos a necesitar. A continuación aparece resaltado el código a borrar:
+View Designer generará la estructura por defecto para nuestro web element. Hay parte del código que podemos eliminar ya que no lo vamos a necesitar. A continuación aparece comentado el código a borrar:
 
 ```html{14-16,25-28,39-45}
 <!--
@@ -31,11 +31,11 @@ View Designer generará la estructura por defecto para nuestro web element. Hay 
         padding: 5px;
       }
     </style>
-
+<!--
     <paper-input id='title' role="widget" value="{{document.properties.dc:title}}" label="Title"></paper-input>
 
     <paper-textarea id='description' role="widget" value="{{document.properties.dc:description}}" label="Description"></paper-textarea>
-
+-->
   </template>
 
   <script>
@@ -43,10 +43,10 @@ View Designer generará la estructura por defecto para nuestro web element. Hay 
       is: 'nuxeo-user-info',
       behaviors: [Nuxeo.LayoutBehavior],
       properties: {
-        title: {
-          type: String,
-          value: 'Title'
-        },
+        // title: {
+        //  type: String,
+        //  value: 'Title'
+        //},
 
         //You can use either @schema or @doctype annotation in your model
         /**
@@ -57,13 +57,13 @@ View Designer generará la estructura por defecto para nuestro web element. Hay 
         }
       },
 
-      _title: function() {
-        return this.document.properties['dc:title'];
-      },
+      // _title: function() {
+      //   return this.document.properties['dc:title'];
+      // },
 
-      _setTitle: function() {
-        this.$.title.label = this._title;
-      }
+      // _setTitle: function() {
+      //   this.$.title.label = this._title;
+      //}
 
     });
   </script>
@@ -78,14 +78,15 @@ Debemos recuperar la información del usuario, para ello vamos a utiliza el web 
 
 El objeto User que recupera nuxeo-connection tiene las siguientes propiedades:
 
-id: Alias del usuario
-isAdministrator: Flag para indicar si es un usuario administrador
-isAnonymous: Flag para indicar si es un usuario anónimo
-properties
-firstName: Nombre del usuario
-lastName: Apellido del usuario
-email: Correo electrónico del usuario
-groups: Lista de los grupos a los que pertenece el usuario
+   - **id**: Alias del usuario
+   - **isAdministrator**: Flag para indicar si es un usuario administrador
+   - **isAnonymous**: Flag para indicar si es un usuario anónimo
+   - **properties**
+      - **firstName**: Nombre del usuario
+      - **lastName**: Apellido del usuario
+      - **email**: Correo electrónico del usuario
+      - **groups**: Lista de los grupos a los que pertenece el usuario
+
 Vamos a acceder a las diferentes propiedades y las mostraremos en pantalla, por ejemplo:
 
 ```xml
@@ -226,6 +227,6 @@ Ahora que ya tenemos nuestro web element sólo tenemos que utilizarlos en las vi
 
 Esta es la apariencia de nuestro nuevo web element:
 
-nuxeo-user-info web element
+![nuxeo-user-info web element](images/nuxeo-user-info-web-element-1200x643.png "nuxeo-user-info web element")
 
  
