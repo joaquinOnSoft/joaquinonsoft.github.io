@@ -7,7 +7,7 @@ Cuando trabajamos con sistemas de gestión documental es habitual querer añadir
 
 En primer lugar crearemos una cadena de automatización en Nuxeo Studio, desde la opción CONFIGURATION > Automation Chain. Nuestra cadena contará con las siguientes operaciones:
 
-´´´
+``` 
 - Context.FetchDocument
 - Document.GetBlob:
     xpath: "file:content"
@@ -20,7 +20,7 @@ En primer lugar crearemos una cadena de automatización en Nuxeo Studio, desde l
       relativeCoordinates: "true"
       alphaColor: "0.5"
       hex255Color: "#FF0000"
-´´´  
+``` 
 
 ![Nuxeo Studio automation chain: add watermark](images/nuxeo-studio-automation-chain-add-watermark-1.png "Nuxeo Studio automation chain: add watermark")
 
