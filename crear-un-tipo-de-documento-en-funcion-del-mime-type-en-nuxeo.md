@@ -1,5 +1,7 @@
 # Crear un tipo de documento en función del mime-type en Nuxeo
 
+![Crear un tipo de documento en función del mime-type en Nuxeo](images/nuxeo-contract-custom-doc-type-570x255.png "Crear un tipo de documento en función del mime-type en Nuxeo")
+
 Cuando arrastramos y soltamos un fichero sobre una carpeta o espacio de trabajo en Nuxeo automáticamente se crea un nuevo documento de tipo *File*, *Image*… en función del tipo de fichero que hemos utilizado. Por ejemplo, al arrastrar un fichero *.png* se crea un documento de tipo *Image*. ¿Pero que ocurre si queremos crear un tipo de documento determinado en función del tipo de fichero (mime-type)?
 
 Nuxeo proporciona un conjunto de extensiones que nos permiten modificar el comportamiento de la plataforma sin necesidad de programar. Podemos consultar todos los puntos de extensión disponibles en Nuxeo Platform Explorer.
