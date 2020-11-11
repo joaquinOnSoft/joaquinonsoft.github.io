@@ -14,13 +14,13 @@ A continuación debemos asociar el esquema con un tipo de documento, por ejemplo
 Filtrado de documentos y mapeo a emplear
 Nuestro siguiente paso conssitirá en crear una extensión XML desde el menú **CONFIGURATION >Advanced settings > XML Extensions** de Nuxeo Studio. La podemos llamar **MetadataRules**. Contendrá un filtro para identificar el tipo de documento sobre el que aplicar la extracción de metadatos (Picture en nuestro ejemplo).
 
-´´´xml
+```xml
   <filter id="isPicture">
     <rule grant="true">
       <type>Picture</type>
     </rule>
   </filter>
-´´´
+```
 
 También debemos indicar que mapeo de metatados (EXIFT/IPTC/GPS… – esquema de Nuxeo) que queremos aplicar. En nuestro ejemplo el mapeo se llamará PICTURE (que definiremos más tarde):
 
