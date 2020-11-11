@@ -52,14 +52,14 @@ ii  ghostscript                           9.10~dfsg-0ubuntu10.9                 
 
 Si es anterior a la versión 9.25 como en nuestro ejemplo, debemos actualizar nuestra versión:
 
-``shell
+```shell
 $ sudo apt-get update
 $ sudo apt-get install ghostscript
 ```
 
 Tras la actualización de nuestra sistema deberíamos tener la última versión instalada:
 
-```
+```shell
 $ dpkg --list | grep ghostscript
 ii  ghostscript                           9.25~dfsg+1-0ubuntu0.14.04.1               amd64        interpreter for the PostScript language and for PDF
 ```
