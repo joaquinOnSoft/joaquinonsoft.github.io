@@ -9,12 +9,12 @@ En este ejemplo vamos a usar el API REST de [Open Weather Map](https://openweath
 
 > **By city name**
 > **Description**: You can call by city name or city name and country code. API responds with a list of results that match a searching word.
-
+>
 > **API call**: 
 > api.openweathermap.org/data/2.5/weather?q={city name}&appid={id}
 >
 > api.openweathermap.org/data/2.5/weather?q={city name},{country code}&appid={id}
-
+>
 > **Parameters**:
 > **q** city name and country code divided by comma, use ISO 3166 country codes
 > **id** API key
@@ -28,7 +28,7 @@ Desde la opción **CONFIGURATION > Automation > Automation scripting** de Nuxeo 
 
 A continuación vamos a definir los parámetros de entrada de nuestro automation script: city (obligatorio) y country (opcional).
 
-![currentWeatherByCityName automation script parameters](images/currentWeatherByCityName-automation-script-parameters-1200x552.png "currentWeatherByCityName automation script parameters")
+![currentWeatherByCityName automation script parameters](images/currentWeatherByCityName-automation-script-parameters.png "currentWeatherByCityName automation script parameters")
 
 Además  debemos definir los tipos de datos que vamos  a usar como entrada (void, ya que no necesitamos ningún documento/s o blob/s) y como salidad (blob, porque queremos devolver un cadena JSON con la información meteorológica).
 
@@ -230,4 +230,4 @@ Este sería el código completo del nuevo web element:
 
 Una vez desplegados nuestros cambios el formulatio de creación de nuestro documento tendría este aspecto:
 
-![llamar a un automation script desde webui en nuxeo](images/nllamar-a-un-automation-script-desde-webui-en-nuxeo.png "llamar a un automation script desde webui en nuxeo")
+![llamar a un automation script desde webui en nuxeo](images/llamar-a-un-automation-script-desde-webui-en-nuxeo.png "llamar a un automation script desde webui en nuxeo")
