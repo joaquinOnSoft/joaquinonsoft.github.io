@@ -176,7 +176,7 @@ Este sería el código completo del nuevo web element:
       }
     </style>
     
-		<nuxeo-operation auto
+	<nuxeo-operation auto
                  op="javascript.currentWeatherByCityName"
                  params='{"city": "[[city]]"}'
                  on-response="_onWeatherChange">
