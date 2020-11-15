@@ -128,6 +128,7 @@ function run(input, params) {
 
   return weather;
 }
+```
 
 ### Invocando un automation script desde Web UI
 
@@ -139,7 +140,7 @@ Ya hemos invocado el API REST desde un automation script. ¿Como puedo utlizar e
                  params='{"city": "Madrid"}'
                  on-response="_onWeatherChange">
 </nuxeo-operation>
-```
+``` 
 
 Cuando la operación se ejecute el navegador llamará al método **_onWeatherChange** con la respuesta. Esta es una posible implementación en la que recuperamos algunos valores de temperatura, presión y humedad:
 
