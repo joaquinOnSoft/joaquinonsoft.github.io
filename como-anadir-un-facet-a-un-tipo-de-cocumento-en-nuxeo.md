@@ -1,5 +1,8 @@
 # Como añadir un facet a un tipo de documento en Nuxeo
 
+![Como añadir un facet a un tipo de documento en Nuxeo](images/add-facet-to-document-type-xml-extension-570x255.png "Como añadir un facet a un tipo de documento en Nuxeo")
+
+
 De acuerdo a la documentación de Nuxeo los **facets** son marcadores asociados a los tipos de documentos que indican a Nuxeo Platform (o a cualquier otra parte del sistema que se preocupe por ellos) que debe comportarse de manera diferente, o que se configuran automáticamente en algunas instancias de documentos.
 
 > Facets are markers on document types that instruct the Nuxeo platform (and any part of the system that cares about them) to behave differently, or that are automatically set on some document instances.
@@ -12,7 +15,6 @@ En este ejemplo vamos a añadir un facet llamado **Embargable** a los documentos
 Para añadir un facet a un tipo de documento tan sólo hemos de crear una nueva extensión XML. Accederemos a  la opción **CONFIGURATION > Advanced settings > XML extensions** y pegaremos este XML:
 
 ```xml
-XHTML
 <require>org.nuxeo.ecm.platform.picture.coreTypes</require>
 <extension target="org.nuxeo.ecm.core.schema.TypeService" point="doctype">
 
