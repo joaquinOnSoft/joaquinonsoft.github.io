@@ -2,7 +2,7 @@
 
 Por defecto Nuxeo proporciona dos tipos de layout de página en función de si el documento es «folderish» o no.
 
-![nuxeo-document-page](images/nuxeo-document-page-1200x455.png "nuxeo-document-page")
+![nuxeo-document-page](images/nuxeo-document-page.png "nuxeo-document-page")
  
 En ocasiones podemos quere modificar el layout utilizado para un tipo de documento determinado.
 
@@ -326,4 +326,4 @@ Otra opción consistiría en utilizar el web component [nuxeo-collapsible-docume
 
 No debemos olvidar añadir el import correspondiente a nuesto nuevo web element en el fichero MY_PROJECT_custom_bundle.html de nuestro proyecto.
 
-![import-custom-bundle](images/Captura-de-pantalla-2019-03-21-a-las-22.08.03-1200x700.png "import-custom-bundle")
+![import-custom-bundle](images/Captura-de-pantalla-2019-03-21-a-las-22.08.03.png "import-custom-bundle")
