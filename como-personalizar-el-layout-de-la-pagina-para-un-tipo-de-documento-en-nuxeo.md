@@ -61,7 +61,8 @@ El slot esta sobrescribiendo el layout para el tipo de documento MyDocType
     <nuxeo-filter document="[[document]]" type="MyDocType">
 ```
 
-> **ATENCIÓN**: Podemos especificar más the un tipo de documento (separado por comas) en el atributo «type«
+> **ATENCIÓN**: Podemos especificar más the un tipo de documento (separado por comas) en el atributo **type**
+
 
 ```xml
     <nuxeo-filter document="[[document]]" type="MyDocType,MyDocType2,MyDocType3">
