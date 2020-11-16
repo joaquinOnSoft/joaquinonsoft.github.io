@@ -56,8 +56,9 @@ Para modificar el layout utilizado para un tipo de documento debemos sobrescribi
 
 Debemos prestar atención a varios detalles:
 
-El slot esta sobrescribiendo el layout para el tipo de documento MyDocType
-``xml
+El slot esta sobrescribiendo el layout para el tipo de documento *MyDocType*
+
+```xml
     <nuxeo-filter document="[[document]]" type="MyDocType">
 ```
 
