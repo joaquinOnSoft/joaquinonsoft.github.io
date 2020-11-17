@@ -40,8 +40,8 @@ Los activos creados y almacenado en el DAM se utilizaran en diferentes medios (p
 
 ### Publicación en redes sociales y portales de video
 
-![logos redes sociales](images/social-networks-logos-e1574552428618.png "logos redes sociales")
-
+![logos redes sociales](images/social-networks-logos-e1574552428618-744x340.png "logos redes sociales")
+		                       
 La publicación en redes sociales es onmnipresente. Por eso la publicación de contenido en redes sociales (Twitter, Facebook, Instagram…) y plataformas de compartición de (Youtbe y Vimeo) en un sólo click es fundamental.
 
 ¿Como funciona? El usuario selecciona un contenido/s, previsuza el aspecto que tendrá la publicación en la plataforma destino elegia (YouTube, Twitter…) y confirma la publicación.
