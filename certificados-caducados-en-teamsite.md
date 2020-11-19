@@ -108,6 +108,6 @@ Reiniciar todos los servicios de TeamSite o reiniciar el servidor (recomendado)
 
 Eh Voilà! Si accedemos a la URL de nuestro servidor podremos acceder sin problema.
 
-![TeamSite login page](images/teamsite-login-page-1200x546.jpg "TeamSite login page")
+![TeamSite login page](images/teamsite-login-page-744x339.jpg "TeamSite login page")
 
  
