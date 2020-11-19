@@ -1,4 +1,4 @@
-#Consejos para teletrabajar en el COVIDgeddon
+# Consejos para teletrabajar en el COVIDgeddon
 
 ![consejos para teletrabajar en el COVIDgeddon](images/consejos-para-teletrabajar-en-el-covidgeddon-570x255.png "consejos para teletrabajar en el COVIDgeddon")
 
@@ -23,7 +23,7 @@ Encienda la cámara en tus video llamadas. Ver a otros seres humanos te yudará 
 
 WhatsApp, la aplicación de mensajería para móviles, no es el mejor medio para mantener debates sobre temas de trabajo. Habitualmente  estas conversaciones requiren de una mayor argumentación, compartir documentos… para lo cual el teclado de un móvil no es la herramienta más comoda.
 
-![WhatsApp forbidden](images/whatsapp-forbidden-1200x675.jpg "WhatsApp forbidden")
+![WhatsApp forbidden](images/whatsapp-forbidden-744x418.jpg "WhatsApp forbidden")
 
 Un número elevado de mensajes entrantes puede ser un agujero negro para nuestra productividad.
 
@@ -37,6 +37,6 @@ Si hasta ahora no teletrabajabas, para un niño puede ser complicado entender qu
 
 Y esos son todos mis consejos tara teletrajar durante el encierro por COVID.  Ya sólo me queda decir:
 
-![let's be careful out there](images/Be_careful_out_there-1200x960.jpg "let's be careful out there")
+![let's be careful out there](images/Be_careful_out_there-744x595.jpg "let's be careful out there")
 
  
