@@ -72,7 +72,7 @@ Vamos a eliminar todas las colecciones  cuyo nombre sea un número. En este ejem
    - Hacer click en el botón «Delete» del pop-up
 
 
-![Solr remove collection](images/solr-remove-collection-1200x542.jpg "Solr remove collection")
+![Solr remove collection](images/solr-remove-collection-744x336.jpg "Solr remove collection")
 
 
 Repetiremos esta operación para todas las colecciones con nombre numerico presentes en cada instancia de Solr.
@@ -83,10 +83,10 @@ Eso es todo, ahora sólo debemos comprobar que la publicación de contenido func
 
 Ahora que hemos solucionado el problema vamos a comprobar que la publicación desde e-studio funciona correctamente.  Tan sólo hemos de selecionar la opción «Publish now» para una página o cualquier recurso (imágenes, videos…) y esperar unos segundos.
 
-![TeamSite publish now](images/teamsite-publish-now-1200x548.jpg "TeamSite publish now")
+![TeamSite publish now](images/teamsite-publish-now-744x340.jpg "TeamSite publish now")
  
 
 Nuestro contenido pasará del estado «NEVER» a «PUBLISHED»
 
-![TeamSite published](images/teamsite-published-1200x550.jpg "TeamSite published")
+![TeamSite published](images/teamsite-published-744x341.jpg "TeamSite published")
 
