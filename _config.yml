@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "Joaquín Garzón"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/images/joaquin.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Yo... he visto cosas que vosotros no creeríais: cambios directos en producción, sin control de versiones ni copias de seguridad. He visto proyectos sin documentación fuera de control cerca de la Puerta de Tannhäuser. Todos esos momentos se perderán... en el tiempo... como lágrimas en la lluvia. Es hora de desarrollar"
   location         : "Madrid"
   email            :
