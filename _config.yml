@@ -20,7 +20,7 @@ title                    : "Joaquín on Software"
 title_separator          : "-"
 subtitle                 : Desarrollo Software # site tagline that appears below site title in masthead
 name                     : "Joaquín Garzón"
-description              : "An amazing website."
+description              : "Artículos sobre desarrollo de software, OpenText Media Management (OTMM), TeamSite y Nuxeo"
 url                      : "https://www.joaquinonsoft.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : joaquinOnSoft/joaquinonsoft.github.io # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
