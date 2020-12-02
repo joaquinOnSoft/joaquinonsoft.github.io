@@ -1,6 +1,14 @@
-# Añadir una marca de agua en Web UI
-
-![marca de agua en Web UI](images/marca-de-agua-web-ui-570x255.png "marca de agua en Web UI")
+---
+title: "Añadir una marca de agua en Web UI"
+header:
+  image: /images/marca-de-agua-web-ui-570x255.png
+  og_image: /images/marca-de-agua-web-ui-570x255.png
+categories:
+  - Nuxeo
+tags:
+  - Nuxeo
+  - WebUI
+---
 
 
 Cuando trabajamos con sistemas de gestión documental es habitual querer añadir una marca de agua  a un documento en determinados casos, por ejemplo, cuando lo descargamos. Hoy vamos a explicar como configurar Nuxeo Studio para añdir una marca de agua a una documento en Web UI.
