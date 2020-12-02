@@ -4,6 +4,7 @@ layout: posts
 header:
   image: /images/marca-de-agua-web-ui-570x255.png
   og_image: /images/marca-de-agua-web-ui-570x255.png
+author_profile: true
 categories:
   - Nuxeo
 tags:
