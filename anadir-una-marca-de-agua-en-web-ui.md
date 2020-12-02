@@ -1,5 +1,6 @@
 ---
 title: "Añadir una marca de agua en Web UI"
+layout: splash
 header:
   image: /images/marca-de-agua-web-ui-570x255.png
   og_image: /images/marca-de-agua-web-ui-570x255.png
