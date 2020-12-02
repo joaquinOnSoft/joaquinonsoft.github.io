@@ -1,4 +1,18 @@
-# Como cambiar el logo en Web UI (Nuxeo)
+---
+title: "Como cambiar el logo en Web UI (Nuxeo)"
+layout: posts
+header:
+  image: /images/web-ui-custom-logo-570x255.png
+  og_image: /images/web-ui-custom-logo-570x255.png
+categories:
+  - Nuxeo
+tags:
+  - Nuxeo
+  - Web UI
+toc: true
+toc_label: "Lista de contenidos"
+toc_icon: "cog"
+---
 
 Una de las primeras tareas a abordar a la hora de personalizar la interfaz **Web UI** de Nuxeo utilizando **Studio Designer**,  es la de adaptar la apariencia de las páginas a la imagen corporativa de la empresa. Esto implica la inclusión del logo de la empresa y el uso de una paleta de colores determinada. Para ello debemos crear un nuevo tema en Studio Designer.
 
