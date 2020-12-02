@@ -4,14 +4,13 @@ layout: posts
 header:
   image: /images/web-ui-custom-logo-1200x886.png
   og_image: /images/web-ui-custom-logo-1200x886.png
+author: true
 categories:
   - Nuxeo
 tags:
   - Nuxeo
   - Web UI
-toc: true
-toc_label: "Lista de contenidos"
-toc_icon: "cog"
+last_modified_at: 2017-11-16T15:59:57-04:00
 ---
 
 Una de las primeras tareas a abordar a la hora de personalizar la interfaz **Web UI** de Nuxeo utilizando **Studio Designer**,  es la de adaptar la apariencia de las páginas a la imagen corporativa de la empresa. Esto implica la inclusión del logo de la empresa y el uso de una paleta de colores determinada. Para ello debemos crear un nuevo tema en Studio Designer.
