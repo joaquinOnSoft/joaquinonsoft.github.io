@@ -3,8 +3,6 @@ title: "Añadir una marca de agua en Web UI"
 header:
   image: /images/marca-de-agua-web-ui-570x255.png
   og_image: /images/marca-de-agua-web-ui-570x255.png
-categories:
-  - Nuxeo
 tags:
   - Nuxeo
   - WebUI
