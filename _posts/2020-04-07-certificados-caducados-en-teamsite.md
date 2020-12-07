@@ -1,6 +1,14 @@
-# Certificados caducados en TeamSite
-
-![The Interwoven Web Daemon was unable to contact the Interwoven Servlet Engine](images/The-Interwoven-Web-Daemon-was-unable-to-contact-the-Interwoven-Servlet-Engine-570x98.png "The Interwoven Web Daemon was unable to contact the Interwoven Servlet Engine")
+---
+title: "Certificados caducados en TeamSite"
+header:
+  image: /images/The-Interwoven-Web-Daemon-was-unable-to-contact-the-Interwoven-Servlet-Engine-570x98.png
+  og_image: /images/The-Interwoven-Web-Daemon-was-unable-to-contact-the-Interwoven-Servlet-Engine-570x98.png
+tags:
+  - OpenText
+  - TeamSite
+  - Certificado
+last_modified_at: 2020-04-07-T22:59:57-04:00  
+---
 
 Intentas arrancar tu instancia de TeamSite, el Web Content Management de OpenText, pero en lugar de la pantalla de autenticación ves el siguiente mensaje de error:
 
@@ -108,6 +116,6 @@ Reiniciar todos los servicios de TeamSite o reiniciar el servidor (recomendado)
 
 Eh Voilà! Si accedemos a la URL de nuestro servidor podremos acceder sin problema.
 
-![TeamSite login page](images/teamsite-login-page-744x339.jpg "TeamSite login page")
+![TeamSite login page](/images/teamsite-login-page-744x339.jpg "TeamSite login page")
 
  

@@ -1,12 +1,8 @@
 ---
 title: "Como cambiar el logo en Web UI (Nuxeo)"
-layout: posts
 header:
   image: /images/web-ui-custom-logo-1200x886.png
   og_image: /images/web-ui-custom-logo-1200x886.png
-author: true
-categories:
-  - Nuxeo
 tags:
   - Nuxeo
   - Web UI
