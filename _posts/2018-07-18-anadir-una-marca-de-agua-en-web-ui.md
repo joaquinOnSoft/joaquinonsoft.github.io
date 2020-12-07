@@ -6,7 +6,7 @@ header:
 tags:
   - Nuxeo
   - WebUI
- last_modified_at: 2018-07-18T15:59:57-04:00
+last_modified_at: 2018-07-18T15:59:57-04:00
 ---
 
 Cuando trabajamos con sistemas de gestión documental es habitual querer añadir una marca de agua  a un documento en determinados casos, por ejemplo, cuando lo descargamos. Hoy vamos a explicar como configurar Nuxeo Studio para añdir una marca de agua a una documento en Web UI.
