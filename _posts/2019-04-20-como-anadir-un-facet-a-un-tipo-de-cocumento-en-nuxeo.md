@@ -5,9 +5,9 @@ header:
   og_image: /images/add-facet-to-document-type-xml-extension-570x255.png
 tags:
   - Nuxeo
-  - Facet
   - Nuxeo Studio
-last_modified_at: 2018-09-18-T22:59:57-04:00  
+  - Facet  
+last_modified_at: 2018-09-18-T20:59:57-04:00  
 ---
 
 De acuerdo a la documentación de Nuxeo los **facets** son marcadores asociados a los tipos de documentos que indican a Nuxeo Platform (o a cualquier otra parte del sistema que se preocupe por ellos) que debe comportarse de manera diferente, o que se configuran automáticamente en algunas instancias de documentos.

@@ -7,7 +7,7 @@ tags:
   - OpenText
   - TeamSite
   - Certificado
-last_modified_at: 2020-04-07-T22:59:57-04:00  
+last_modified_at: 2020-04-07-T20:59:57-04:00  
 ---
 
 Intentas arrancar tu instancia de TeamSite, el Web Content Management de OpenText, pero en lugar de la pantalla de autenticación ves el siguiente mensaje de error:
