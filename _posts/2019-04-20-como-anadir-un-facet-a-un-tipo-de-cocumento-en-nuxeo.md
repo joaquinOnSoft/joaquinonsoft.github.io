@@ -4,7 +4,7 @@ header:
   image: /images/add-facet-to-document-type-xml-extension-570x255.png
   og_image: /images/add-facet-to-document-type-xml-extension-570x255.png
 tags:
-  - Nuexeo
+  - Nuxeo
   - Facet
   - Nuxeo Studio
 last_modified_at: 2018-09-18-T22:59:57-04:00  

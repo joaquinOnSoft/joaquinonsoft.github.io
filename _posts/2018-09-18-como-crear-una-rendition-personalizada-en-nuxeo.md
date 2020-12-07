@@ -4,7 +4,7 @@ header:
   image: /images/nuxeo-custom-view-rendition-570x255.png
   og_image: /images/nuxeo-custom-view-rendition-570x255.png
 tags:
-  - Nuexeo
+  - Nuxeo
   - Rendition
   - Nuxeo Studio
 last_modified_at: 2019-04-20-T22:59:57-04:00  
