@@ -9,7 +9,6 @@ tags:
   - Nuxeo Studio
 last_modified_at: 2019-04-20-T22:59:57-04:00  
 ---
-# 
 
 En Nuxeo las **rendition** son representaciones alternativas de un documento o su contenido, como:
 
