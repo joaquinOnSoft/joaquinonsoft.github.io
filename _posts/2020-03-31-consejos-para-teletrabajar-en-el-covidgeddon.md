@@ -1,5 +1,5 @@
 ---
-title: "Certificados caducados en TeamSite"
+title: "Consejos para teletrabajar en el COVIDgeddon"
 header:
   image: /images/consejos-para-teletrabajar-en-el-covidgeddon-570x255.png
   og_image: /images/consejos-para-teletrabajar-en-el-covidgeddon-570x255.png
