@@ -9,10 +9,6 @@ tags:
 last_modified_at: 2019-11-24-T20:59:57-04:00  
 ---
 
-# El futuro del DAM
-
-![El futuro del DAM](/images/el-futuro-del-dam-570x255.jpg "El futuro del DAM")
-
 ¿Qué funcionalidades debe incluir un software de Gestión de Activos Digitales o DAM (Digital Assets Management), por sus siglas en inglés? Tu respuesta suele depender de las necesidades  con las que te enfrentas a diario, o has conocido a lo largo del tiempo. A continuación revisaré las que, para mí, son las características que no deberían faltar en un sistema DAM. Veamos el futuro del DAM en Noviembre de 2019.
 
 ## El futuro del DAM hoy
