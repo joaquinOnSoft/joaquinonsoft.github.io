@@ -1,4 +1,14 @@
-# Integración de Ephesoft y Nuxeo con CMIS
+---
+title: "Integración de Ephesoft y Nuxeo con CMIS"
+header:
+  image: /images/ephesoft-admin-home-page-350x205.png
+  og_image: /images/ephesoft-admin-home-page-350x205.png
+tags:
+  - Nuxeo
+  - Ephesoft
+  - CMIS
+last_modified_at: 2017-12-31-T20:59:57-04:00  
+---
 
 La captura de documentos  puede ser un factor importante en cualquier sistema que utilice un repositorio de contenido. En este artículo vamos a explicar como utilizar **Ephesoft** para **automatizar la captura de metadatos incluidos en los documentos** y como **almacenarlos** en nuestro respositorio de contenidos, **Nuxeo**. Para ello utilizaremos la integración **CMIS** de Epehesoft y Nuxeo.
 

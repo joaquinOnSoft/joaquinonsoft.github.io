@@ -6,8 +6,6 @@ header:
 tags:
   - Nuxeo
   - Ephesoft
-  - OTMM
-  - Creative Review
 last_modified_at: 2017-11-21-T20:59:57-04:00  
 ---
 
