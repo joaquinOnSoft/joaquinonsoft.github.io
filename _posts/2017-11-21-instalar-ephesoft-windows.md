@@ -1,8 +1,8 @@
 ---
 title: "Instalar Ephesoft en Windows"
 header:
-  image: /images/instalar-ephesoft-en-windows-350x205.png
-  og_image: /images/instalar-ephesoft-en-windows-350x205.png
+  image: /images/instalar-ephesoft-en-windows.png
+  og_image: /images/instalar-ephesoft-en-windows.png
 tags:
   - Nuxeo
   - Ephesoft
