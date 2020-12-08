@@ -1,4 +1,15 @@
-# Instalar Ephesoft en Windows
+---
+title: "Instalar Ephesoft en Windows"
+header:
+  image: /images/instalar-ephesoft-en-windows-350x205.png
+  og_image: /images/instalar-ephesoft-en-windows-350x205.png
+tags:
+  - Nuxeo
+  - Ephesoft
+  - OTMM
+  - Creative Review
+last_modified_at: 2017-11-21-T20:59:57-04:00  
+---
 
 Ephesoft es un software de clasificación, extracción y captura inteligente de documentos. A pesar de que existe multiple documentación en su wiki, instalar Ephesoft en Windows puede suponer un reto. En este artículo se explica que tutoriales debes seguir y sobre todo en que orden realizar cada tarea para completar una instalación con exito.
 
