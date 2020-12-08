@@ -1,3 +1,16 @@
+---
+title: "Invocación del API REST de OTMM"
+header:
+  image: /images/OTMM-REST_API-create-session-documentation-570x255.png
+  og_image: /images/OTMM-REST_API-create-session-documentation-570x255.png
+tags:
+  - OpenText
+  - OpenText Media Management
+  - OTMM
+  - API
+last_modified_at: 2019-10-21-T20:59:57-04:00  
+---
+
 # Invocación del API REST de OTMM
 
 ![Invocación del API REST de OTMM](/images/OTMM-REST_API-create-session-documentation-570x255.png "Invocación del API REST de OTMM")
