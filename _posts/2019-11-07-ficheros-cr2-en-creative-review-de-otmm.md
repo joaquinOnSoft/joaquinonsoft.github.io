@@ -1,6 +1,15 @@
-# Ficheros CR2 en Creative Review de OTMM
-
-![Ficheros CR2 en Creative Review de OTMM](/images/creative-review-otmm-with-cr2-file-570x255.jpg "Ficheros CR2 en Creative Review de OTMM")
+---
+title: "Ficheros CR2 en Creative Review de OTMM"
+header:
+  image: /images/creative-review-otmm-with-cr2-file-570x255.jpg
+  og_image: /images/creative-review-otmm-with-cr2-file-570x255.jpg
+tags:
+  - OpenText
+  - OpenText Media Management
+  - OTMM
+  - Creative Review
+last_modified_at: 2019-11-07-T20:59:57-04:00  
+---
 
 Has subido un fichero .CR2 (un formato de fichero RAW de Canon) a tu entorno de OpenText Media Management (OTMM). Ahora quieres utilizar Creative Review para que tu equipo realice la revión de la imagen, colaborando en tiempo real, donde cada uno pueda aportar sus comentarios… pero cuando lanzas la tarea de revisión te encuentras con un menaje similar a este:
 
