@@ -11,10 +11,6 @@ tags:
 last_modified_at: 2019-10-21-T20:59:57-04:00  
 ---
 
-# Invocación del API REST de OTMM
-
-![Invocación del API REST de OTMM](/images/OTMM-REST_API-create-session-documentation-570x255.png "Invocación del API REST de OTMM")
-
 [OpenText Media Management proporciona un API REST](https://developer.opentext.com/webaccess/#url=%2Fawd%2Fresources%2Fapis%2Fmedia-manager-v5&tab=501)  que permite realizar las operaciones más habituales de la plataforma, como crear un asset, realizar una búsqueda, modificar un permiso, etc. En este artículo explicaremos como realizar una invocación del API REST de OTMM.
 
 ## Crear una sesión
