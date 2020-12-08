@@ -1,3 +1,13 @@
+---
+title: "Certificados caducados en TeamSite"
+header:
+  image: /images/consejos-para-teletrabajar-en-el-covidgeddon-570x255.png
+  og_image: /images/consejos-para-teletrabajar-en-el-covidgeddon-570x255.png
+tags:
+  - Opinión
+last_modified_at: 2020-03-31-T20:59:57-04:00  
+---
+
 # Consejos para teletrabajar en el COVIDgeddon
 
 ![consejos para teletrabajar en el COVIDgeddon](/images/consejos-para-teletrabajar-en-el-covidgeddon-570x255.png "consejos para teletrabajar en el COVIDgeddon")
