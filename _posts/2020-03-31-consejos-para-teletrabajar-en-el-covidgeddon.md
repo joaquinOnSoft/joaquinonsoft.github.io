@@ -8,10 +8,6 @@ tags:
 last_modified_at: 2020-03-31-T20:59:57-04:00  
 ---
 
-# Consejos para teletrabajar en el COVIDgeddon
-
-![consejos para teletrabajar en el COVIDgeddon](/images/consejos-para-teletrabajar-en-el-covidgeddon-570x255.png "consejos para teletrabajar en el COVIDgeddon")
-
 Con el desembarco del COVID-19 en nuestras vidas hay muchas personas para las que el teletrabajo se ha convertido en una nueva realidad de la noche a la mañan. Yo llevo más de 4 años trabajando en remoto. Estos son mis consejos para teletrabajar mientras dure el aislamiento impuesto por el COVID.
 
 ## ¡No te quedes en pijama!
