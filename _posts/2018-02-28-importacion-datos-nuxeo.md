@@ -1,8 +1,8 @@
 ---
 title: "Importación de datos con Nuxeo"
 header:
-  image: /images/nuxeo-data-import-350x205.png
-  og_image: /images/nuxeo-data-import-350x205.png
+  image: /images/nuxeo-data-import-570x255.png
+  og_image: /images/nuxeo-data-import-570x255.png
 tags:
   - Nuxeo
   - Importación datos
