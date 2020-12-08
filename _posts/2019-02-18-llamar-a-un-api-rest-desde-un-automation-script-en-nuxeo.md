@@ -1,4 +1,15 @@
-# Llamar a un API REST desde un automation script en Nuxeo
+---
+title: "Llamar a un API REST desde un automation script en Nuxeo"
+header:
+  image: /images/nuxeo-api-first-468x255.png
+  og_image: /images/nuxeo-api-first-468x255.png
+tags:
+  - Nuxeo
+  - Nuxeo Studio
+  - Automation Script
+  - API
+last_modified_at: 2019-02-18-T20:59:57-04:00  
+---
 
 ![Llamar a un API REST desde un automation script en Nuxeo](/images/nuxeo-api-first-468x255.png "Llamar a un API REST desde un automation script en Nuxeo")
 
