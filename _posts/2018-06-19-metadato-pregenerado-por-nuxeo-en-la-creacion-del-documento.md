@@ -1,7 +1,13 @@
-# Metadato pregenerado por Nuxeo en la creación del documento
-
-![Metadato pregenerado por Nuxeo](/images/metadato-pregenerado-nuxeo-570x255.png "Metadato pregenerado por Nuxeo")
-
+---
+title: "Metadato pregenerado por Nuxeo en la creación del documento"
+header:
+  image: /images/metadato-pregenerado-nuxeo-570x255.png
+  og_image: /images/metadato-pregenerado-nuxeo-570x255.png
+tags:
+  - Nuxeo
+  - Nuxeo Studio
+last_modified_at: 2018-06-19-T20:59:57-04:00  
+---
 
 En ocasiones queremos que un documento tenga un título, u otro metadato, inicializado a la hora de mostrar el formulario de creación de un tipo de documento en Nuxeo. Para ello podemos utilizar el objeto Funtions, denominado **Fn**, que proporciona varias funciones muy útiles, entre ellas **Fn.getNextId(String)**
 
