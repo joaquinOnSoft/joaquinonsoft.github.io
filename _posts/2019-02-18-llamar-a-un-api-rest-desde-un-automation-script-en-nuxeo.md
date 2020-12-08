@@ -11,10 +11,7 @@ tags:
 last_modified_at: 2019-02-18-T20:59:57-04:00  
 ---
 
-![Llamar a un API REST desde un automation script en Nuxeo](/images/nuxeo-api-first-468x255.png "Llamar a un API REST desde un automation script en Nuxeo")
-
 En ocasiones necesitamos llamar a un API REST desde Nuxeo. Podemos hacerlo de diversas formas, la primera opción consiste en [crear un add-on en Java](https://doc.nuxeo.com/nxdoc/develop-with-nuxeo-platform/) que encapsule la llamada, esto es especialmente interesante si podemos reutilizar el add-on en varios proyectos. La segunda consiste en encapsular la llamada al API REST desde un automation script. En este artículo veremos como llamar a un **API REST** desde un **Automation Script** en Nuxeo.
-
  
 En este ejemplo vamos a usar el API REST de [Open Weather Map](https://openweathermap.org/current) para recuperar información meteorológica a partir del nombre de una ciudad:
 
