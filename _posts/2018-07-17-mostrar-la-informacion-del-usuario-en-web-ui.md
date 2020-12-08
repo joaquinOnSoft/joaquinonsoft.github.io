@@ -1,6 +1,13 @@
-# Mostrar la información del usuario en Web UI
-
-![información del usuario en Web UI](/images/nuxeo-user-info-570x255.png "información del usuario en Web UI")
+---
+title: "Mostrar la información del usuario en Web UI"
+header:
+  image: /images/nuxeo-user-info-570x255.png
+  og_image: /images/nuxeo-user-info-570x255.png
+tags:
+  - Nuxeo
+  - Web UI
+last_modified_at: 2018-07-17-T20:59:57-04:00  
+---
 
 En este artículo vamos a explicar como crear un web element con Polymer para mostrar la información del usuario en Web UI, la interface de Nuxeo.
 
