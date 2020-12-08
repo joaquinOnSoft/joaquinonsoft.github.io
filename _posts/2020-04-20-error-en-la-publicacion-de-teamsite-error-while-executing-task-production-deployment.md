@@ -1,6 +1,13 @@
-# Error en la publicación de Teamsite: "Error while executing task: Production Deployment"
-
-![Error en la publicación de Teamsite: Error while executing task: Production Deployment](/images/teamsite-deploy-error-570x255.jpg "Error en la publicación de Teamsite: Error while executing task: Production Deployment")
+---
+title: "Error en la publicación de Teamsite: 'Error while executing task: Production Deployment'"
+header:
+  image: /images/teamsite-deploy-error-570x255.jpg
+  og_image: /images/teamsite-deploy-error-570x255.jpg
+tags:
+  - OpenText
+  - TeamSite
+last_modified_at: 2020-04-20-T20:59:57-04:00  
+---
 
 Has creado una página web con TeamSite, el gestor de contenido web (WCM) de OpenText, pero al tratar de publicar tu página  encuentras el mensaje «Error while executing task: Production Deployment» en la pantalla de tareas pendientes (To do). Algo similar a esto:
 
