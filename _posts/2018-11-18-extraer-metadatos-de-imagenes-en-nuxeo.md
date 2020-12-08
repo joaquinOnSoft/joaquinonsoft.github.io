@@ -1,6 +1,14 @@
-# Extraer metadatos de imágenes en Nuxeo
-
-![Extraer metadatos de imágenes en Nuxeo](/images/imagen-geolocalizada-por-coordenadas-gps-nuxeo-570x255.png "Extraer metadatos de imágenes en Nuxeo")
+---
+title: "Extraer metadatos de imágenes en Nuxeo"
+header:
+  image: /images/imagen-geolocalizada-por-coordenadas-gps-nuxeo-570x255.png
+  og_image: /images/imagen-geolocalizada-por-coordenadas-gps-nuxeo-570x255.png
+tags:
+  - Nuxeo
+  - Nuxeo Studio
+  - Metadatos
+last_modified_at: 2018-11-18-T20:59:57-04:00  
+---
 
 El plugin DAM de Nuxeo proporciona nuevos tipos de documentos como **Picture, Video o Audio**. Por defecto, al añadir una nueva imagen se crea un documento de tipo Picture y se extraen una serie de metadatos de la imagen (orientación, apertura, exposición, distancia focal…). La información que se extrae no es más que una pequeña parte de la que puede llegar a contener (EXIFT, IPTC, GPS…). En determinados casos puede ser interesance extraer esta información adicional.  
 

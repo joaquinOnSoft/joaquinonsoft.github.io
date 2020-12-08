@@ -1,4 +1,13 @@
-# Importación de datos con Nuxeo
+---
+title: "Importación de datos con Nuxeo"
+header:
+  image: /images/nuxeo-data-import-350x205.png
+  og_image: /images/nuxeo-data-import-350x205.png
+tags:
+  - Nuxeo
+  - Importación datos
+last_modified_at: 2018-02-28-T20:59:57-04:00  
+---
 
 En este artículo descubrirás las diferentes **estrategias de importación** que ofrece Nuxeo. El objetivo es integrar un conjunto de datos en un repositorio Nuxeo, proporcionando la forma más segura y eficiente de importar  datos. Detallaremos las formas más populares de importar contenido: **Nuxeo Web UI Mass Importer, Nuxeo CSV Importer, Nuxeo Bulk Importer y REST API Import**.
 
