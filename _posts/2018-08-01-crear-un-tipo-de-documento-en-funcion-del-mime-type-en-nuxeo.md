@@ -4,7 +4,8 @@ header:
   image: /images/nuxeo-contract-custom-doc-type-570x255.png
   og_image: /images/nuxeo-contract-custom-doc-type-570x255.png
 tags:
-  - Opinión
+  - Nuxeo
+  - Web UI
 last_modified_at: 2018-08-01-T20:59:57-04:00  
 ---
 
