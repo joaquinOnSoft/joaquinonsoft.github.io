@@ -4,9 +4,8 @@ header:
   image: /images/mapping-elasticsearch-nuxeo-350x205.jpg
   og_image: /images/mapping-elasticsearch-nuxeo-350x205.jpg
 tags:
-  - OpenText
-  - TeamSite
-  - Certificado
+  - Nuxeo
+  - Elasticseach
 last_modified_at: 2017-12-01-T20:59:57-04:00  
 ---
 
