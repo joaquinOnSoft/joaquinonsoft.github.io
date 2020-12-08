@@ -18,14 +18,14 @@ En primer lugar seleccionaremos la pestaña **RESOURCES** de View Designer. A co
 Debemos repetir la operación para crear el nuevo web  element bajo la carpeta elements. Esta vez debemos facilitar estos datos:
 
    - **Type**: Element
-   - **Name: nuxeo-user-info (la extensión .html se añadirá automáticamente)
-   - **Template: Sample layout template
+   - **Name**: nuxeo-user-info (la extensión .html se añadirá automáticamente)
+   - **Template**: Sample layout template
 
 ![Nuxeo Web UI: create nuxeo-user-info web element](/images/nuxeo-web-ui-create-nuxeouser-info-web-element-1200x643.png "Nuxeo Web UI: create nuxeo-user-info web element") 
 
 View Designer generará la estructura por defecto para nuestro web element. Hay parte del código que podemos eliminar ya que no lo vamos a necesitar. A continuación aparece comentado el código a borrar:
 
-```html{14-16,25-28,39-45}
+```html
 <!--
 `nuxeo-user-info`
 @group Nuxeo UI
