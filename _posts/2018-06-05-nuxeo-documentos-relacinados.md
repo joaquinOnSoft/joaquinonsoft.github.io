@@ -1,6 +1,13 @@
-# Nuxeo: Documentos relacionados
-
-![Nuxeo: Documentos relacionados](/images/nuxeo-related-documents-list-570x255.png "Nuxeo: Documentos relacionados")
+---
+title: "Nuxeo: Documentos relacionados"
+header:
+  image: /images/nuxeo-related-documents-list-570x255.png
+  og_image: /images/nuxeo-related-documents-list-570x255.png
+tags:
+  - Nuxeo
+  - Web UI
+last_modified_at: 2018-06-05-T20:59:57-04:00  
+---
 
 El **API REST de Nuxeo** proporciona 3 métodos para **consultar, crear y borrar relaciones entre documentos**, la descripción de cada una de estas operaciones se pueden consultar en Nuxeo Platform Explorer. Sin embargo en el momento de escribir este artículo, Junio de 2018, no existe un web element que encapsule la funcionalidad de documentos relacionados con un documento dado en Nuxeo. En este artículo vamos a crear nuestro propipo **web element** paso a paso.
 
