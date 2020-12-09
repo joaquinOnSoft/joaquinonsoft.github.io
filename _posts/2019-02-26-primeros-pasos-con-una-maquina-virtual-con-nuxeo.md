@@ -16,21 +16,21 @@ Acabas de descargar una máquina virtual de Nuxeo y estas dando tus primeros pas
 ## Actualizar la máquina virtual
 Desde que se creo la máquina virtual que estamos utlizando pueden haberse publicado actualizaciones y/o parches de seguridad de Ubuntu. Por eso es interesante actualizar la máquina virtual:
 
-```Shell
+```
 $ sudo apt-get update
 ``` 
 
 ## Configurar el teclado
 Por defecto, la máquina virtual utiliza una distribución de teclado ingles. Si no tienes un teclado de este tipo usar la máquina virtual puede resultar un poco incomodo. Así que vamos a configurar nuestro teclado español:
 
-```Shell
+```
 $ sudo loadkeys es
 ``` 
 
 ## Instalar software addicional
 A continuación instalaremos software adicional que nos será útil más adelante. nano, un editor de texto para línea de comandos más amigable que vi, mediainfo, una herramienta que muestra información y etiquetas para ficheros de audio y video (útil si pensamos utilizar el add-on nuxeo-dam) y figlet, un programa que genera banners de texto:
 
-```Shell
+```
 # Install nano editor
 $ sudo apt-get install nano 
 
@@ -44,7 +44,7 @@ $ sudo apt-get install figlet
 ## Actualizar el fichero .profile del usuario ‘nuxeo’
 Vamos a modificar el fichero .profile del usuario nuxeo para no tener que modificar la configuración de la máquina virtual cada vez que la utilizamos:
 
-```Shell
+```
 $ cd /home/nuxeo
 
 $ nano .profile
@@ -88,7 +88,7 @@ El fichero **nuxeo.conf** esta ubicado en este path: **/etc/nuxeo/nuxeo.conf**
 ##Intalar los hotfixes disponibles
 Siempre es recomendable instalar cualquier actualización disponible, ya que incluyen mejoras, resolución de errores y parches de seguridad:
 
-```shell
+```
 $ nuxeoctl stop
 
 $ nuxeoctl mp-hotfix
