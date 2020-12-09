@@ -1,7 +1,13 @@
-# Validación personalizada de formularios en WebUI (Nuxeo)
-
-![Validación personalizada de formularios en WebUI (Nuxeo)](/images/validacion-personalizada-de-formularios-en-WebUI-Nuxeo-570x255.png "Validación personalizada de formularios en WebUI (Nuxeo)")
-
+---
+title: "Validación personalizada de formularios en WebUI (Nuxeo)"
+header:
+  image: /images/validacion-personalizada-de-formularios-en-WebUI-Nuxeo-570x255.png
+  og_image: /images/validacion-personalizada-de-formularios-en-WebUI-Nuxeo-570x255.png
+tags:
+  - Nuxeo
+  - Web UI
+last_modified_at: 2018-09-11-T20:59:57-04:00  
+---
 
 Web UI, la interface web de Nuxeo, realiza validaciones automáticas en los formularios de creación, edición, importación de un tipo de documento en función de los atributos de los diferentes campos del formulario (obligatoriedad, tipo de dato…). Sin embargo en ocasiones necesitamos realizar una validación personalizada en un formularios en Web UI. Para ello tan sólo hemos de implementar un método validate en nuestro web element. La función debe devolver un valor true si se supera la validación y false en caso contrario.
 
