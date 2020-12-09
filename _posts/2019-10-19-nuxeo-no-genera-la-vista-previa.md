@@ -1,6 +1,13 @@
-# Nuxeo no genera la vista previa
-
-![Nuxeo no genera la vista previa](/images/nuxeo-no-genera-la-vista-previa-570x255.png "Nuxeo no genera la vista previa")
+---
+title: "Nuxeo no genera la vista previa"
+header:
+  image: /images/nuxeo-no-genera-la-vista-previa-570x255.png
+  og_image: /images/nuxeo-no-genera-la-vista-previa-570x255.png
+tags:
+  - Nuxeo
+  - Nuxeo Dev Tools
+last_modified_at: 2019-10-19-T20:59:57-04:00  
+---
 
 Has instalado **Nuxeo** y acabas de crear tu primer documento, pero te das cuenta de que el sistema **no ha generado la vista previa**. ¿Que ha ocurrido? La última versión de ImageMagick ha modificado las politicas por defecto para la generación de ficheros PDFs, lo que afecta a la generación de vistas previas de documentos en Nuxeo.En este artículo te explico como solucionarlo.
 
