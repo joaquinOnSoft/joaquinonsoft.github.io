@@ -1,8 +1,8 @@
 ---
 title: "Personalizar la pantalla de login en Nuxeo"
 header:
-  image: /images/nuxeo-dev-tools-570x255.png
-  og_image: /images/nuxeo-dev-tools-570x255.png
+  image: /images/nuxeo-custom-login-page-570x255.png
+  og_image: /images/nuxeo-custom-login-page-570x255.png
 tags:
   - Nuxeo
   - Nuxeo Studio
