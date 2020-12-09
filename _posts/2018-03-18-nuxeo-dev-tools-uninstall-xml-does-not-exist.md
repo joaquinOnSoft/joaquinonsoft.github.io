@@ -1,8 +1,8 @@
 ---
 title: "Nuxeo Dev Tools: uninstall.xml does not exist"
 header:
-  image: /images/nuxeo-dev-tools-350x205.png
-  og_image: /images/nuxeo-dev-tools-350x205.png
+  image: /images/nuxeo-dev-tools-570x255.png
+  og_image: /images/nuxeo-dev-tools-570x255.png
 tags:
   - Nuxeo
   - Nuxeo Dev Tools
