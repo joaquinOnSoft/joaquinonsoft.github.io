@@ -1,4 +1,13 @@
-# Personalizar la pantalla de login en Nuxeo
+---
+title: "Personalizar la pantalla de login en Nuxeo"
+header:
+  image: /images/nuxeo-dev-tools-570x255.png
+  og_image: /images/nuxeo-dev-tools-570x255.png
+tags:
+  - Nuxeo
+  - Nuxeo Studio
+last_modified_at: 2017-11-30-T20:59:57-04:00  
+---
 
 Algo tan sencillo como personalizar la pantalla de login en Nuxeo nos ayudará a dar un aspecto corporativo a la web. En este artículos vamos a explicar los pasos a seguir en Nuxeo Studio para modificar la configuración y obtener el aspecto deseado en la pantalla de login.
 
