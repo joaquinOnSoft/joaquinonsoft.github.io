@@ -1,8 +1,8 @@
 ---
 title: "Primeros pasos con una máquina virtual con Nuxeo"
 header:
-  image: /images/uxeo-virtual-machine-virtualbox-570x255.png
-  og_image: /images/uxeo-virtual-machine-virtualbox-570x255.png
+  image: /images/nuxeo-virtual-machine-virtualbox-570x255.png
+  og_image: /images/nuxeo-virtual-machine-virtualbox-570x255.png
 tags:
   - Nuxeo
   - Nuxeo Studio
