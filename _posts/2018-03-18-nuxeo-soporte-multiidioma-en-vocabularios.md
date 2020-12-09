@@ -1,6 +1,13 @@
-# Nuxeo: Soporte multiidioma en vocabularios
-
-![Vocabulario multiidioma en Nuxeo](/images/vocabulario-multiidioma.jpeg "Vocabulario multiidioma en Nuxeo")
+---
+title: "Nuxeo: Soporte multiidioma en vocabularios"
+header:
+  image: /images/vocabulario-multiidioma.jpeg
+  og_image: /images/vocabulario-multiidioma.jpeg
+tags:
+  - Nuxeo
+  - Nuxeo Dev Tools
+last_modified_at: 2018-03-18-T20:59:57-04:00  
+---
 
 Web UI, la interface de usuario de Nuxeo, ofrece soporte para la internalización de los diferentes web elements que la componen. Sin embargo el soporte multiidioma de los vocabularios se gestiona de forma direferente. En este artículo vamos a explicar los pasos a seguir para poder dotar de soporte multiidioma a nuestros vocabularios.
 

@@ -1,4 +1,13 @@
-# Nuxeo University: Planes de formación
+---
+title: "Nuxeo University: Planes de formación"
+header:
+  image: /images/nuxeo-university-570x255.png
+  og_image: /images/nuxeo-university-570x255.png
+tags:
+  - Nuxeo
+  - Nuxeo University
+last_modified_at: 2017-12-22-T20:59:57-04:00  
+---
 
 **Nuxeo University** es la plataforma de **formación en línea** desarrollada por Nuxeo. Permite explorar la amplia gama de recursos disponibles, inscribirse en diferentes cursos, validar los módulos  mediante cuestionarios en línea, enviar código para su evaluación, seguir nuestro progreso y  ¡conseguir nuestra certificación!
 
