@@ -1,6 +1,13 @@
-# Primeros pasos con una máquina virtual con Nuxeo
-
-![Nuxeo virtual machine virtualbox](/images/nuxeo-virtual-machine-virtualbox-570x255.png "Nuxeo virtual machine virtualbox")
+---
+title: "Primeros pasos con una máquina virtual con Nuxeo"
+header:
+  image: /images/uxeo-virtual-machine-virtualbox-570x255.png
+  og_image: /images/uxeo-virtual-machine-virtualbox-570x255.png
+tags:
+  - Nuxeo
+  - Nuxeo Studio
+last_modified_at: 2019-02-26-T20:59:57-04:00  
+---
 
 Acabas de descargar una máquina virtual de Nuxeo y estas dando tus primeros pasos.  Aquí te contamos como realizar algunos ajustes que haran tu vida más sencilla.
 
