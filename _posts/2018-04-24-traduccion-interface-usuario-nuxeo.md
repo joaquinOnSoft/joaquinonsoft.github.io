@@ -1,6 +1,13 @@
-# Traducción de la interface de usuario de Nuxeo
-
-![Traducción de la interface de usuario de Nuxeo](/images/atlas-continent-country-570x255.jpg "Traducción de la interface de usuario de Nuxeo")
+---
+title: "Traducción de la interface de usuario de Nuxeo"
+header:
+  image: /images/atlas-continent-country-570x255.jpg
+  og_image: /images/atlas-continent-country-570x255.jpg
+tags:
+  - Nuxeo
+  - Web UI
+last_modified_at: 2018-04-24-T20:59:57-04:00  
+---
 
 Nuxeo ofrece la opción de traducir la interface de usuario. En este artículo vamos a explicar como internacionalizr y localizar  la interface de usuario de Nuxeo.
 
