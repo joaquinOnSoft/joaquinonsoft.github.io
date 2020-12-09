@@ -1,9 +1,12 @@
-# Orbeon: Instalación rápida
-
-
-![Orbeon form builder example](/images/orbeon-form-builder-example-460x255.png "Orbeon form builder example")
-
-[Nuxeo: Soporte multiidioma en vocabularios](./nuxeo-soporte-multiidioma-en-vocabularios)
+---
+title: "Orbeon: Instalación rápida"
+header:
+  image: /images/orbeon-form-builder-example-460x255.png
+  og_image: /images/orbeon-form-builder-example-460x255.png
+tags:
+  - Orbeon
+last_modified_at: 2018-05-10-T20:59:57-04:00  
+---
 
 **Orbeon** es un sofware para la gestión de formularios grandes que incluyen validaciones complejas así como amplias colecciones de formularios. Implementa el estándar **W3C XForms** y está disponible en una Edición Community de código abierto, así como en una Edición Profesional con soporte comercial.
 
