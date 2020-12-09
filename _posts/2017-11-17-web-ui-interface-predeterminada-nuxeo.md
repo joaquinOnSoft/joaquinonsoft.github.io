@@ -1,4 +1,13 @@
-# Usar Web UI como la interface predeterminada en Nuxeo
+---
+title: "Usar Web UI como la interface predeterminada en Nuxeo"
+header:
+  image: /images/web-ui-nuxeo-570x255.png
+  og_image: /images/web-ui-nuxeo-570x255.png
+tags:
+  - Nuxeo
+  - Web UI
+last_modified_at: 2017-11-17-T20:59:57-04:00  
+---
 
 A partir de la versión LTS 2016 (8.10)  o posterior de Nuxeo podemos tener instalados los plugins **nuxeo-jsf-ui** y **nuxeo-web-ui**.  En este caso, tras la autenticación se nos mostrará la interface JSF. Por lo que si queremos que  **Web UI sea la interface predeterminada** debemos  crear una extensión XML .
 
