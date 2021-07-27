@@ -22,12 +22,26 @@ ventas en todos los canales.
 ## Como entrenar el sistema para mejorar la calidad de las transcripciones
 
 ### Stop STeMS service  
-En primer lugar, tras acceder a la apliación **Microsoft Management Console** debemos detener el servicio **OpenText STeMS service**.
-Basta con hacer clic con el botón derecho y pulsar sobre *stop*.
+En primer lugar, tras acceder a la aplicación **Microsoft Management Console** debemos detener el servicio **OpenText STeMS service**.
+Basta con hacer clic con el botón derecho, sobre el nombre del servicio, y pulsar *stop*.
 
 ![stopSTeMS service](/images/01-stop-STeMS-service.png)
 
 ### Change development yaml (package language: spa-ESP)  
+
+A continuación vamos a definir el idioma que queremos usar con el motor de transcripción. Para ello accedermos al fichero **develoment.yaml**
+
+> En mi instalación el fichero **develoment.yaml** esta ubicado en 
+> **C:\ProgramData\Nuance\Transcription Engine\config\develoment.yaml**
+
+
+```yaml    
+languagePack:
+     name: 'nte-spa-ESP-4.0.01-8kHz'
+     allowSharedMemory: false
+
+```
+
 ![stopSTeMS service](/images/02-change-development-yaml.png)
 
 
