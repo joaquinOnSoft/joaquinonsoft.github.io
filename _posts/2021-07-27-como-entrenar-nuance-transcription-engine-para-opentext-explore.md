@@ -21,6 +21,9 @@ ventas en todos los canales.
 
 ## Como entrenar el sistema para mejorar la calidad de las transcripciones
 
+> NOTA: Las rutas referidas en este artículo hacen referencia a mi entorno. 
+> Pueden variar según el directorio elegido para la instalación
+
 ### Stop STeMS service  
 En primer lugar, tras acceder a la aplicación **Microsoft Management Console** debemos detener el servicio **OpenText STeMS service**.
 Basta con hacer clic con el botón derecho, sobre el nombre del servicio, y pulsar *stop*.
@@ -29,9 +32,9 @@ Basta con hacer clic con el botón derecho, sobre el nombre del servicio, y puls
 
 ### Change development yaml (package language: spa-ESP)  
 
-A continuación vamos a definir el idioma que queremos usar con el motor de transcripción. Para ello accedermos al fichero **develoment.yaml**
+A continuación, vamos a definir el idioma que queremos usar con el motor de transcripción. Para ello accedermos al fichero **develoment.yaml**
 
-> En mi instalación el fichero **develoment.yaml** esta ubicado en 
+> El fichero **develoment.yaml** esta ubicado en 
 > **C:\ProgramData\Nuance\Transcription Engine\config\develoment.yaml**
 
 
@@ -39,13 +42,20 @@ A continuación vamos a definir el idioma que queremos usar con el motor de tran
 languagePack:
      name: 'nte-spa-ESP-4.0.01-8kHz'
      allowSharedMemory: false
-
 ```
 
 ![stopSTeMS service](/images/02-change-development-yaml.png)
 
+El valor del atributo **name** se corresponde con uno de los packs de idioma instalados en nuestro servidor, habitualmente 
+localizados en el directorio **C:\ProgramData\Nuance\Transcription Engine\language_packs**
 
-### Change development yaml (startAsGenerator: false)  
+En el mismo fichero, **develoment.yaml**, también debemos cambiar el valor del atributo **startAsGenerator** a *false*.
+
+```yaml
+domainLMGeneration:
+    startAsGenerator: false  
+```
+
 ![stopSTeMS service](/images/03-change-development-yaml.png)
 
 ### Change production yaml (defaultLanguage: 'spa-ESP')  
