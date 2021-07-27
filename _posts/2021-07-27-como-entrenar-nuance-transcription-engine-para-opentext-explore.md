@@ -22,6 +22,9 @@ ventas en todos los canales.
 ## Como entrenar el sistema para mejorar la calidad de las transcripciones
 
 ### Stop STeMS service  
+En primer lugar, tras acceder a la apliación **Microsoft Management Console** debemos detener el servicio **OpenText STeMS service**.
+Basta con hacer clic con el botón derecho y pulsar sobre *stop*.
+
 ![stopSTeMS service](/images/01-stop-STeMS-service.png)
 
 ### Change development yaml (package language: spa-ESP)  
