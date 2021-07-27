@@ -19,20 +19,25 @@ los resultados en busca de significado subyacente, ofrece información procesabl
 de los clientes casi en tiempo real, lo que permite resolver problemas de manera más efectiva o mejorar las 
 ventas en todos los canales.
 
+
 ## Como entrenar el sistema para mejorar la calidad de las transcripciones
 
 > NOTA: Las rutas referidas en este artículo hacen referencia a mi entorno. 
 > Pueden variar según el directorio elegido para la instalación
 
-### Stop STeMS service  
+
+### Parar el servicio OpenText STeMS service  
 En primer lugar, tras acceder a la aplicación **Microsoft Management Console** debemos detener el servicio **OpenText STeMS service**.
 Basta con hacer clic con el botón derecho, sobre el nombre del servicio, y pulsar *stop*.
 
 ![stopSTeMS service](/images/01-stop-STeMS-service.png)
 
-### Change development yaml (package language: spa-ESP)  
 
-A continuación, vamos a definir el idioma que queremos usar con el motor de transcripción. Para ello accedermos al fichero **develoment.yaml**
+### Actuliazar el fichero development.yaml  
+
+A continuación, vamos a definir el idioma que queremos usar con el motor de transcripción. 
+Por defecto, el sitema esta configurado en ingles.  Vamos a configurarlo en español. Para ello accedermos 
+al fichero **develoment.yaml**
 
 > El fichero **develoment.yaml** esta ubicado en 
 > **C:\ProgramData\Nuance\Transcription Engine\config\develoment.yaml**
@@ -58,21 +63,37 @@ domainLMGeneration:
 
 ![stopSTeMS service](/images/03-change-development-yaml.png)
 
-### Change production yaml (defaultLanguage: 'spa-ESP')  
+
+### Actuliazar el fichero production yaml (defaultLanguage: 'spa-ESP')  
+
+También vamos a definir el idioma que queremos usar con el motor de transcripción en el fichero **production.yaml**
+
+> El fichero **production.yaml** esta ubicado en 
+> **C:\ProgramData\Nuance\Transcription Engine\config\production.yaml**
+
+
+```yaml    
+defaultLanguage: 'spa-ESP'
+```
+
 ![stopSTeMS service](/images/04-change-production-yaml.png)
 
 
 ### Change appsettings json ("Language": "spa-ESP")  
-![stopSTeMS service](05-change-appsettings-json.png)
+![stopSTeMS service](/images/05-change-appsettings-json.png)
+
 
 ### Start transcription engine  
-![stopSTeMS service](06-start-transcription-engine.png)
+![stopSTeMS service](/images/06-start-transcription-engine.png)
+
 
 ### transcription engine started  
-![stopSTeMS service](07-transcription-engine-started.png)
+![stopSTeMS service](/images/07-transcription-engine-started.png)
+
 
 ### Start transcription web client  - This is wrong - start DLM Client to create DLM 
 ![stopSTeMS service](/images/08-start-transcription-web-client.png)
+
 
 ### Access NTE 3030 web page
 ![stopSTeMS service](/images/09-access-nte.png)
