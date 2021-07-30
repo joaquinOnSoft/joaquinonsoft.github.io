@@ -10,13 +10,13 @@ tags:
 last_modified_at: 2021-07-30T15:39:28-04:00
 ---
 Veamos como mejorar la calidad y precisión de las transcripción realizadas en OpenText Explore 
-para su porste
-
-> Lectura recomendada: [Como configurar Nuance Transcription Engine (NTE) para OpenText Explore](/como-configurar-nuance-transcription-engine-para-opentext-explore/)
+para su posterior análisis, lo que nos permitirá realizar clasificaciones, identificación de tendencias...
 
 ## Acceso al cliente NTE
 
-Por último accederemos al *Cliente NTE* en la dirección `http://172.31.18.241:3000/` (la IP y el puerto pueden variar).
+> Lectura recomendada: [Como configurar Nuance Transcription Engine (NTE) para OpenText Explore](/como-configurar-nuance-transcription-engine-para-opentext-explore/)
+
+En primer lugar debemos acceder al *Cliente NTE* en la dirección `http://172.31.18.241:3000/` (la IP y el puerto pueden variar).
 
 ![Acceso web al cliente NTE](/images/09-access-nte.png)
 
@@ -36,8 +36,10 @@ Ya tenemos cargado el fichero de audio que queremos transcribir:
 
 ![Fichero de audio cargado para su transcripción](/images/22-transcribe-audio-file.png)
 
-A conuación, pulsaremos en el botón `Transcribe` y esperaremos unos instante. Finalmente obtenemos la 
+A continuación, pulsaremos en el botón `Transcribe` y esperaremos unos instante. Finalmente obtenemos la 
 trasncripción de la llamada.
+
+![Transcribir una llamada con NTE](25-transcribe-call-with-nte.png)
 
 La transcripción puede contener errores, debido a diversos motivos como ruido de fondo, 
 baja calidad de la grabación, solapamiento de los hablantes (en llamadas grabadas en mono)...
@@ -45,6 +47,6 @@ baja calidad de la grabación, solapamiento de los hablantes (en llamadas grabad
 Vamos a facilitar las frase correctas para los errores detectados. Para ello deplegamos el bloque `Add Words`
 y añadimos las palabras o frases que queremos enseñar al sistema.
 
-![NTE - Add words](/images/23-nte-add-words.pngg)
+![NTE - Add words](/images/23-nte-add-words.png)
 
 
