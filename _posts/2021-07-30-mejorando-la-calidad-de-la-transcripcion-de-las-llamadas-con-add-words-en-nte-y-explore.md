@@ -39,14 +39,44 @@ Ya tenemos cargado el fichero de audio que queremos transcribir:
 A continuación, pulsaremos en el botón `Transcribe` y esperaremos unos instante. Finalmente obtenemos la 
 trasncripción de la llamada.
 
-![Transcribir una llamada con NTE](25-transcribe-call-with-nte.png)
+![Transcribir una llamada con NTE](/images/25-transcribe-call-with-nte.png)
 
 La transcripción puede contener errores, debido a diversos motivos como ruido de fondo, 
 baja calidad de la grabación, solapamiento de los hablantes (en llamadas grabadas en mono)...
 
 Vamos a facilitar las frase correctas para los errores detectados. Para ello deplegamos el bloque `Add Words`
-y añadimos las palabras o frases que queremos enseñar al sistema.
+y añadimos las palabras o frases que queremos enseñar al sistema. En nuestro ejemplo añadiremos dos frease:
+   * hola me llamo Ana
+   * encantada de conocerte
 
 ![NTE - Add words](/images/23-nte-add-words.png)
+
+Una vez añadidas todas las frases que queremos enseñar al sistema tenemos que volver a transcribir la llamada.
+
+![Transcripción de la llamadas por 2ª vez](24-nte-transcribe-2nd-time.png)
+
+Podemos repetir este proceso (Add Words - transcribir llamada) tantas veces como consideres oportuno.
+
+Tras una o varias iteracciones, podemos volver a repetir el proceso, pero esta vez con otra llamada diferente. 
+Así vamos identificando expresiones habituales en las conversaciones o frases que se transcriben incorrectamente.
+Esto nos va a permitir componer una colección de frases que más tarde podremos usar para la elaboración de
+nuestro Domain Language Model (DLM).
+
+
+> Lectura recomendada: [Genera un Domain Language Model (DLM) para NTE y Explore](/genera-un-domain-language-model-dlm-nte-y-explore)
+
+
+### Deteniendo los servidores
+
+Una vez finalizado el trabajo mejora de la calidad de la transcrición es aconsejable detener los servidores:
+
+   * **Detener el Cliente Domain Language Model  (DomainLM Cliente)**: Basta con acceder a 
+   **C:\Program Files\Nuance\Transcription Webclient** y ejecutar el script **stop-server.bat**
+   ![Detener el Domain Language Model Client](/images/16-stop-transcription-DomainLM-Client-ctrl-c.png)
+
+   * **Detener el servidor NTE (Transcription Engine)**: Debemos pulsar `Ctrl + C` en la consola que ejecuta el 
+   servidor NTE
+   ![Detener el servidor NTE](/images/17-stop-server-transcription-engine.png)
+
 
 
