@@ -29,12 +29,12 @@ Vamos a cargar un fichero wav con la grabación de la conversació telefónica. 
 .wav sobre el cuadro `Drag or choose WAV/JSON files here.`, o bien haremos clic sobre **choose** y seleccionaremos 
 un fichero de audio:
 
-![Selección de fichero de audio para su transcripción](21-load-audio-file-to-transcribe.png)
+![Selección de fichero de audio para su transcripción](/images/21-load-audio-file-to-transcribe.png)
 
 
 Ya tenemos cargado el fichero de audio que queremos transcribir:
 
-![Fichero de audio cargado para su transcripción](22-transcribe-audio-file.png)
+![Fichero de audio cargado para su transcripción](/images/22-transcribe-audio-file.png)
 
 A conuación, pulsaremos en el botón `Transcribe` y esperaremos unos instante. Finalmente obtenemos la 
 trasncripción de la llamada.
@@ -45,6 +45,6 @@ baja calidad de la grabación, solapamiento de los hablantes (en llamadas grabad
 Vamos a facilitar las frase correctas para los errores detectados. Para ello deplegamos el bloque `Add Words`
 y añadimos las palabras o frases que queremos enseñar al sistema.
 
-![NTE - Add words](23-nte-add-words.pngg)
+![NTE - Add words](/images/23-nte-add-words.pngg)
 
 

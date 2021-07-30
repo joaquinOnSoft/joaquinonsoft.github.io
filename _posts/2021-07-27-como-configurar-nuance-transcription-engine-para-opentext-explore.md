@@ -169,9 +169,9 @@ Una vez finalizado el trabajo mejora de la calidad de la transcrición es aconse
 
    * **Detener el Cliente Domain Language Model  (DomainLM Cliente)**: Basta con acceder a 
    **C:\Program Files\Nuance\Transcription Webclient** y ejecutar el script **stop-server.bat**
-   ![Detener el Domain Language Model Client](16-stop-transcription-DomainLM-Client-ctrl-c.png)
+   ![Detener el Domain Language Model Client](/images/16-stop-transcription-DomainLM-Client-ctrl-c.png)
 
    * **Detener el servidor NTE (Transcription Engine)**: Debemos pulsar `Ctrl + C` en la consola que ejecuta el 
    servidor NTE
-   ![Detener el servidor NTE](17-stop-server-transcription-engine.png)
+   ![Detener el servidor NTE](/images/17-stop-server-transcription-engine.png)
 
