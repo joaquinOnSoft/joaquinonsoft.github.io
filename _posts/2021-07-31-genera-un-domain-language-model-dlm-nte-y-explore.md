@@ -1,5 +1,5 @@
 ---
-title: "Generar un Domain Language Model (DLM) para NTE y Explore.md"
+title: "Generar un Domain Language Model (DLM) para NTE y Explore"
 header:
   image: /images/24-nte-transcribe-2nd-time.png
   og_image: /images/24-nte-transcribe-2nd-time.png
