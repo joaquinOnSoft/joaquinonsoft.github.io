@@ -36,7 +36,7 @@ calidad y preción de las transcripciones. Vamos a ver que pasos tenemos que dar
 > servidores que ejecutan NTE. STeMS lanza y administra una instancia NTE por núcleo en el servidor.
 
 En primer lugar, tras acceder a la aplicación **Microsoft Management Console** debemos detener el servicio **OpenText STeMS service**.
-Basta con hacer clic con el botón derecho, sobre el nombre del servicio, y pulsar *stop*.
+Basta con hacer clic con el botón derecho, sobre el nombre del servicio, y pulsar *Stop*.
 
 ![stopSTeMS service](/images/01-stop-STeMS-service.png)
 
@@ -44,7 +44,7 @@ Basta con hacer clic con el botón derecho, sobre el nombre del servicio, y puls
 ### Actuliazar el fichero development.yaml  
 
 A continuación, vamos a definir el idioma que queremos usar con el motor de transcripción. 
-Por defecto, el sitema esta configurado en ingles.  Vamos a configurarlo en español, por defecto esta en ingle. 
+Por defecto, el sitema esta configurado en ingles.  Vamos a configurarlo en español. 
 Para ello accedermos al fichero **develoment.yaml**
 
 > El fichero **develoment.yaml** esta ubicado en 
@@ -139,7 +139,7 @@ ubicado en **C:\Program Files\Nuance\Transcription Engine**
 
 ![startEngine.bat](/images/06-start-transcription-engine.png)
 
-Cuando el servidio se haya inicializado correctamente veremos una pantalla similar a esta:
+Cuando el servicio se haya inicializado correctamente veremos una pantalla similar a esta:
  
 ![Transcription Engine inicializado](/images/07-transcription-engine-started.png)
 

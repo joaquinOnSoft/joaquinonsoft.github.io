@@ -53,7 +53,7 @@ y añadimos las palabras o frases que queremos enseñar al sistema. En nuestro e
 
 Una vez añadidas todas las frases que queremos enseñar al sistema tenemos que volver a transcribir la llamada.
 
-![Transcripción de la llamadas por 2ª vez](24-nte-transcribe-2nd-time.png)
+![Transcripción de la llamadas por 2ª vez](/images/24-nte-transcribe-2nd-time.png)
 
 Podemos repetir este proceso (Add Words - transcribir llamada) tantas veces como consideres oportuno.
 
