@@ -9,6 +9,7 @@ tags:
   - NTE
 last_modified_at: 2021-07-30T15:39:28-04:00
 ---
+
 Veamos como mejorar la calidad y precisión de las transcripción realizadas en OpenText Explore 
 para su posterior análisis, lo que nos permitirá realizar clasificaciones, identificación de tendencias...
 
