@@ -53,6 +53,9 @@ y añadimos las palabras o frases que queremos enseñar al sistema. En nuestro e
 
 Una vez añadidas todas las frases que queremos enseñar al sistema tenemos que volver a transcribir la llamada.
 
+Observaremos que cuando el sistema utiliza alguna de las frases que ha aprendido, las frases se muestran
+con guiones bajos, '_', en lugar de espacios.
+
 ![Transcripción de la llamadas por 2ª vez](/images/24-nte-transcribe-2nd-time.png)
 
 Podemos repetir este proceso (Add Words - transcribir llamada) tantas veces como consideres oportuno.
@@ -61,7 +64,6 @@ Tras una o varias iteracciones, podemos volver a repetir el proceso, pero esta v
 Así vamos identificando expresiones habituales en las conversaciones o frases que se transcriben incorrectamente.
 Esto nos va a permitir componer una colección de frases que más tarde podremos usar para la elaboración de
 nuestro Domain Language Model (DLM).
-
 
 > Lectura recomendada: [Genera un Domain Language Model (DLM) para NTE y Explore](/genera-un-domain-language-model-dlm-nte-y-explore)
 
