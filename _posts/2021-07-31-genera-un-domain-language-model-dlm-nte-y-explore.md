@@ -129,3 +129,51 @@ domainLMGeneration:
     startAsGenerator: false  
 ```
 
+### Actualizar el fichero appsettings.json ("Language": "spa-ESP")  
+
+El último fichero de configuración que debemos actualizar es **appsettings.json**. Donde 
+debemos asignar el nuevo valor **"DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc"** 
+al atributo **"Nuance > DomainLM > Name"**. Nuestro fichero de configuración deberá tener un aspecto similar a este:
+
+
+```json
+ ...
+ 
+ "Nuance": {
+    "NTE": {
+      "IP": "172.31.18.241",
+      "httpPort": "8000",
+      "httpsPort": "7000",
+      "UseShellExecute": "true",
+      "CreateNoWindow": "false",
+      "application": "C:\\Program Files\\Nuance\\Transcription Engine\\startEngine.bat",
+      "applicationName": "nte"
+    },
+    "NTECallbackURL": "http://172.31.18.241/api/STeMS/NTECallback",
+    "InstallType": "OnPrem",
+    "QueueWatermark": "2",
+    "QueueOverflowMultiplier": ".5",
+    "Language": "spa-ESP",
+    "HouseCleaningTimeout": "60",
+    "CoreOverride": "8",
+    "NoAudioText": "Transcription for all of the segments has failed",
+    "LogStatistics": "",
+	"AddWords": [],
+    "AWSTableName":  "STeMSTracker",
+	"DomainLM": {
+      "Name": "DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc",
+      "Url": "",
+      "Weight": "High"
+    }
+
+```
+
+> El valor del "name" es el mismo que obtuvimos al generar el DLM en un apartado anterior.
+
+### Inicializando STeMS
+
+Por último, pero no por ello menos importante. Debemos reiniciar el servicio de STeMS.
+
+![](starting-stems.png)
+
+Ahora ya estamos listos para utilizar el motor de trasncripción con nuestro nuevo DLM.
