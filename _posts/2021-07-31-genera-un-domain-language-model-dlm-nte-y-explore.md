@@ -10,6 +10,18 @@ tags:
 last_modified_at: 2021-07-30T15:39:28-04:00
 ---
 
+Cada paquete de idioma de Nuance Transcription Engine (NTE) contiene un "modelo de idioma", 
+que ha sido entrenado con el texto de miles de conversaciones. El modelo de idioma observa cómo ciertas 
+combinaciones de palabras aparecen con más frecuencia que otros en el texto. A partir de esto, un modelo de 
+idioma puede predecir las palabras que la persona dijo en una conversación, en función de las palabras que lo rodean.
+
+Podemos mejorar, o en otras palabras: "entrenar" el modelo de idioma, utilizando texto del dominio 
+de negocio que nos interese. A partir del texto, el paquete de idioma puede aprender nuevas palabras 
+específicas para nuestro dominio y qué combinaciones de palabras son más probables. NTE compila estas 
+nuevas palabras y palabras combinaciones en un "Domain Language Model", o DLM. Este DLM complementa el 
+modelo de idioma genérico que se encuentra en el paquete de idioma instalado.
+
+## Configuración del entorno
 
 > NOTA: Las rutas referidas en este artículo hacen referencia a mi entorno. 
 > Pueden variar según el directorio elegido para la instalación de Explore.
@@ -93,18 +105,27 @@ Por último, haremos clic en el botón `Generate Domain LM` y tras unos instante
 
 ![Domain Language Model Generator](/images/domain-language-model-generated.png)
 
-En nuestro ejemplo el DLM se llama 'DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc'
+En nuestro ejemplo el DLM se llama "DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc"
 
 ### Deteniendo los servidores
 
 Una vez finalizado el trabajo mejora de la calidad de la transcrición es aconsejable detener los servidores:
 
-   * **Detener el Cliente Domain Language Model  (DomainLM Cliente)**: Basta con acceder a 
+   * **Detener el Transcription DomainLM Client**: Basta con acceder a 
    **C:\Program Files\Nuance\Transcription Webclient** y ejecutar el script **stop-server.bat**
-   ![Detener el Domain Language Model Client](/images/16-stop-transcription-DomainLM-Client-ctrl-c.png)
 
    * **Detener el servidor NTE (Transcription Engine)**: Debemos pulsar `Ctrl + C` en la consola que ejecuta el 
    servidor NTE
    ![Detener el servidor NTE](/images/17-stop-server-transcription-engine.png)
 
+
+### Actuliazar el fichero development.yaml  
+
+Accederemos al fichero **develoment.yaml** para cambiar el valor del atributo 
+**startAsGenerator** a *false*.
+
+```yaml
+domainLMGeneration:
+    startAsGenerator: false  
+```
 
