@@ -26,7 +26,7 @@ Para reiniciar OpenText Media Management desde la app Services de Windows debemo
    - Hacer clic con el botón derecho
    - Seleccionar la opción `Reiniciar`
 
-[!Reiniciar OpenText Media Management desde la app Services](/images/2022-05-04-reiniciar-el-proceso-media-management-service/reiniciar-opentext-media-management-desde-la-app-services.png)
+![Reiniciar OpenText Media Management desde la app Services](/images/2022-05-04-reiniciar-el-proceso-media-management-service/reiniciar-opentext-media-management-desde-la-app-services.png)
 
 ## Reiniciar OpenText Media Management desde línea de comandos
 
@@ -44,5 +44,5 @@ También podemos reiniciar OpenText Media Management desde la consola de Windows
 
 Este es un ejemplo real de ejecución:
 
-[!Reiniciar OpenText Media Management desde línea de comandos](/images/2022-05-04-reiniciar-el-proceso-media-management-service/reiniciar-opentext-media-management-desde-la-linea-de-comandos.png)
+![Reiniciar OpenText Media Management desde línea de comandos](/images/2022-05-04-reiniciar-el-proceso-media-management-service/reiniciar-opentext-media-management-desde-la-linea-de-comandos.png)
 
