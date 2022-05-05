@@ -25,7 +25,7 @@ Hoy explicaré como crear mi primer componente en **TeamSite**.
 En primer lugar debemos estudiar el diseño objetivo de la página que queremos crear. En este ejemplo 
 tomaremos como referencia la página de la UNESCO.
 
-![Estudia la página de tu cliente](study-your-client-web-page.png)
+![Estudia la página de tu cliente](/images/2022-05-05-Mi-primer-componente-en-TeamSite/study-your-client-web-page.png)
 
 ## Crea o elige una plantilla gratuita de Bootstrap o Foundation
 
@@ -34,10 +34,10 @@ de las webs que las proporcionan de forma gratuita:
 
 | Web de plantillas  | Logo                                                                        |
 |--------------------|-----------------------------------------------------------------------------|
-| themefisher.com    | ![themefisher.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/themefisher-logo.png   )     |
-| colorlib.com       | ![colorlib.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/colorlig-logo.png)              |
-| bootstrapmade.com  | ![bootstrapmade.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/bootstrapmade-logo.png)    |
-| startbootstrap.com | ![startbootstrap.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/strartbootstrap-logo.png) |
+| themefisher.com    | ![themefisher.com](/images/2022-05-05-Mi-primer-component-en-TeamSite/themefisher-logo.png)        |
+| colorlib.com       | ![colorlib.com](/images/2022-05-05-Mi-primer-component-en-TeamSite/colorlig-logo.png)              |
+| bootstrapmade.com  | ![bootstrapmade.com](/images/2022-05-05-Mi-primer-component-en-TeamSite/bootstrapmade-logo.png)    |
+| startbootstrap.com | ![startbootstrap.com](/images/2022-05-05-Mi-primer-component-en-TeamSite/strartbootstrap-logo.png) |
 
 Para este ejemplo he seleccionado el [template Small Business de la web startbootstrap.com](https://startbootstrap.com/templates/small-business/)
 
