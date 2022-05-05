@@ -198,3 +198,15 @@ Ahora que hemos publicado nuestro componente podemos añadirlo en una página. P
    - Hacer clic en **Confirm**
 
 ![Crear una nueva página](/images/2022-05-05-Mi-primer-component-en-TeamSite/create-a-new-page.png)
+
+   - Mover el mouse sobre un **MULTI-COMPONENT PLACEHOLDER**
+   - Hacer clic en **Add component**
+   - Hacer clic en **Components > Custom Components > CustomDemoTutorial**
+
+![Añadir componente a la página](/images/2022-05-05-Mi-primer-component-en-TeamSite/agregar-componente-a-pagina.png)
+   
+¡Felicidades! Hemos creado nuestro primer componente:
+   
+![Componente personalizado añadido a una página](/images/2022-05-05-Mi-primer-component-en-TeamSite/componente-personalizado-agregado-a-pagina-teamsite.png)   
+
+A continuación, vamos a mejorar nuestro componente.
