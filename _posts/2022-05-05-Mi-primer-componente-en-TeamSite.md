@@ -166,6 +166,16 @@ En nuestro ejemplo seleccionamos el código correspondiente a la cabecera de la 
 	</div>
 </div>
 ```
+
+Y lo pegamos en el cuadro de texto *Appearance*:
+
 ![Crear componente HTML](/images/2022-05-05-Mi-primer-component-en-TeamSite/new-component-popup-teamsite.png)      
+
+### Publicar el componente
+
+Para publicar el nuevo componete tan solo hay que seleccionar el componente y hacer clic en el botón **Submit** 
+en el menú de la esquina superior derecha:
+
+![Publicar componente en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/publicar-componente-teamsite.png)      
 
    
