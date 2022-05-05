@@ -273,7 +273,7 @@ $MODEL{/Properties/Data/Datum[@ID='TEXT']}
 
 Tras aplicar los cambios la sección `Appearance` tendrá este aspecto:
 
-```
+```html
 <!-- Heading Row-->
 <div class="row gx-4 gx-lg-5 align-items-center my-5">
 	<div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="$MODEL{/Properties/Data/Datum[@ID='IMGSRC']/Image/Path}" alt="$MODEL{/Properties/Data/Datum[@ID='IMGSRC']/Image/Description}" /></div>
