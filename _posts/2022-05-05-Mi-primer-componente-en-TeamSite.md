@@ -334,3 +334,21 @@ Para ello tendremos que modificar de nuevo nuestro componente. Tenemos que:
 
 ![Etiqueta ddGroup](/images/2022-05-05-Mi-primer-component-en-TeamSite/etiqueta-ddGroup.png)
 
+Finalmente, hemos de guardar los cambios y publica el componente.
+
+### Aplicar los cambios de nuestro componente en la página
+
+Una vez que nuestro componente es `editable on the glass` vamos a aplicar los cambios en la página 
+en la que insertamos previamente el componente. Para ello debemos:
+
+   - Ir a `Experience Estudio`
+   - Hacer clic en **Sites**
+   - Abrir nuestro sitio: `custom-demo-site`
+   - Hacer clic en **Edit** en su página `custom-demo-home`
+   - Hacer clic en **MERGE**
+
+![Aplicar los cambios de nuestro componente](/images/2022-05-05-Mi-primer-component-en-TeamSite/merge-component-changes-in-page-teamsite.png)   
+
+La página con nuestro componente tendrá este aspecto:
+
+![Componente editable en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/componente-teamsite-editable-on-the-glass.png)   
