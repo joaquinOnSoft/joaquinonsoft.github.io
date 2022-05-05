@@ -247,6 +247,8 @@ Vamos a añadir 3 atributos que serán modificables en nuestro componente. El *t
 
 A continuación añadimos referencias a los atributos que hemos creado en la sección `Appearance`:
 
+![Editar componente - Appearance](/images/2022-05-05-Mi-primer-component-en-TeamSite/edit-component-appearance-teamsite.png)   
+
    - Atributo `src` de la etiqueta `<img>`: 
 
 ```
@@ -285,7 +287,25 @@ Tras aplicar los cambios la sección `Appearance` tendrá este aspecto:
 </div>
 ```
 
-![Editar componente - Appearance](/images/2022-05-05-Mi-primer-component-en-TeamSite/edit-component-appearance-teamsite.png)   
+Finalmente, hemos de guardar los cambios y publica el componente.
 
 Felicidades, hemos creado nuestro primer componente editable.
+
+### Aplicar los cambios de nuestro componente en la página
+
+Una vez que nuestro componente es editable vamos a aplicar los cambios en la página 
+en la que insertamos previamente el componente. Para ello debemos:
+
+   - Ir a `Experience Estudio`
+   - Hacer clic en **Sites**
+   - Abrir nuestro sitio: `custom-demo-site`
+   - Hacer clic en **Edit** en su página `custom-demo-home`
+   - Hacer clic en **MERGE**
+
+![Aplicar los cambios de nuestro componente](/images/2022-05-05-Mi-primer-component-en-TeamSite/merge-component-changes-in-page-teamsite.png)   
+
+La página con nuestro componente tendrá esta aspecto:
+
+![Componente editable en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/componente-teamsite-editable.png)   
+
 
