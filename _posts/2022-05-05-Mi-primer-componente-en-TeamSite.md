@@ -271,6 +271,19 @@ $MODEL{/Properties/Data/Datum[@ID='TEXT']}
 
 > **NOTA:** `TEXT` es el nombre que hemos dado al *Datum Type*  de tipo `TextArea`
 
+Tras aplicar los cambios la sección `Appearance` tendrá este aspecto:
+
+```
+<!-- Heading Row-->
+<div class="row gx-4 gx-lg-5 align-items-center my-5">
+	<div class="col-lg-7"><img class="img-fluid rounded mb-4 mb-lg-0" src="$MODEL{/Properties/Data/Datum[@ID='IMGSRC']/Image/Path}" alt="$MODEL{/Properties/Data/Datum[@ID='IMGSRC']/Image/Description}" /></div>
+	<div class="col-lg-5">
+		<h1 class="font-weight-light">$MODEL{/Properties/Data/Datum[@ID='TITLE’]}</h1>
+		<p>$MODEL{/Properties/Data/Datum[@ID='TEXT']}</p>
+		<a class="btn btn-primary" href="#!">Call to Action!</a>
+	</div>
+</div>
+```
 
 ![Editar componente - Appearance](/images/2022-05-05-Mi-primer-component-en-TeamSite/edit-component-appearance-teamsite.png)   
 
