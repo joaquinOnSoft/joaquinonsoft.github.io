@@ -25,7 +25,7 @@ Hoy explicaré como crear mi primer componente en **TeamSite**.
 En primer lugar debemos estudiar el diseño objetivo de la página que queremos crear. En este ejemplo 
 tomaremos como referencia la página de la UNESCO.
 
-![Estudia la página de tu cliente](/images/2022-05-05-Mi-primer-componente-en-TeamSite/study-your-client-web-page.png)
+![Estudia la página de tu cliente](/images/2022-05-05-Mi-primer-component-en-TeamSite/study-your-client-web-page.png)
 
 ## Crea o elige una plantilla gratuita de Bootstrap o Foundation
 
