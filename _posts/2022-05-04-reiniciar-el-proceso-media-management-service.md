@@ -36,11 +36,11 @@ También podemos reiniciar OpenText Media Management desde la consola de Windows
      o pulsando con el botón derecho del ratón sobre el botón de inicio y seleccionando `Símbolo del sistema`.
    - A continuación debemos ejecutar los siguientes comandos
 
-    ```
+```
     C:\>sc queryex OpenTextMediaManagementService
 
     C:\>taskkill /f /pid <PID>
-    ```
+```
 
 Este es un ejemplo real de ejecución:
 
