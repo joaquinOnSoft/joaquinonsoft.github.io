@@ -210,3 +210,25 @@ Ahora que hemos publicado nuestro componente podemos añadirlo en una página. P
 ![Componente personalizado añadido a una página](/images/2022-05-05-Mi-primer-component-en-TeamSite/componente-personalizado-agregado-a-pagina-teamsite.png)   
 
 A continuación, vamos a mejorar nuestro componente.
+
+## Hacer nuestro componente editable
+
+Para hacer nuestro componente editable debemos:
+
+   - Ir a **CC Professional**
+   - Navegar a: //tsbase/iwadmin/main/livesite/component/WORKAREA/shared/CustomDemoTutorial
+   - Seleccionar nuestro componente
+   - Hacer clic en **Edit**
+   - Hacer clic en **Edit with CC Professional**
+
+![Editar componente en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/edit-component-teamsite.png)   
+
+Vamos a añadir 3 atributos que serán modificables en nuestro componente. El *título*, la 
+*descripción* y la *imagen*. Para ello debemos añadir 3 campos de tipo`String` (título), 
+`TextArea`(descripción) e `image` (imagen) en la sección **Content XML** de nuestro componente.
+
+> **NOTA:** La ayuda de la sección **Content XML** facilita ejemplos de la sintaxis de cada 
+> tipo de atributo `Datum Type` que podemos añadir a nuestro componente
+
+![Añadir atributos en la sección content XML del componente](/images/2022-05-05-Mi-primer-component-en-TeamSite/content-xml.png)   
+
