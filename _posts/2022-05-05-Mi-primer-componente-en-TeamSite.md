@@ -68,10 +68,49 @@ Para ello debemos seguir los siguientes pasos:
      > NOTA: `custom-demo-tutorial` es el nombre de nuestro proyecto
 	 
    - Hacer clic en la opción **Importar** en el menú superior derecho
+   
      ![Importar CC Professional](/images/2022-05-05-Mi-primer-component-en-TeamSite/import-cc-professional.png)
+	 
    - Arrastrar y soltar los recursos (js, css, imágenes...) en el área de importación
    - Hacer clic en el botón **Importar** en la esquina inferior derecha
    
 Una vez importados los activos, volveremos a **Experience Studio** donde podremos comprobar que todos los activos se han importado correctamente.
 
 ![Recursos importados en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/resources-imported-in-teamsite.png)
+
+### Añadir los activos  como Recursos Compartidos
+
+Debemos incluir los recursos CSS y JavaScript para que se incluyan en las páginas de nuestro sitio web:
+
+> **NOTA:** Los recursos CSS y JavaScript se enumeran en el fichero **index.html** de la plantilla
+
+   - Navega a nuestro *site*
+   - Hacer clic en el botón **Site Details**
+   - Desplegar la sección **Shared Resources**
+   - Añadir ficheros css a mediante el botón **Add CSS file**
+   - Añadir ficheros JavaScript mediante el botón **Add script file**
+   - Hacer clic en **Save**
+   
+   ![Recursos importados en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/shared-resources-teamsite.png)
+
+### Crear una plantilla personalizada
+
+
+   - Ir a **Sites** en el menú del lado izquierdo
+   - Abrir nuestro sitio
+   - Hacer clic en **Templates** en el menú superior
+   - Hacer clic en **New Template > Create new template**
+   - Hacer clic en **Site template**
+   - Seleccionar **Blank**
+   - Dar un nombre a la plantilla
+   - Hacer clic en **Confirm**
+
+   ![Crear plantilla en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/create-custom-template-teamsite.png)
+
+   - Añadir varios componentes de **Multi placeholder** (Se encuentran en **Custom Components**)
+   
+   ![Añadir componentes Multi placeholder en una plantilla de TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/add-multi-placeholderin-template-teamsite.png)
+
+   - Hacer clic en **Submit** para publicar la plantilla
+
+   ![Publicar plantilla de TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/submit-template.png)
