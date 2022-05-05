@@ -178,4 +178,23 @@ en el menú de la esquina superior derecha:
 
 ![Publicar componente en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/publicar-componente-teamsite.png)      
 
-   
+Por último debemos hace click en el botón **Run Job** del pop-up **Submit workflow**   
+
+![Ejecutar trabajo en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/run-job-teamsite.png)      
+
+
+### Añadir el componente a una página
+
+Ahora que hemos publicado nuestro componente podemos añadirlo en una página. Para ellos seguiremos estos pasos:
+
+   - Ir a **Experiencia Estudio**
+   - Navegar a **Sites**
+   - Abrir el sitio web `custom-demo-site`
+   - Hacer clic en **New page** en el menú superior izquierdo
+   - Seleccione una plantilla de sitio: `custom-demo-main-template`
+   - Hacer clic en **Next**
+   - Darle un nombre, por ejemplo, `custom-demo-home`
+   - Hacer clic en **Next**
+   - Hacer clic en **Confirm**
+
+![Crear una nueva página](/images/2022-05-05-Mi-primer-component-en-TeamSite/create-a-new-page.png)
