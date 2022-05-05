@@ -34,18 +34,18 @@ de las webs que las proporcionan de forma gratuita:
 
 | Web de plantillas  | Logo                                                                        |
 |--------------------|-----------------------------------------------------------------------------|
-| themefisher.com    | ![themefisher.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/)    |
-| colorlib.com       | ![colorlib.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/)       |
-| bootstrapmade.com  | ![bootstrapmade.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/)  |
-| startbootstrap.com | ![startbootstrap.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/) |
+| themefisher.com    | ![themefisher.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/themefisher-logo.png   )     |
+| colorlib.com       | ![colorlib.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/colorlig-logo.png)              |
+| bootstrapmade.com  | ![bootstrapmade.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/bootstrapmade-logo.png)    |
+| startbootstrap.com | ![startbootstrap.com](/images/2022-05-05-Mi-primer-componente-en-TeamSite/strartbootstrap-logo.png) |
 
 Para este ejemplo he seleccionado el [template Small Business de la web startbootstrap.com](https://startbootstrap.com/templates/small-business/)
 
-![Small Business template de  startbootstrap.com](/images/small-business-template.png)
+![Small Business template de  startbootstrap.com](/images/2022-05-05-Mi-primer-component-en-TeamSite/small-business-template.png)
 
 Es conveniente revisar el código HTML de la plantilla y familiarizarse con él. Las diferentes secciones de la página están bien identificadas.
 
-![Small Business template HTML](/images/small-business-template-html-source-code.png)
+![Small Business template HTML](/images/2022-05-05-Mi-primer-component-en-TeamSite/small-business-template-html-source-code.png)
 
 ## Preparación del projecto
 
@@ -53,7 +53,7 @@ Es conveniente revisar el código HTML de la plantilla y familiarizarse con él.
 
 Vamos a crear un nuevo proyecto al que llamaremos `custom-demo-tutorial`
 
-![Small Business template HTML](/images/custom-demo-tutorial-project.png)
+![Small Business template HTML](/images/2022-05-05-Mi-primer-component-en-TeamSite/custom-demo-tutorial-project.png)
 
 Dentro del proyecto debemos crear un nuevo `site`, llamado `custom-demo-site`
 
@@ -68,10 +68,10 @@ Para ello debemos seguir los siguientes pasos:
      > NOTA: `custom-demo-tutorial` es el nombre de nuestro proyecto
 	 
    - Hacer clic en la opción **Importar** en el menú superior derecho
-     ![Importar CC Professional](/images/import-cc-professional.png)
+     ![Importar CC Professional](/images/2022-05-05-Mi-primer-component-en-TeamSite/import-cc-professional.png)
    - Arrastrar y soltar los recursos (js, css, imágenes...) en el área de importación
    - Hacer clic en el botón **Importar** en la esquina inferior derecha
    
 Una vez importados los activos, volveremos a **Experience Studio** donde podremos comprobar que todos los activos se han importado correctamente.
 
-![Recursos importados en TeamSite](/images/resources-imported-in-teamsite.png)
+![Recursos importados en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/resources-imported-in-teamsite.png)
