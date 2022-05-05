@@ -178,7 +178,7 @@ en el menú de la esquina superior derecha:
 
 ![Publicar componente en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/publicar-componente-teamsite.png)      
 
-Por último debemos hace click en el botón **Run Job** del pop-up **Submit workflow**   
+Por último, debemos hace click en el botón **Run Job** del pop-up **Submit workflow**   
 
 ![Ejecutar trabajo en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/run-job-teamsite.png)      
 
@@ -245,7 +245,7 @@ Vamos a añadir 3 atributos que serán modificables en nuestro componente. El *t
 
 ![Añadir atributos en la sección content XML del componente](/images/2022-05-05-Mi-primer-component-en-TeamSite/content-xml.png)   
 
-A continuación añadimos referencias a los atributos que hemos creado en la sección `Appearance`:
+A continuación, añadimos referencias a los atributos que hemos creado en la sección `Appearance`:
 
 ![Editar componente - Appearance](/images/2022-05-05-Mi-primer-component-en-TeamSite/edit-component-appearance-teamsite.png)   
 
@@ -304,8 +304,33 @@ en la que insertamos previamente el componente. Para ello debemos:
 
 ![Aplicar los cambios de nuestro componente](/images/2022-05-05-Mi-primer-component-en-TeamSite/merge-component-changes-in-page-teamsite.png)   
 
-La página con nuestro componente tendrá esta aspecto:
+La página con nuestro componente tendrá este aspecto:
 
 ![Componente editable en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/componente-teamsite-editable.png)   
 
+## Hacer el componente `editable on the glass`
+
+Los componentes de TeamSite pueden crearse de modo que el usuario pueda modificar directamente el contenido, 
+una vez includido en una página. Es lo que se denomina, en inglés, *edit on the glass*.
+
+Para ello tendremos que modificar de nuevo nuestro componente. Tenemos que:
+
+   - Ir a **CC Profesional**
+   - Navegar a : `//tsbase/iwadmin/main/livesite/component/WORKAREA/shared/CustomDemoTutorial`
+   - Seleccionar nuestro componente
+   - Hacer clic en **Editar**
+   - Hacer clic en **Edit wit CC Professional**
+
+![Editar componente con CC Professional](/images/2022-05-05-Mi-primer-component-en-TeamSite/edit-component-with-cc-professional.png)
+
+   - Añadir la etiqueta `<div ddGroup…>` alrededor de las referencias a los atributos editables (referenciadas mediante `$MODEL`)
+   
+```html
+<div ddGroup="imageDropZoneGroup" ddGroupPropertyId="$MODEL{/Properties/Data/Datum[@ID='TEXT']/@ID}" in-context-edit="$MODEL{/Properties/Data/Datum[@ID='TEXT']/@ID}">        
+   <p>$MODEL{/Properties/Data/Datum[@ID='TEXT']}</p>
+</div>
+
+```
+
+![Etiqueta ddGroup](/images/2022-05-05-Mi-primer-component-en-TeamSite/etiqueta-ddGroup.png)
 
