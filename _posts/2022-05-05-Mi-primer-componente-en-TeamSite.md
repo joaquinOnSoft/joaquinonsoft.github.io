@@ -352,3 +352,5 @@ en la que insertamos previamente el componente. Para ello debemos:
 La página con nuestro componente tendrá este aspecto:
 
 ![Componente editable en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/componente-teamsite-editable-on-the-glass.png)   
+
+El icono del lapiz sobre el texto de la descripción indica que el usuario puede editar directamente el contenido de nuestro componente.
