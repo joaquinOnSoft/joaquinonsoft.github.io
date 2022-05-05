@@ -1,8 +1,8 @@
 ---
 title: "Mi primer componente en TeamSite"
 header:
-  image: /images/2022-05-05-Mi-primer-componente-en-TeamSite/componente-teamsite-editable-on-the-glass.png
-  og_image: /images/2022-05-05-Mi-primer-componente-en-TeamSite/componente-teamsite-editable-on-the-glass.png
+  image: /images/2022-05-05-Mi-primer-component-en-TeamSite/componente-teamsite-editable-on-the-glass.png
+  og_image: /images/2022-05-05-Mi-primer-component-en-TeamSite/componente-teamsite-editable-on-the-glass.png
 tags:
   - OpenText
   - TeamSite
