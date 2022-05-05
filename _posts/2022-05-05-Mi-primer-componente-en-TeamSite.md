@@ -114,3 +114,34 @@ Debemos incluir los recursos CSS y JavaScript para que se incluyan en las págin
    - Hacer clic en **Submit** para publicar la plantilla
 
    ![Publicar plantilla de TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/submit-template.png)
+   
+## Componentes personalizados
+
+Para crear nuestro componente personalizado debemos **identificar el HTML en la plantilla**.
+
+![Identificar el HTML de nuestro componente en la plantilla](/images/2022-05-05-Mi-primer-component-en-TeamSite/identificar-el-html-de-nuestro-componente-en-la-plantilla.png)
+
+### Crear una carpeta para nuestros componentes compartidos
+
+Vamos a crear una carpeta para nuestros componentes compartidos. Para ellos seguiremos los siguientes pasos:
+
+   - Ir a **CC Profesional**
+   - Navegar a `//tsbase/iwadmin/main/livesite/component/WORKAREA/shared`
+   - Hacer clic en el botón **New folder** en el menú superior derecho
+   - Dar un nombre, por ejemplo, `CustomDemoTutorial`.
+   - Esta carpeta contendrá todos los componentes de nuestro proyecto.
+   - Hacer clic en **OK**
+   - Hacer clic en la carpeta `CustomDemoTutorial`
+   
+![Crear una carpeta para nuestros componentes compartidos](/images/2022-05-05-Mi-primer-component-en-TeamSite/crear-carpeta-para-componentes-compartidos.png)
+   
+### Crear un nuevo componente
+
+Para crear un nuevo componente desde *CC Professional* hay que hacer clic en **File > New Component** en el menú superior izquierdo.
+
+![Nuevo componente en TeamSite](/images/2022-05-05-Mi-primer-component-en-TeamSite/new-component.png)   
+
+   - Seleccionar **Create From** `HTML`
+   
+![Crear componente HTML](/images/2022-05-05-Mi-primer-component-en-TeamSite/create-from-html.png)      
+   
