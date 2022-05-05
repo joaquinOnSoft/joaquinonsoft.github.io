@@ -227,8 +227,52 @@ Vamos a añadir 3 atributos que serán modificables en nuestro componente. El *t
 *descripción* y la *imagen*. Para ello debemos añadir 3 campos de tipo`String` (título), 
 `TextArea`(descripción) e `image` (imagen) en la sección **Content XML** de nuestro componente.
 
-> **NOTA:** La ayuda de la sección **Content XML** facilita ejemplos de la sintaxis de cada 
+> **NOTA:** La *ayuda* (Help) de la sección **Content XML** facilita ejemplos de la sintaxis de cada 
 > tipo de atributo `Datum Type` que podemos añadir a nuestro componente
 
+```xml
+<Data>
+  <Datum ID="TITLE" Type="String" Name="Title">Title placeholder</Datum>
+  <Datum ID="DESCRIPTION" Type="String" Name="Subtitle">Subitle placeholder</Datum>
+  <Datum ID="IMGSRC" Type="Image" Name="Background image">
+    <Image>
+      <Path>$URL_PREFIX/images/app/banner-bo-app.jpg</Path>
+      <Description>Background image</Description>
+    </Image>
+  </Datum>
+</Data>
+```
+
 ![Añadir atributos en la sección content XML del componente](/images/2022-05-05-Mi-primer-component-en-TeamSite/content-xml.png)   
+
+A continuación añadimos referencias a los atributos que hemos creado en la sección `Appearance`:
+
+   - Atributo `src` de la etiqueta `<img>`: 
+
+```
+$MODEL{/Properties/Data/Datum[@ID='IMGSRC']/Image/Path}
+```
+
+> **NOTA:** `IMGSRC` es el nombre que hemos dado al *Datum Type*  de tipo `Image`
+
+   - Título del contenido (etiqueta `<h1>`): 
+
+```
+$MODEL{/Properties/Data/Datum[@ID='TITLE’]}
+```
+
+> **NOTA:** `TITLE` es el nombre que hemos dado al *Datum Type*  de tipo `String`
+
+   - Descripción (etiqueta `<p>`): 
+
+```
+$MODEL{/Properties/Data/Datum[@ID='TEXT']}
+```
+
+> **NOTA:** `TEXT` es el nombre que hemos dado al *Datum Type*  de tipo `TextArea`
+
+
+![Editar componente - Appearance](/images/2022-05-05-Mi-primer-component-en-TeamSite/edit-component-appearance-teamsite.png)   
+
+Felicidades, hemos creado nuestro primer componente editable.
 
