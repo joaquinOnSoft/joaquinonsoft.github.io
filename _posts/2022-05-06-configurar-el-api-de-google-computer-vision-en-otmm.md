@@ -94,14 +94,14 @@ Por último vamos a añadir una cuenta de facturación al proyecto. Para ello he
    
    - La página nos avisará de que no hay una cuenta de facturación asociada: `This project has no billing account`.
 
-![Enable Cloud Vision - This project has no billing account](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-this-project-has-no-billing-account.png)              
+![Enable Cloud Vision - This project has no billing account](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-this-project-has-no-billing-account.png)
  
    - Hacer clic en **Link a billing account**
-      - Si se muestra el mensaje `No active billing accounts`, tendremos que hacer clic en **Manage Billing Accounts** y cree una nueva cuenta
+   - Si se muestra el mensaje `No active billing accounts`, tendremos que hacer clic en **Manage Billing Accounts** y cree una nueva cuenta
 
-![Enable Cloud Vision - Crear cuenta de facturación](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-create-billing-account.png)                 
+![Enable Cloud Vision - Crear cuenta de facturación](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-create-billing-account.png)
 
-      - Una vez que se crea una cuenta de facturación, volveremos al paso **Link account** del proceso.
+   - Una vez que se crea una cuenta de facturación, volveremos al paso **Link account** del proceso.
    - Seleccionar la cuenta de facturación del menú desplegable y haga clic en **Set Account**
 
 ![Enable Cloud Vision - Asignar cuenta](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-set-account.png)                 
