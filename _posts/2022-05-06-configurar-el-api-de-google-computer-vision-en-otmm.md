@@ -52,7 +52,7 @@ Una vez que el API de *Google Cloud Vision* está habilitada, crearemos las cred
 
    - En la página *Credentials*, hacer clic en **+CREATE CREDENTIALS**
    
-![Enagle Cloud Vision +CREATE CREDENTIALS](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-create-credentials.png)      
+![Enagle Cloud Vision +CREATE CREDENTIALS](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-plus-create-credentials.png)      
    
    - Seleccionar **Service Account**
  
@@ -65,5 +65,16 @@ Una vez que el API de *Google Cloud Vision* está habilitada, crearemos las cred
 
    - Seleccionar un Rol, por ejemplo, **Owner**, hacer clic en **Continue**
    - Hacer clic en **Done**
-
    
+## Agregar una clave a la cuenta de servicio
+
+Una vez creada la cuenta de servicio, tenemos que 
+
+   - Hacer clic en el nombre de la cuenta en la página Credenciales
+
+![Enagle Cloud Vision - Service accounts](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-service-accounts.png)          
+
+   - En la página de detalles de la cuenta de servicio, seleccione **Keys** y haga clic en **Add Keys > Create New**
+   - Seleccionar `JSON` en la ventana emergente y hacer clic en **Create**
+
+![Enagle Cloud Vision - Create private key for Vision API](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-create-private-key-for-vision-api.png)          
