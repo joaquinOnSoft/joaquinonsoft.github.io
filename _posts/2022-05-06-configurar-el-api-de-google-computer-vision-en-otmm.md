@@ -1,8 +1,8 @@
 ---
 title: "Configurar el API de Google Computer Vision en OTMM"
 header:
-  image: /images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/componente-teamsite-editable-on-the-glass.png
-  og_image: /images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/componente-teamsite-editable-on-the-glass.png
+  image: /images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/rma-google-vision-api.png
+  og_image: /images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/rma-google-vision-api.png
 tags:
   - OpenText
   - OpenText Media Management  
