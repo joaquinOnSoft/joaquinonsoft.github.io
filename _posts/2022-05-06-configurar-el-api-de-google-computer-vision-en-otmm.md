@@ -10,6 +10,15 @@ tags:
 last_modified_at: 2022-05-06T19:01:56-04:00
 ---
 
+**Rich Media Analysis**, el módulo de OpenText Media Management (OTMM) para el análisis de imágenes y videos, puede 
+funcionar con diversos proveedores de IA como Google, Amazon y Azure. En este artículo explicaré como configurar 
+el **API de Google Computer Vision** en **OTMM**.
+
+> **Rich Media Analysis** proporciona análisis de imágenes almacenadas en OpenText Media Management 
+> para enriquecer la experiencia de búsqueda y descubrimiento. 
+> Mediante los conectores con Azure Computer Vision, Amazon Recognition y Google Vision permite realizar 
+> etiquetado automático de imágenes por número de personas, rostros, edad, género, descripciones, objetos, colores y OCR de subtítulos.
+
 ## Configurar el API de Google Computer Vision
 
 ### Crear un proyecto en Google Cloud Vision
@@ -111,7 +120,10 @@ Nuestro API de Cloud Vision esta lista.
 
 ## Configurar las propiedades de Rich Media Analysis (RMA)
 
-### Añadir la ubicación del archivo de clave API al archivo `google.properties`
+### Añadir la ubicación del archivo de clave del API al archivo `google.properties`
+
+Una vez finalizada la creacción de nuestra cuenta en Google Cloud Vision y haber habilitado el API, solo tenemos que
+añadir la ubicación del archivo de clave del API al archivo `google.properties`. Para ello debemos:
 
    - Guardar el archivo JSON con la clave del API del Google Cloud Vision  en el servidor RMA.
    - Abrir el archivo **google.properties** ubicado en la carpeta `%RMA_HOME%\conf` y añadir la propiedad con la ubicación del archivo JSON:
@@ -137,3 +149,9 @@ mediaanalysis.google.features=TYPE_UNSPECIFIED,FACE_DETECTION,LANDMARK_DETECTION
 ```
    
    - Reiniciar los servicios de RMA.
+
+## Prueba en OpenText Media Management
+
+Para finalizar, vamos a importar una imagen para ver la información de análisis que se muestra en etiquetas y otros metadatos.
+
+![Analisis de la imagen en RMA](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/RMA-imagen.png)                 
