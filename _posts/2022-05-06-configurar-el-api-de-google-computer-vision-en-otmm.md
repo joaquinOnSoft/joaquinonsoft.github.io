@@ -30,6 +30,40 @@ A continuación hemos de seguir los siguientes pasos:
 
 ## Habilitar el API de Google Cloud Vision
 
-Desde el panel, haga clic en **Go to APIs overview** en la sección `APIs`:
+A continuación, debemos habilitar el API de Google Cloud Vision. Para ello tendremos que realizar las siguientes acciones:
+
+   - Desde el panel, hacer clic en **Go to APIs overview** en la sección `APIs`:
 
 ![Google Cloud Platform - APIs](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-apis.png)   
+
+   - En la página *APIs and Services*, hacer clic en **Library** y escribir `vision` en el cuadro de búsqueda.
+   - Seleccionar **Cloud Vision API**
+   - En la página de *Cloud Vision API*, hacer clic en **Enable**
+
+![Enagle Cloud Vision API](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-enable-cloud-vision-api.png)   
+
+## Crear credenciales
+
+Una vez que el API de *Google Cloud Vision* está habilitada, crearemos las credenciales que usaremos mas tarde. Tan solo tendremos que seguir estos pasos:
+
+   - En la página *Cloud Vision API*, seleccione **Credentials**
+
+![Enagle Cloud Vision - Credentials](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-credentials.png)   
+
+   - En la página *Credentials*, hacer clic en **+CREATE CREDENTIALS**
+   
+![Enagle Cloud Vision +CREATE CREDENTIALS](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-create-credentials.png)      
+   
+   - Seleccionar **Service Account**
+ 
+![Enagle Cloud Vision - Service Account](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-service-account.png)       
+ 
+   - Proporcionar el nombre de la cuenta de servicio y una descripción opcional
+   - Hacer clic en **Create and Continue**
+
+![Enagle Cloud Vision - Create Service Account](/images/2022-05-06-configurar-el-api-de-google-computer-vision-en-otmm/google-cloud-platform-create-service-account.png)          
+
+   - Seleccionar un Rol, por ejemplo, **Owner**, hacer clic en **Continue**
+   - Hacer clic en **Done**
+
+   
