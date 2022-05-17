@@ -73,5 +73,5 @@ joaquin ""      ""      "joaquin@joaquinonsoft.com"      210#7   TRUE
 Desde el menú `Go to` de TeamSite podemos acceder a `Administration`. Una vez que en hemos accedido a la interface de administración 
 tenemos que hacer clic sobre el menú `User Management` y podremos  ver los usuarios dados de alta en el sistema.
  
-![Editar un usuario en TeamSite][/images/2022-05-17-crear-un-usuario-desde-linea-de-comandos-en-teamsite/editar-un-usuario-en-teamsite.png] 
+![Editar un usuario en TeamSite](/images/2022-05-17-crear-un-usuario-desde-linea-de-comandos-en-teamsite/editar-un-usuario-en-teamsite.png)
 
