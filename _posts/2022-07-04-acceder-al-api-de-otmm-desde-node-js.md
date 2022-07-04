@@ -193,3 +193,7 @@ node otmmapi.js
 El código fuente de este ejemplo esta disponible en el repositorio 
 [access-to-otmm-api-from-node-js](https://github.com/joaquinOnSoft/access-otmm-api-from-node-js)
 de **github**.
+
+## Agradecimientos
+
+Gracias a **Jaime Romo** por ayudarme algunos aspectos del API de OTMM.
