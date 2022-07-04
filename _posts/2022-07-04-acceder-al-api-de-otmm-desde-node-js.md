@@ -1,8 +1,8 @@
 ---
 title: "Acceder al API de OTMM desde node.js"
 header:
-  image: /images/2022-07-04-acceder-al-api-de-otmm-desde-node-js/acceder-al-api-de-otmm-desde-node-js.png.png
-  og_image: /images/2022-07-04-acceder-al-api-de-otmm-desde-node-js/acceder-al-api-de-otmm-desde-node-js.png.png
+  image: /images/2022-07-04-acceder-al-api-de-otmm-desde-node-js/acceder-al-api-de-otmm-desde-node-js.png
+  og_image: /images/2022-07-04-acceder-al-api-de-otmm-desde-node-js/acceder-al-api-de-otmm-desde-node-js.png
 tags:
   - OpenText
   - OpenText Media Management 
