@@ -22,7 +22,7 @@ En este artículo veremos como acceder al **API de OTMM** desde **node.js**
 El **API REST de OpenText Media Management(OTMM)** esta documentada y actualizada en el 
 [OpenText Developer Portal](https://developer.opentext.com/apis/14ba85a7-4693-48d3-8c93-9214c663edd2/06c4a79f-3f4a-4a5a-aab9-9519740b27c7).
 La última versión publicada en el momento de escribir este artículo es la 
-[https://developer.opentext.com/apis/14ba85a7-4693-48d3-8c93-9214c663edd2/06c4a79f-3f4a-4a5a-aab9-9519740b27c7/84d6a6c3-3d0b-4a70-aa47-3efca3c884ec]( V6 de OTMM 22.2).
+[V6 de OTMM 22.2](https://developer.opentext.com/apis/14ba85a7-4693-48d3-8c93-9214c663edd2/06c4a79f-3f4a-4a5a-aab9-9519740b27c7/84d6a6c3-3d0b-4a70-aa47-3efca3c884ec).
 
 ### Fichero de propiedades .env
 
