@@ -1,5 +1,5 @@
 ---
-title: "Exportar e importar proyectos en teamsite"
+title: "Exportar e importar proyectos en TeamSite"
 header:
   image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/project-in-estudio-teamsite.png
   og_image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/project-in-estudio-teamsite.png
@@ -13,6 +13,12 @@ last_modified_at: 2022-08-01T18:06:36-09:00
 
 En este artículo explicaremos como exportar un proyecto de TeamSite desde una máquina virtual (VM)
 e importar ese mismo proyecto en un entorno basado en dockers y kubernetes.
+
+> OpenText™ TeamSite™ es una solución de administración de contenido que permite a 
+> las organizaciones crear y administrar experiencias de clientes digitales ricas y 
+> personalizadas optimizadas para cualquier dispositivo, canal o contexto. Desde una 
+> sola interfaz, los usuarios pueden crear, probar, orientar y publicar contenido, así 
+> como administrar medios enriquecidos, diseñar sitios web y crear aplicaciones móviles.
 
 ## Exportar un proyecto desde una máquina virtual (VM)
 
