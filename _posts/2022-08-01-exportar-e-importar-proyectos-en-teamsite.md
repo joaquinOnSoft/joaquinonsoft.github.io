@@ -1,8 +1,8 @@
 ---
 title: "Exportar e importar proyectos en teamsite"
 header:
-  image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png
-  og_image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png
+  image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/project-in-estudio-teamsite.png
+  og_image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/project-in-estudio-teamsite.png
 tags:
   - OpenText
   - OpenText Media Management 
