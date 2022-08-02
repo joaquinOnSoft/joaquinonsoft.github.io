@@ -18,7 +18,7 @@ e importar ese mismo proyecto en un entorno basado en dockers y kubernetes.
 
 En primer lugar, debemos copiar el nombre del proyecto que deseamos exportar:
 
-![Listado de proyectos en TeamSite](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png)
+![Listado de proyectos en TeamSite](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png)
 
 Nos conectaremos a nuestra máquina virtual usando `ssh`:
 
