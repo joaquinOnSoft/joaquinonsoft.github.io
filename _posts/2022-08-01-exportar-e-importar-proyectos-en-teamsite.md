@@ -1,8 +1,8 @@
 ---
 title: "Exportar e importar proyectos en teamsite"
 header:
-  image: /images/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png
-  og_image: /images/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png
+  image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png
+  og_image: /images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png
 tags:
   - OpenText
   - OpenText Media Management 
@@ -18,7 +18,7 @@ e importar ese mismo proyecto en un entorno basado en dockers y kubernetes.
 
 En primer lugar, debemos copiar el nombre del proyecto que deseamos exportar:
 
-![Listado de proyectos en TeamSite](/images/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png)
+![Listado de proyectos en TeamSite](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/20220801-exportar-e-importar-proyectos-en-teamsite/lista-proyectos-teamsite.png)
 
 Nos conectaremos a nuestra máquina virtual usando `ssh`:
 
@@ -95,24 +95,24 @@ StandardBank.spar                                                100%   14MB  14
 A continuación, subiremos el archivo `.spar` en un *space* de  [Intercambio de archivos simple y seguro con Hightail](https://www.hightail.com/) 
 o cualquier otra herramienta para compartir archivos.
 
-![Archivo .spar compartido en Hightail](/images/hightail-shared-space.png)
+![Archivo .spar compartido en Hightail](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/hightail-shared-space.png)
 
 ## Importar Proyecto en nuestro contenedor
 
 Ahora vamos a importar el fichero `.spar` con nuestro proyecto. Para ello, nos conectaremos 
 a nuestro entorno en contenedores mediante una conexión `RDP`
 
-![Conexión RDP](/images/rdp-connection.png)
+![Conexión RDP](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/rdp-connection.png)
 
 Una vez conectamos debemos descargar archivo `.spar` de *Hightail* o la opción para compartir que seleccionamos anteriormente
 
-![Descargar activo desde space de Hightail](/images/hightail-donwload-asset-from-space.png)
+![Descargar activo desde space de Hightail](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/hightail-donwload-asset-from-space.png)
 
 Vamos a descargar nuestro archivo `.spar` en esta ruta: `/home/otadmin/Downloads`
 
 Pudemos consultar la lista disponible de *pods* usando **k9s**
 
-![Listado de pods en k9s](/images/listado-pods-k9s.png)
+![Listado de pods en k9s](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/listado-pods-k9s.png)
 
 O usando `kubectl` en una **Konsole**:
 
@@ -120,7 +120,7 @@ O usando `kubectl` en una **Konsole**:
 kubectl get pods --all-namespaces     
 ```
 
-![kubectl get pods --all-namespaces](/images/kubectl-get-pods--all-namespaces.png)
+![kubectl get pods --all-namespaces](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/kubectl-get-pods--all-namespaces.png)
 
 > Consulta la hoja de referencia de `kubectl` para obtener más información sobre 
 > cómo trabajar con nuestro clúster de Kubernetes desde la línea de comandos: [kubectl Cheat Sheet](https://kubernetes.io/docs/reference/kubectl/cheatsheet/)
@@ -143,18 +143,18 @@ En nuestro ejemplo, desde una *konsole* de la máquina virtual Linux (guess):
 kubectl cp StandardBank.spar authoring/store-server-0:/tmp
 ```
 
-![kubectl cp StandardBank.spar authoring/store-server-0:/tmp](/images/kubectl-cp.png)
+![kubectl cp StandardBank.spar authoring/store-server-0:/tmp](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/kubectl-cp.png)
 
 > **NOTA**: El archivo .spar debe subirse y desplegarse en un *pod* de almacenamiento permanente; 
 > de lo contrario, se perderán los cambios una vez que reiniciemos el *pod*.
 
 A continuación, crearemos un nuevo proyecto en TeamSite.
 
-![Crear proyecto en TeamSite](/images/create-project-teamsite.png)
+![Crear proyecto en TeamSite](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/create-project-teamsite.png)
 
 Pudemos consultar la rama de nuestro nuevo proyecto en `CC Professional`:
 
-![Rama de nuestro nuevo proyecto en CC Professional](/images/project-branch-cc-professional.png)
+![Rama de nuestro nuevo proyecto en CC Professional](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/project-branch-cc-professional.png)
 
 Depues, abriremos una shell en el *pod* `store-server-0`. Desde una terminal ejecuta:
 
@@ -177,23 +177,23 @@ sudo /Interwoven/TeamSite/install/install_archive.ipl StandardBank.spar  /defaul
 
 Felicidades, el proyecto se ha importado y esta listo para usar
 
-![Projecto en estudio](/images/project-in-estudio-teamsite.png)
+![Projecto en estudio](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/project-in-estudio-teamsite.png)
 
 ### Importar el proyecto de TeamSite usando k9s
 
 Si lo prefieres, podemos hacer la importación desde `k9s`, simplemente seleccionaremos
 el *pod* **storage-server-0** y ejecutaremos la *shell* en él:
 
-![Shell k9s](/images/k9s-shell.png)
+![Shell k9s](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/k9s-shell.png)
 
 Elegimos el contenedor de *authoring-server*
 
-![Elegimos el contenedor de authoring-server](/images/pick-authoring-server.png)
+![Elegimos el contenedor de authoring-server](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/pick-authoring-server.png)
 
 En la *shell*, vamos al directorio en el que copiamos nuestro archivo `.spar` y luego importamos 
 el archivo `.spar` con *sudo*:
 
-![Importar el proyecto .spar desde k9s](/images/k9s-shell-import-teamsite-project.png)
+![Importar el proyecto .spar desde k9s](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/k9s-shell-import-teamsite-project.png)
 
 
 
