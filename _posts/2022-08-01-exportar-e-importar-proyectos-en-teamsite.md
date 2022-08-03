@@ -162,10 +162,11 @@ Pudemos consultar la rama de nuestro nuevo proyecto en `CC Professional`:
 
 ![Rama de nuestro nuevo proyecto en CC Professional](/images/2022-08-01-exportar-e-importar-proyectos-en-teamsite/project-branch-cc-professional.png)
 
-Depues, abriremos una shell en el *pod* `store-server-0`. Desde una terminal ejecuta:
+Depues, abriremos una shell en el *pod* `store-server-0`. Desde un terminal ejecutamos:
 
 ```shell
-kubectl exec -it -n authoring store-server-0 – bash
+cd /tmp
+kubectl exec -it -n authoring store-server-0  bash
 ```
 
 En la shell, tenemos que ir al directorio donde copiamos nuestro archivo `.spar` y 
