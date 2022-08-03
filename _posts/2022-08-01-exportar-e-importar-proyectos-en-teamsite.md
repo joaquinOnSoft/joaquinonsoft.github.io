@@ -165,7 +165,6 @@ Pudemos consultar la rama de nuestro nuevo proyecto en `CC Professional`:
 Depues, abriremos una shell en el *pod* `store-server-0`. Desde un terminal ejecutamos:
 
 ```shell
-cd /tmp
 kubectl exec -it -n authoring store-server-0  bash
 ```
 
@@ -179,6 +178,7 @@ sudo /Interwoven/TeamSite/install/install_archive.ipl <SPAR file name> <TeamSite
 Entonces, en nuestro ejemplo sería así:
 
 ```shell 
+cd /tmp
 sudo /Interwoven/TeamSite/install/install_archive.ipl StandardBank.spar  /default/main/StandardBank/WORKAREA/default
 ```
 
