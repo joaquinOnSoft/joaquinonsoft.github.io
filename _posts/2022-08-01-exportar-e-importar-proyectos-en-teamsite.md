@@ -179,6 +179,9 @@ Entonces, en nuestro ejemplo sería así:
 
 ```shell 
 cd /tmp
+
+mv StandardBank.spar /Interwoven/TeamSite/install/StandardBank.spar
+
 sudo /Interwoven/TeamSite/install/install_archive.ipl StandardBank.spar  /default/main/StandardBank/WORKAREA/default
 ```
 
