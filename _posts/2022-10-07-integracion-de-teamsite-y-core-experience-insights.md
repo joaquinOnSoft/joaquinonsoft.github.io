@@ -70,7 +70,10 @@ Debemos seguir los siguientes pasos:
 	| Target path | /Interwoven/LiveSiteDisplayServices/runtime/web/WEB-INF/conf/livesite_customer/covisint.properties |
 	
  2. Cambiar el directorio a /home/otadmin/Desktop/customization: 
-    > cd /home/otadmin/Desktop/customization/
+    
+	```
+	cd /home/otadmin/Desktop/customization/
+	```
 	
  3. Ejecutar el script `./customizehostname.sh <vmname>`
  
@@ -110,3 +113,10 @@ Siga estos pasos para habilitar el seguimiento del sitio:
  2. Hacer clic en el botón **"Detalles"**
 
 ![Habilitar rastreo de sitios en TeamSite](/images/teamsite-enable-site-tracking.png)
+
+ 3. Hacer clic en la pestaña **"Basic"**
+ 4. Expandir la sección **"Core Experience Insights Integration"**
+ 5. Seleccionar **"Enable Experience Insights Integration"**
+ 6. Hacer clic en el botón **"Save"**
+
+![Habilitar la integración con Core Experience Insights](/images/teamsite-enable-experience-insights-integration.png)
