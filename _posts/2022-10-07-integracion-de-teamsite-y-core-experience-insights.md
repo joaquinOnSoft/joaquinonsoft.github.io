@@ -153,18 +153,20 @@ Para crear un nuevo **data set** debemos seguir los siguientes pasos:
 
    ![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-create-new-data-set.png)
  
- 3. Proporcionar un **"name"** para el *data set*
- 4. Clic en **"Save"**
+En el popup "Create new data set" debemos:
+
+ 1. Proporcionar un **"name"** para el *data set*
+ 2. Clic en **"Create"**
 
    ![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-save-new-data-set.png)
 
- 5. Clic en **"Get Started"** en la sección **Data Points**
+ 3. Clic en **"Get Started"** en la sección **Data Points**
 
    ![Core Experience Insights - Get Started](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-get-started.png)
 
- 6. Arrastrar un *data point* del tipo *TeamSite Page View* al lado derecho
- 7. Hacer clic en el *data point*
- 8. Hacer clic en el icono del "Lápiz" para editar las propiedades del *data point*
+ 4. Arrastrar un *data point* del tipo *TeamSite Page View* al lado derecho
+ 5. Hacer clic en el *data point*
+ 6. Hacer clic en el icono del "Lápiz" para editar las propiedades del *data point*
 
    ![Core Experience Insights - Data points](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-data-point.png)
  
@@ -183,7 +185,8 @@ Vamos a configurar nuestro *data point*. Para ello tenemo que:
    
  6.  Clic en **"Apply"**
 
-
+   ![Core Experience Insights - Salvar la configuración del data point](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-edit-data-point.png) 
+ 
  
 ### Añadir un cuadro de mandos
  
