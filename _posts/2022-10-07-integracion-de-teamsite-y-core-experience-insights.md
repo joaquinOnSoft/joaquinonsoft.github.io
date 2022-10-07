@@ -1,8 +1,8 @@
 ---
 title: "Integración de TeamSite y Core Experience Insights"
 header:
-  image: /images/2022-10-07-integracion-de-teamsite-y-core-experience-insights.md/core-experience-insights-dashboard-drill-down.png
-  og_image: /images/2022-10-07-integracion-de-teamsite-y-core-experience-insights.md/core-experience-insights-dashboard-drill-down.png
+  image: /images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-dashboard-drill-down.png
+  og_image: /images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-dashboard-drill-down.png
 tags:
   - OpenText
   - TeamSite 
