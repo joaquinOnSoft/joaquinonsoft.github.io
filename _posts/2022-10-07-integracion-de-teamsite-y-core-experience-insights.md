@@ -144,6 +144,8 @@ Completemos estos pasos para habilitar el **seguimiento de la página**:
 
 Vayamos ahora a `Core Experience Insight` para completar la configuración del viaje del cliente.
 
+### Añadir un 'data point'
+
 Para crear un nuevo **data set** debemos seguir los siguientes pasos:
 
  - Navegar a nuestr servidor de **Core Experience Insights**
@@ -179,6 +181,18 @@ Vamos a configurar nuestro *data point*. Para ello tenemo que:
    
    > **NOTE**: home.page is full name of the page that we want to track
  - Clic en **"Apply"**
+
+ ![Core Experience Insights - añadir data point](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-dashboard.png) 
+ 
+ ### Añadir un cuadro de mandos
+ 
+ - Clic en el botón **"Test"** de la esquina superior derecha
+ - Clic en el botón **"Activate"** de la esquina superior derecha
+ - Clic en el botón **"Add dashboard"** de la sección *Dashboards*
+
+![Core Experience Insights - añadir dashboard](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-data-set-dashboard.png) 
+
+
 
 
  
