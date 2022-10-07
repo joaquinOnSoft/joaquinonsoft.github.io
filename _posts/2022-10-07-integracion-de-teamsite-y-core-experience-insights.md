@@ -140,3 +140,14 @@ Completemos estos pasos para habilitar el **seguimiento de la página**:
  
 ![TeamSite - habilitar el seguimiento de la página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-track-page-view.jpg)
  
+## Core Experience Insights (CXI)
+
+Vayamos ahora `Core Experience Insight` para completar la configuración del viaje del cliente.
+
+ 1. Navegar a nuestr servidor de **Core Experience Insights**
+ 2. Hacer clic en **"Create new data set"**
+
+![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-create-new-data-set.png)
+ 
+ 
+
