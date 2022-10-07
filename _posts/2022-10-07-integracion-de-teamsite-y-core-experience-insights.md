@@ -115,14 +115,14 @@ Sigamos estos pasos para habilitar el **seguimiento del sitio**:
  - Navegar a nuestro **sitio web**
  - Hacer clic en el botón **"Detalles"**
 
-![Habilitar rastreo de sitios en TeamSite](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-site-tracking.png)
+   ![Habilitar rastreo de sitios en TeamSite](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-site-tracking.png)
 
  - Hacer clic en la pestaña **"Basic"**
  - Expandir la sección **"Core Experience Insights Integration"**
  - Seleccionar **"Enable Experience Insights Integration"**
  - Hacer clic en el botón **"Save"**
 
-![Habilitar la integración con Core Experience Insights](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-experience-insights-integration.png)
+   ![Habilitar la integración con Core Experience Insights](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-experience-insights-integration.png)
 
 ### Habilitar el rastreo de la página
 
@@ -130,7 +130,7 @@ Completemos estos pasos para habilitar el **seguimiento de la página**:
  - Navegar a nuestro **sitio web**
  - Hacer clic en **"Edit"** en nuestra **página**
  
-![TeamSite - editar página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-edit-page.png)
+   ![TeamSite - editar página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-edit-page.png)
 
  - Hacer clic en el 'icono de la hamburguesa' en la parte superior izquierda
  - Hacer clic en la pestaña **"Advanced"**
@@ -138,7 +138,7 @@ Completemos estos pasos para habilitar el **seguimiento de la página**:
  - Seleccione la verificación **"Track Page View"**
  - Hacer clic en el botón **"Save"**
  
-![TeamSite - habilitar el seguimiento de la página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-track-page-view.jpg)
+   ![TeamSite - habilitar el seguimiento de la página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-track-page-view.jpg)
  
 ## Core Experience Insights (CXI)
 
@@ -149,19 +149,38 @@ Para crear un nuevo **data set** debemos seguir los siguientes pasos:
  - Navegar a nuestr servidor de **Core Experience Insights**
  - Hacer clic en **"Create new data set"**
 
-![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-create-new-data-set.png)
+   ![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-create-new-data-set.png)
  
  - Proporcionar un **"name"** para el *data set*
  - Clic en **"Save"**
 
-![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-save-new-data-set.png)
+   ![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-save-new-data-set.png)
 
  - Clic en **"Get Started"** en la sección **Data Points**
 
-![Core Experience Insights - Get Started](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-get-started.png)
+   ![Core Experience Insights - Get Started](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-get-started.png)
 
  - Arrastrar un *data point* del tipo *TeamSite Page View* al lado derecho
  - Hacer clic en el *data point*
  - Hacer clic en el icono del "Lápiz" para editar las propiedades del *data point*
+
+   ![Core Experience Insights - Data points](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-data-point.png)
+ 
+Vamos a configurar nuestro *data point*. Para ello tenemo que: 
+
+ - Definir el **"Data point name"**
+ - Seleccionar el origen del dato, en nuestro ejemplo **"PersonalLoan"**
+ - Seleccionar el tipo de evento, en nuestro ejemplo **"page.view"**
+ - Clic en el **icono (+)** en la sección **Extra coditions**
+ - Definir la regla con los siguientes valores:
+   - **file**
+   - **=**
+   - **home.page**
+   
+   > **NOTE**: home.page is full name of the page that we want to track
+ - Clic en **"Apply"**
+
+
+ 
  
  
