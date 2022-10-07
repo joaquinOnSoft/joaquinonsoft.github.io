@@ -61,8 +61,11 @@ Donde:
 Debemos seguir los siguientes pasos:
 
  1. Editar el fichero:  
-    > /home/otadmin/helm_charts/teamsite/bundle/configfiles/lsdsrt/Interwoven/LiveSiteDisplayServices/runtime/web/WEB-INF/conf/livesite_customer/covisint.properties 
-
+ 
+    ```
+	/home/otadmin/helm_charts/teamsite/bundle/configfiles/lsdsrt/Interwoven/LiveSiteDisplayServices/runtime/web/WEB-INF/conf/livesite_customer/covisint.properties 
+	```
+	
 	| Significado | Path                                                                                               |
 	|-------------|----------------------------------------------------------------------------------------------------|	
 	| Bundle      | /home/otadmin/helm_charts/teamsite/bundle                                                          |
