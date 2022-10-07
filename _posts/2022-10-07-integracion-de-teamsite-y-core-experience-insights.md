@@ -142,12 +142,18 @@ Completemos estos pasos para habilitar el **seguimiento de la página**:
  
 ## Core Experience Insights (CXI)
 
-Vayamos ahora `Core Experience Insight` para completar la configuración del viaje del cliente.
+Vayamos ahora a `Core Experience Insight` para completar la configuración del viaje del cliente.
+
+Para crear un nuevo **data set** debemos seguir los siguientes pasos:
 
  1. Navegar a nuestr servidor de **Core Experience Insights**
  2. Hacer clic en **"Create new data set"**
 
 ![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-create-new-data-set.png)
  
- 
+ 3. Proporcionar un **"name"** para el *data set*
+ 4. Clic en **"Save"**
 
+![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-save-new-data-set.png)
+
+ 5. Clic en **"Get Started"** en la sección **Data Points**
