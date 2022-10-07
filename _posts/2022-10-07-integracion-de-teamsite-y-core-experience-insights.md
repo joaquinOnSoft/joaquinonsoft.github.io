@@ -10,7 +10,7 @@ tags:
 last_modified_at: 2022-10-07T18:25:28-09:00
 ---
 
-Hoy explicaremos como realizar la integración de `TeamSite` y `Core Experience Insights` **(CXI)** para poder
+Hoy explicaremos como realizar la integración de **TeamSite** y **Core Experience Insights (CXI)** para poder
 tener una visión del **viaje del cliente** en nuestro sitio web y otros canales.
 
 > OpenText™ Core Experience Insights es una aplicación SaaS basada en la nube diseñada
@@ -42,16 +42,17 @@ Primero, necesitamos configurar el **API de Covisint** para que funcione con Tea
 
 Podemos [inyectar archivos de configuración](https://webapp.opentext.com/piroot/wcts/v220200/wcts-cdg/en/html/jsframe.htm?inject-config-files) 
 almacenados en la carpeta de personalización del paquete de implementación de TeamSite y usar un script para transferirlos y hacerlos visibles 
-para los contenedores de TeamSite en Kubernetes. Este método utiliza la función ConfigMap de Kubernetes, que está diseñada para archivos de 
-configuración más pequeños basados ​​en texto.
+para los contenedores de TeamSite en Kubernetes. Este método utiliza la función *ConfigMap* de *Kubernetes*, que está diseñada para archivos de 
+configuración pequeños basados ​​en texto.
 
-Copie el archivo de configuración que desea inyectar en los contenedores de TeamSite en el siguiente directorio de su máquina de implementación:
+Copiamos el archivo de configuración que deseamos inyectar en los contenedores de TeamSite, en el siguiente directorio de nuestra máquina:
 
 ```
  <bundle>/configfiles/<configmap>/<target path>/
 ```
 
-dónde:
+Donde:
+
  - `<configmap>` es uno de los siguientes nombres de los objetos del mapa de configuración que se usan para transferir los archivos 
     de configuración a los pods: **authoring**, **fluentd**, **indexer**, **logrotate**, **lsdsrt**, **lscsrt**, **odauthoring**, **odreceiver**, 
 	**postgres**, **prometheus**, **solr**, **webd**, y **zookeeper**
@@ -110,7 +111,7 @@ covisintforec.sslEnable=true
 
 ### Habilitar el rastreo del  sitio web
 
-Sigamos estos pasos para habilitar el **seguimiento del sitio**:
+Sigamos estos pasos para habilitar el **seguimiento del sitio web**:
 
  1. Navegar a nuestro **sitio web**
  2. Hacer clic en el botón **"Detalles"**
@@ -127,6 +128,7 @@ Sigamos estos pasos para habilitar el **seguimiento del sitio**:
 ### Habilitar el rastreo de la página
 
 Completemos estos pasos para habilitar el **seguimiento de la página**:
+
  1. Navegar a nuestro **sitio web**
  2. Hacer clic en **"Edit"** en nuestra **página**
  
@@ -206,8 +208,10 @@ A continuación, añadiremos un *cuadro de mandos* para poder visualizar el viaj
 
     ![Core Experience Insights - seleccionar el tipo de gráfico](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-drill-down.png) 
  
+Felicidades, hemos creado nuestro primer cuado de mandos en Core Experience Insights.
 
+![Core Experience Insights - Drill down dashboard](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-dashboard-drill-down.png) 
 
- 
+> **NOTA:** Debemos navegar por el sitio publicado en TeamSite para ver los datos reflejados en nuestro cuadro de mandos.
  
  
