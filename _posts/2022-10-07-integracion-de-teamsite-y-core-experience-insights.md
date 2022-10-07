@@ -112,31 +112,31 @@ covisintforec.sslEnable=true
 
 Sigamos estos pasos para habilitar el **seguimiento del sitio**:
 
- - Navegar a nuestro **sitio web**
- - Hacer clic en el botón **"Detalles"**
+ 1. Navegar a nuestro **sitio web**
+ 2. Hacer clic en el botón **"Detalles"**
 
    ![Habilitar rastreo de sitios en TeamSite](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-site-tracking.png)
 
- - Hacer clic en la pestaña **"Basic"**
- - Expandir la sección **"Core Experience Insights Integration"**
- - Seleccionar **"Enable Experience Insights Integration"**
- - Hacer clic en el botón **"Save"**
+ 3. Hacer clic en la pestaña **"Basic"**
+ 4. Expandir la sección **"Core Experience Insights Integration"**
+ 5. Seleccionar **"Enable Experience Insights Integration"**
+ 6. Hacer clic en el botón **"Save"**
 
    ![Habilitar la integración con Core Experience Insights](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-experience-insights-integration.png)
 
 ### Habilitar el rastreo de la página
 
 Completemos estos pasos para habilitar el **seguimiento de la página**:
- - Navegar a nuestro **sitio web**
- - Hacer clic en **"Edit"** en nuestra **página**
+ 1. Navegar a nuestro **sitio web**
+ 2. Hacer clic en **"Edit"** en nuestra **página**
  
    ![TeamSite - editar página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-edit-page.png)
 
- - Hacer clic en el 'icono de la hamburguesa' en la parte superior izquierda
- - Hacer clic en la pestaña **"Advanced"**
- - Ampliar la sección **"Analytics"**
- - Seleccione la verificación **"Track Page View"**
- - Hacer clic en el botón **"Save"**
+ 3. Hacer clic en el 'icono de la hamburguesa' en la parte superior izquierda
+ 4. Hacer clic en la pestaña **"Advanced"**
+ 5. Ampliar la sección **"Analytics"**
+ 6. Seleccione la verificación **"Track Page View"**
+ 7. Hacer clic en el botón **"Save"**
  
    ![TeamSite - habilitar el seguimiento de la página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-track-page-view.jpg)
  
@@ -148,49 +148,53 @@ Vayamos ahora a `Core Experience Insight` para completar la configuración del v
 
 Para crear un nuevo **data set** debemos seguir los siguientes pasos:
 
- - Navegar a nuestr servidor de **Core Experience Insights**
- - Hacer clic en **"Create new data set"**
+ 1. Navegar a nuestr servidor de **Core Experience Insights**
+ 2. Hacer clic en **"Create new data set"**
 
    ![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-create-new-data-set.png)
  
- - Proporcionar un **"name"** para el *data set*
- - Clic en **"Save"**
+ 3. Proporcionar un **"name"** para el *data set*
+ 4. Clic en **"Save"**
 
    ![Core Experience Insights - crear un nuevo data set](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-save-new-data-set.png)
 
- - Clic en **"Get Started"** en la sección **Data Points**
+ 5. Clic en **"Get Started"** en la sección **Data Points**
 
    ![Core Experience Insights - Get Started](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-get-started.png)
 
- - Arrastrar un *data point* del tipo *TeamSite Page View* al lado derecho
- - Hacer clic en el *data point*
- - Hacer clic en el icono del "Lápiz" para editar las propiedades del *data point*
+ 6. Arrastrar un *data point* del tipo *TeamSite Page View* al lado derecho
+ 7. Hacer clic en el *data point*
+ 8. Hacer clic en el icono del "Lápiz" para editar las propiedades del *data point*
 
    ![Core Experience Insights - Data points](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-data-point.png)
  
 Vamos a configurar nuestro *data point*. Para ello tenemo que: 
 
- - Definir el **"Data point name"**
- - Seleccionar el origen del dato, en nuestro ejemplo **"PersonalLoan"**
- - Seleccionar el tipo de evento, en nuestro ejemplo **"page.view"**
- - Clic en el **icono (+)** en la sección **Extra coditions**
- - Definir la regla con los siguientes valores:
+ 1. Definir el **"Data point name"**
+ 2. Seleccionar el origen del dato, en nuestro ejemplo **"PersonalLoan"**
+ 3. Seleccionar el tipo de evento, en nuestro ejemplo **"page.view"**
+ 4. Clic en el **icono (+)** en la sección **Extra coditions**
+ 5. Definir la regla con los siguientes valores:
    - **file**
    - **=**
    - **home.page**
    
    > **NOTE**: home.page is full name of the page that we want to track
- - Clic en **"Apply"**
+   
+ 6.  Clic en **"Apply"**
 
- ![Core Experience Insights - añadir data point](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-dashboard.png) 
- 
- ### Añadir un cuadro de mandos
- 
- - Clic en el botón **"Test"** de la esquina superior derecha
- - Clic en el botón **"Activate"** de la esquina superior derecha
- - Clic en el botón **"Add dashboard"** de la sección *Dashboards*
 
-![Core Experience Insights - añadir dashboard](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-data-set-dashboard.png) 
+ 
+### Añadir un cuadro de mandos
+ 
+ 1. Clic en el botón **"Test"** de la esquina superior derecha
+ 2. Clic en el botón **"Activate"** de la esquina superior derecha
+ 
+   ![Core Experience Insights - añadir data point](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-dashboard.png) 
+ 
+ 3. Clic en el botón **"Add dashboard"** de la sección *Dashboards*
+
+   ![Core Experience Insights - añadir dashboard](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-data-set-dashboard.png) 
 
 
 
