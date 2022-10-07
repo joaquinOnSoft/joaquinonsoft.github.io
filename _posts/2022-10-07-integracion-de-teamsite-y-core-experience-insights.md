@@ -115,14 +115,14 @@ Sigamos estos pasos para habilitar el **seguimiento del sitio**:
  1. Navegar a nuestro **sitio web**
  2. Hacer clic en el botón **"Detalles"**
 
-![Habilitar rastreo de sitios en TeamSite](/images/teamsite-enable-site-tracking.png)
+![Habilitar rastreo de sitios en TeamSite](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-site-tracking.png)
 
  3. Hacer clic en la pestaña **"Basic"**
  4. Expandir la sección **"Core Experience Insights Integration"**
  5. Seleccionar **"Enable Experience Insights Integration"**
  6. Hacer clic en el botón **"Save"**
 
-![Habilitar la integración con Core Experience Insights](/images/teamsite-enable-experience-insights-integration.png)
+![Habilitar la integración con Core Experience Insights](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-enable-experience-insights-integration.png)
 
 ### Habilitar el rastreo de la página
 
@@ -130,7 +130,7 @@ Completemos estos pasos para habilitar el **seguimiento de la página**:
  1. Navegar a nuestro **sitio web**
  2. Hacer clic en **"Edit"** en nuestra **página**
  
-![TeamSite - editar página](/images/teamsite-edit-page.png)
+![TeamSite - editar página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-edit-page.png)
 
  3. Hacer clic en el 'icono de la hamburguesa' en la parte superior izquierda
  4. Hacer clic en la pestaña **"Advanced"**
@@ -138,5 +138,5 @@ Completemos estos pasos para habilitar el **seguimiento de la página**:
  6. Seleccione la verificación **"Track Page View"**
  7. Hacer clic en el botón "Save"
  
-![TeamSite - habilitar el seguimiento de la página](/images/teamsite-track-page-view.jpg)
+![TeamSite - habilitar el seguimiento de la página](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/teamsite-track-page-view.jpg)
  
