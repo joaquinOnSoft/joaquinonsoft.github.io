@@ -108,7 +108,10 @@ covisintforec.sslEnable=true
 
 ## Habilitar la integración de Experience Insights en TeamSite 
 
-Siga estos pasos para habilitar el seguimiento del sitio:
+### Habilitar el rastreo del  sitio web
+
+Sigamos estos pasos para habilitar el **seguimiento del sitio**:
+
  1. Navegar a nuestro **sitio web**
  2. Hacer clic en el botón **"Detalles"**
 
@@ -120,3 +123,20 @@ Siga estos pasos para habilitar el seguimiento del sitio:
  6. Hacer clic en el botón **"Save"**
 
 ![Habilitar la integración con Core Experience Insights](/images/teamsite-enable-experience-insights-integration.png)
+
+### Habilitar el rastreo de la página
+
+Completemos estos pasos para habilitar el **seguimiento de la página**:
+ 1. Navegar a nuestro **sitio web**
+ 2. Hacer clic en **"Edit"** en nuestra **página**
+ 
+![TeamSite - editar página](/images/teamsite-edit-page.png)
+
+ 3. Hacer clic en el 'icono de la hamburguesa' en la parte superior izquierda
+ 4. Hacer clic en la pestaña **"Advanced"**
+ 5. Ampliar la sección **"Analytics"**
+ 6. Seleccione la verificación **"Track Page View"**
+ 7. Hacer clic en el botón "Save"
+ 
+![TeamSite - habilitar el seguimiento de la página](/images/teamsite-track-page-view.jpg)
+ 
