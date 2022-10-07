@@ -190,16 +190,22 @@ Vamos a configurar nuestro *data point*. Para ello tenemo que:
  
 ### Añadir un cuadro de mandos
  
- 1. Clic en el botón **"Test"** de la esquina superior derecha
- 2. Clic en el botón **"Activate"** de la esquina superior derecha
+A continuación, añadiremos un *cuadro de mandos* para poder visualizar el viaje del cliente en nuestro sitio web 
+ 
+ 1. Hacer clic en el botón **"Test"** de la esquina superior derecha
+ 2. Hacer clic en el botón **"Activate"** de la esquina superior derecha
  
    ![Core Experience Insights - añadir data point](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-dashboard.png) 
  
- 3. Clic en el botón **"Add dashboard"** de la sección *Dashboards*
+ 3. Hacer clic en el botón **"Add dashboard"** de la sección *Dashboards*
 
    ![Core Experience Insights - añadir dashboard](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-add-data-set-dashboard.png) 
 
+ 4. Seleccionar el tipo de gráfico
+ 5. Hacer clic en el botón **"Next"**
 
+    ![Core Experience Insights - seleccionar el tipo de gráfico](/images/2022-10-07-integracion-de-teamsite-y-core-experience-insights/core-experience-insights-drill-down.png) 
+ 
 
 
  
