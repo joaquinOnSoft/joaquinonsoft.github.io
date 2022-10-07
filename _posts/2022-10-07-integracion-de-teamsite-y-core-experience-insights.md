@@ -1,5 +1,5 @@
 ---
-title: "Integración de TeamSite y Core Experience Insights "
+title: "Integración de TeamSite y Core Experience Insights"
 header:
   image: /images/2022-10-07-integracion-de-teamsite-y-core-experience-insights.md/core-experience-insights-dashboard-drill-down.png
   og_image: /images/2022-10-07-integracion-de-teamsite-y-core-experience-insights.md/core-experience-insights-dashboard-drill-down.png
@@ -40,14 +40,16 @@ En entornos de demostración de OpenText, por lo general, el archivo **covisint.
 
 Primero, necesitamos configurar el **API de Covisint** para que funcione con TeamSite en un entorno en contenedores
 
-Podemos [https://webapp.opentext.com/piroot/wcts/v220200/wcts-cdg/en/html/jsframe.htm?inject-config-files](inyectar archivos de configuración) 
+Podemos [inyectar archivos de configuración](https://webapp.opentext.com/piroot/wcts/v220200/wcts-cdg/en/html/jsframe.htm?inject-config-files) 
 almacenados en la carpeta de personalización del paquete de implementación de TeamSite y usar un script para transferirlos y hacerlos visibles 
 para los contenedores de TeamSite en Kubernetes. Este método utiliza la función ConfigMap de Kubernetes, que está diseñada para archivos de 
 configuración más pequeños basados ​​en texto.
 
 Copie el archivo de configuración que desea inyectar en los contenedores de TeamSite en el siguiente directorio de su máquina de implementación:
 
-> <paquete>/configfiles/<configmap>/<ruta de destino>/
+```
+ <paquete>/configfiles/<configmap>/<ruta de destino>/
+```
 
 dónde:
  - `<configmap>` es uno de los siguientes nombres de los objetos del mapa de configuración que se usan para transferir los archivos 
@@ -76,7 +78,10 @@ Debemos seguir los siguientes pasos:
  5. Reiniciar el servidor y los pods comenzarán: `sudo reboot now`
  
  6. Verificar que los cambios se hayan aplicado:
-    > kubectl exec -it -n runtime lsds-0 -- cat /Interwoven/LiveSiteDisplayServices/runtime/web/WEB-INF/conf/livesite_customer/covisint.properties
+
+    ```
+	kubectl exec -it -n runtime lsds-0 -- cat /Interwoven/LiveSiteDisplayServices/runtime/web/WEB-INF/conf/livesite_customer/covisint.properties
+    ```
 
 ### covisint.properties (puntos comunes)
 
