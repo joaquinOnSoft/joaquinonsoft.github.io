@@ -48,19 +48,23 @@ configuración más pequeños basados ​​en texto.
 Copie el archivo de configuración que desea inyectar en los contenedores de TeamSite en el siguiente directorio de su máquina de implementación:
 
 ```
- <paquete>/configfiles/<configmap>/<ruta de destino>/
+ <bundle>/configfiles/<configmap>/<target path>/
 ```
 
 dónde:
  - `<configmap>` es uno de los siguientes nombres de los objetos del mapa de configuración que se usan para transferir los archivos 
     de configuración a los pods: **authoring**, **fluentd**, **indexer**, **logrotate**, **lsdsrt**, **lscsrt**, **odauthoring**, **odreceiver**, 
 	**postgres**, **prometheus**, **solr**, **webd**, y **zookeeper**
- - `<ruta de destino>` es la ruta completa al directorio del archivo en el sistema de archivos del contenedor. Podemos crear uno o más de estos directorios según sea necesario.
+ - `<target path>` es la ruta completa al directorio del archivo en el sistema de archivos del contenedor. Podemos crear uno o más de estos directorios según sea necesario.
 
 Debemos seguir los siguientes pasos:
 
  1. Editar el fichero:  
     > /home/otadmin/helm_charts/teamsite/bundle/configfiles/lsdsrt/Interwoven/LiveSiteDisplayServices/runtime/web/WEB-INF/conf/livesite_customer/covisint.properties 
+	
+	| /home/otadmin/helm_charts/teamsite/bundle | /configfiles | /lsdsrt   | /Interwoven/LiveSiteDisplayServices/runtime/web/WEB-INF/conf/livesite_customer/covisint.properties |
+    |-------------------------------------------|--------------|-----------|----------------------------------------------------------------------------------------------------|
+	| Bundle                                    |              | Configmap | Target path                                                                                        |
 	
  2. Cambiar el directorio a /home/otadmin/Desktop/customization: 
     > cd /home/otadmin/Desktop/customization/
