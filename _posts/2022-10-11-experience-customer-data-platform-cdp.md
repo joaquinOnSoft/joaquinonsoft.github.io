@@ -17,20 +17,20 @@ la experiencia del cliente podrán aumentar las tasas de conversión a lo largo 
 
 **Experience Customer Data Platform (CDP)** permite el acceso a datos de clientes enriquecidos para una orientación 
 avanzada y personalización en todos los puntos de contacto del cliente. Al capturar los comportamientos en línea de 
-un cliente y asociar esos comportamientos a una audiencia, Experience CDP puede crear un perfil del usuario para la 
-orientación y una personalización más profunda. Esta personalización más profunda puede aumentar las tasas de 
+un cliente y asociar esos comportamientos a una audiencia, **Experience CDP** puede crear un perfil del usuario para una
+segmentación y personalización más profunda. Esta personalización más profunda puede aumentar las tasas de 
 conversión al adaptar el contenido y las comunicaciones en función de las preferencias e intereses del usuario.
 
 **Experience CDP** se integra con *Google Analytics* para capturar la actividad del cliente en un sitio web, 
 definir audiencias según las características y registrar la pertenencia a una `audiencia` en el perfil de cada cliente.
 
-Experiencia CDP permite:
+**Experience CDP** permite:
  - Experiencias omnicanal perfectas que aprovechan los datos de los clientes, como eventos, audiencias, propiedades y consentimiento
- - Entrega de relevancia a través de canales que conducen a tasas de conversión más altas
+ - Presentar contenido relevante a través de canales que conducen a tasas de conversión más altas
  - Mejora de la afinidad y la lealtad de la marca, lo que lleva a clientes más comprometidos
- - Integración de Google Analytics para capturar comportamientos de los clientes.
+ - Integración de `Google Analytics para capturar comportamientos de los clientes.
 
-Experience CDP es parte de OpenText Experience Cloud, un conjunto de productos que le permite interactuar con sus usuarios en una sola plataforma.
+**Experience CDP** es parte de **OpenText Experience Cloud**, un conjunto de productos que permite interactuar con sus usuarios en una sola plataforma.
 
 Experience CDP funciona con las siguientes aplicaciones de **Experience Cloud**:
 
