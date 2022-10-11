@@ -32,7 +32,7 @@ definir audiencias según las características y registrar la pertenencia a una 
 
 **Experience CDP** es parte de **OpenText Experience Cloud**, un conjunto de productos que permite interactuar con sus usuarios en una sola plataforma.
 
-Experience CDP funciona con las siguientes aplicaciones de **Experience Cloud**:
+**Experience CDP** funciona con las siguientes aplicaciones de **Experience Cloud**:
 
 - **OpenText™ Exstream™** 21.4 o posterior
 - **OpenText™ TeamSite™** 21.4 o posterior
