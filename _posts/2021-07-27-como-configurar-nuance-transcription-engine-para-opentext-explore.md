@@ -96,6 +96,7 @@ El último fichero de configuración que debemos actualizar es **appsettings.jso
 debemos asignar el nuevo valor **"spa-ESP"** al atributo **"Language"**. Nuestro fichero 
 de configuración deberá tener un aspecto similar a este:
 
+> **NOTA:** Habitualmente el fichero **appsettings.json** se encuentra el directorio `C:\Program Files (x86)\opentext\STeMS`
 
 ```json
  ...
