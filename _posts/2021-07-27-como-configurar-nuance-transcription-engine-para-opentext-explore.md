@@ -79,7 +79,7 @@ También vamos a definir el idioma que queremos usar con el motor de transcripci
 **production.yaml**
 
 > El fichero **production.yaml** esta ubicado en 
-> **C:\ProgramData\Nuance\Transcription Engine\config\production.yaml**
+> **C:\ProgramData\Nuance\Transcription Webclient\config\production.yaml**
 
 En este caso debemos utiliza el código de idioma y código de país de 3 letras:
 
