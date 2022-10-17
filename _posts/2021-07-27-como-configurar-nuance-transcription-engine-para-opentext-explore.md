@@ -21,7 +21,7 @@ de los clientes casi en tiempo real, lo que permite resolver problemas de manera
 ventas en todos los canales.
 
 Aunque la caliad de las transcripciones ofrecida por defecto es alta, podemos mejorar entrenar a 
-*Nuance Transcription Engine (NTE)*, el motot de transcripción utilizado por *Explore*, para mejorar la 
+*Nuance Transcription Engine (NTE)*, el motor de transcripción utilizado por *Explore*, para mejorar la 
 calidad y preción de las transcripciones. Vamos a ver que pasos tenemos que dar para configurar el sistema y abordar esta tarea.
 
 ## Como configurar el sistema para mejorar la calidad de las transcripciones
