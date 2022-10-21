@@ -29,7 +29,7 @@ en el mismo dominio pero con diferentes subdominios. Si no configuramos CORS par
 origen cruzado, tendremos errores como el que se muestra a continuación cuando *LSDS* 
 envía una solicitud a *LSCS*.
 
-![no access control allow horigin header is present](/images/2022-10-24-configurar-encabezados-cors-en-un-teamsite-containerizado/no-access-control-allow-horigin-header-is-present.png.)
+![no access control allow horigin header is present](/images/2022-10-24-configurar-encabezados-cors-en-un-teamsite-containerizado/no-access-control-allow-horigin-header-is-present.png)
 
 En un TeamSite containerizado debemos seguir los siguietes pasos para habilitar *CORS*:
  - Editar el fichero `/home/otadmin/helm_charts/teamsite/bundle/configfiles/lscsrt/Interwoven/LiveSiteCSRT/runtime/webapps/lscs/WEB-INF/web.xml`
