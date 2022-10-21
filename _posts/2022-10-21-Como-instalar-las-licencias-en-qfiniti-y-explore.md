@@ -24,7 +24,42 @@ necesaria cuando instalamos el servidor por primera vez, o bien porque las licen
 > Centros de Atención al Cliente ver las interacciones a través de diversos canales colectivamente para 
 > obtener una imagen completa de los comportamientos y las relaciones de los clientes.
 
+
+Los ficheros de licencias pueden tener la extensión **.lic** o **.xml**. El nombre de los archivos 
+y el número de ellos dependerá de los módulos contratados.
+
+Habitualmente los tienen ficheros de licencia tienen nombres similares a estos:
+
+```
+Qfiniti 20 Demo-Advise-250-exp-07.31.23.lic
+Qfiniti 20 Demo-API-1-exp-07.31.23.lic
+Qfiniti 20 Demo-Expert-250-exp-07.31.22.lic
+Qfiniti 20 Demo-ICE-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Live Assist-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Obs Screen-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Obs Voice-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Observe ARI Avaya Switch-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Optimize Guide-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Optimize Measure-250-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Explore AutoScore-250-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Explore Ultimate-exp-7-31-23.lic
+Qfiniti 20 Demo-OT Qfiniti AutoScore-250-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Explore Analytics Connector-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Explore Ingestion-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Explore Users-25-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Speech Analytics-1500-exp-07.31.23.lic
+Qfiniti 20 Demo-Survey-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Switch Conn-Avaya-1-exp-07.31.23.lic
+Qfiniti 20 Demo-Workforce Avaya Switch-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Workforce Connector for Email-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Workforce Connector for SMS Text-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Workforce Connector for Staging Database-250-exp-07.31.23.lic
+Qfiniti 20 Demo-Workforce-250-exp-07.31.23.lic
+```
+
 ## Instalar las licencias de Qfiniti
+
+Para instalar las licencias en Qfiniti debemos seguir los siguientes pasos:
 
  - Acceder a nuestro servidor de Qfiniti con un usuario administrador
  - Navegar al menú `Administer > Settings >  License Settings` 
