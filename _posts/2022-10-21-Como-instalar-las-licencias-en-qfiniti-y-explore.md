@@ -71,7 +71,7 @@ Para instalar las licencias de OpenText Qfiniti debemos seguir los siguientes pa
  
    ![Qfiniti a license key is required for each product](/images/2022-10-21-Como-instalar-las-licencias-en-qfiniti-y-explore/02-qfiniti-a-license-key-is-required-for-each-product.png)
 
- - Pulsamos el botón **Browse...*
+ - Pulsamos el botón **Browse...**
  - Se muestra un pop-up de selección de archivos del `Explorador de Windows`
  
    ![Qfiniti import license keys](/images/2022-10-21-Como-instalar-las-licencias-en-qfiniti-y-explore/03-qfinit-import-license-keys.png)
