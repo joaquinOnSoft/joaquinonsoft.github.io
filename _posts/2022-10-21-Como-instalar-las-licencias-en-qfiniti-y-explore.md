@@ -28,7 +28,7 @@ necesaria cuando instalamos el servidor por primera vez, o bien porque las licen
 Los ficheros de licencias pueden tener la extensión **.lic** o **.xml**. El nombre de los archivos 
 y el número de ellos dependerá de los módulos contratados.
 
-Habitualmente los tienen ficheros de licencia tienen nombres similares a estos:
+Habitualmente los ficheros de licencia tienen nombres similares a estos:
 
 ```
 Qfiniti 20 Demo-Advise-250-exp-07.31.23.lic
@@ -59,7 +59,7 @@ Qfiniti 20 Demo-Workforce-250-exp-07.31.23.lic
 
 ## Instalar las licencias de Qfiniti
 
-Para instalar las licencias en Qfiniti debemos seguir los siguientes pasos:
+Para instalar las licencias de OpenText Qfiniti debemos seguir los siguientes pasos:
 
  - Acceder a nuestro servidor de Qfiniti con un usuario administrador
  - Navegar al menú `Administer > Settings >  License Settings` 
@@ -76,7 +76,7 @@ Para instalar las licencias en Qfiniti debemos seguir los siguientes pasos:
  
    ![Qfiniti import license keys](/images/2022-10-21-Como-instalar-las-licencias-en-qfiniti-y-explore/03-qfinit-import-license-keys.png)
 
- - Seleccionamos los ficheros **.lic** o **.xml** que se nos hayan proporcionado (excepto los que cotienen `explore`en su nombre)
+ - Seleccionamos los ficheros **.lic** o **.xml** que se nos hayan proporcionado (excepto los que contienen `explore` en su nombre)
  
    ![qfinit license keys explorer pop-up](/images/2022-10-21-Como-instalar-las-licencias-en-qfiniti-y-explore/04-qfinti-license-keys-explorer-pop-up.png)
    
@@ -89,3 +89,26 @@ Para instalar las licencias en Qfiniti debemos seguir los siguientes pasos:
 > Conviene destacar que junto a los módulos `OpenText Explore #Agents` y `Qfiniti Explore` 
 > se indica **N/A** (no aplica), ya que las licencias de relativas a Explore se gestionan desde
 > la pantalla de administración de Explore
+
+## Instalar las licencias de Explore
+
+Para instalar las licencias de OpenText Explorer debemos seguir los siguientes pasos:
+
+ - Abrir un *explorador de archivos* en el directorio `<EXPLORE_HOME>Explore\ExploreWeb\Licenses`. 
+   En nuestro ejemplo, `C:\Program Files (x86)\OpenText\Explore\ExploreWeb\Licenses`
+   
+   > NOTA: En caso de que el directorio `Licenses` no exista tendremos que crearlo.
+   
+ - Eliminar los ficheros de licencia expirados
+ - Copiar los archivos de licencia, que pueden tener extensión .lic o .xml, en el direcorio `Licenses`
+ - Abrir la aplicación `Command Prompt`
+ - Reiniciar `IIS`. Para ello ejecutaremos el comando `iisreset`
+
+Listo ya podemos acceder a Qfiniti y Explore. Las licencias ya están instaladas 
+ 
+
+```
+Qfiniti 20 Demo-OT Qfiniti Explore Analytics Connector-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Explore Ingestion-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Explore Users-25-exp-07.31.23.lic
+```
