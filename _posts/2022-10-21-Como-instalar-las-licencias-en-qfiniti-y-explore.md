@@ -100,15 +100,18 @@ Para instalar las licencias de OpenText Explorer debemos seguir los siguientes p
    > NOTA: En caso de que el directorio `Licenses` no exista tendremos que crearlo.
    
  - Eliminar los ficheros de licencia expirados
- - Copiar los archivos de licencia, que pueden tener extensión .lic o .xml, en el direcorio `Licenses`
+ - Copiar los archivos de licencia, que pueden tener extensión .lic o .xml, en el direcorio `Licenses`.
+   En este ejemplo copiaremos estos 3 ficheros:
+ 
+```
+Qfiniti 20 Demo-OT Qfiniti Explore Analytics Connector-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Explore Ingestion-exp-07.31.23.lic
+Qfiniti 20 Demo-OT Qfiniti Explore Users-25-exp-07.31.23.lic
+```
+ 
  - Abrir la aplicación `Command Prompt`
  - Reiniciar `IIS`. Para ello ejecutaremos el comando `iisreset`
 
 Listo ya podemos acceder a Qfiniti y Explore. Las licencias ya están instaladas 
  
 
-```
-Qfiniti 20 Demo-OT Qfiniti Explore Analytics Connector-exp-07.31.23.lic
-Qfiniti 20 Demo-OT Qfiniti Explore Ingestion-exp-07.31.23.lic
-Qfiniti 20 Demo-OT Qfiniti Explore Users-25-exp-07.31.23.lic
-```
