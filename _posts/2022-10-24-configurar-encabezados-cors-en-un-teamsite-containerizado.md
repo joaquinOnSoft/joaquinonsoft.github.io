@@ -5,8 +5,7 @@ header:
   og_image: /images/2022-10-24-configurar-encabezados-cors-en-un-teamsite-containerizado/no-access-control-allow-horigin-header-is-present.png
 tags:
   - OpenText
-  - Qfiniti
-  - Explore
+  - TeamSite
 last_modified_at: 2022-10-24T19:27:15-04:00
 ---
 
