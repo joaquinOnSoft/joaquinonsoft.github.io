@@ -63,6 +63,7 @@ Para solucionarlo debemos seguir los siguientes pasos:
    ```shell
    systemctl start xrdp
    ```
+   
 Una vez hecho esto podemos lanzar nuestra conexión RDP. Esta vez funcionará sin problemas.
 
 ![SUSE xRDP connection](/images/2022-10-25-pantalla-en-negro-tras-login-con-xrdp-en-suse/suse-xrdp-connection.png)
