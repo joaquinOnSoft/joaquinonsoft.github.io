@@ -11,7 +11,7 @@ last_modified_at: 2022-10-25T20:32:22-04:00
 
 Hoy veremos como solucionar el problema de encontrarnos con una pantalla en negro tras hacer login en xRDP en SUSE.
 
-Si utlizas `xRDP` para conectarte a un servidor SUSE, en ocasiones puedes encontrar una pantalla en negro tras la pantalla de *login*.
+Si utilizas `xRDP` para conectarte a un servidor SUSE, en ocasiones puedes encontrar una pantalla en negro tras la pantalla de *login*.
 
 ![xRDP login popup](/images/2022-10-25-pantalla-en-negro-tras-login-con-xrdp-en-suse/xRDP-login-popup.png)
 
@@ -46,7 +46,7 @@ Para solucionarlo debemos seguir los siguientes pasos:
    root     pts/1        Oct 25 11:37   .        240868 (62.YYY.YYY.YY)
    ```
 
-   > **NOTA**: Si no estas seguro de cual es tu IP puede saberlo accediendo a [What Is My IP ADrress? - ifconfig.me](https://ifconfig.me/)
+   > **NOTA**: Si no estás seguro de cuál es tu IP puede saberlo accediendo a [What Is My IP ADrress? - ifconfig.me](https://ifconfig.me/)
    
  - Vamos a finalizar las conexiones que no se corresponden con nuestra IP. 
  
