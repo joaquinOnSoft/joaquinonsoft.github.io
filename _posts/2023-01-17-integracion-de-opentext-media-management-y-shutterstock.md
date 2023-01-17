@@ -32,17 +32,16 @@ Debemos acceder al portal de Desarrollador de ShutterStock:
    
    -	Introduzca los siguientes valores sustituyendo su VM
    
-      a.	**AppName**: Nombre de nuestra aplicación, i.e. OTMM Joaquín On Software
-      b.	**Callback URL**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
-      c.	**Referrer**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
-      d.	**Included products**: Lista de productos a incluir. Dejar todas las casillas marcadas
-      e.	**Company name**: Nombre de la empresa, i.e. Joaquín On Software
-      f.	**Página web**: https://www.joaquinonsoft.com
-      g.	**Intended use**: Seleccionar el valor `API integration for my company` en la lista desplegable
-      h.	**Description**: Descripción de la aplicación, i.e. "Se utiliza para conectar Shutterstock con el servidor de OTMM de Joaquín On Soft"
-      i.	**Terms of service**: Marque la casilla para aceptar las condiciones
-	  
-	  
+      -	**AppName**: Nombre de nuestra aplicación, i.e. OTMM Joaquín On Software
+      -	**Callback URL**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
+      -	**Referrer**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
+      -	**Included products**: Lista de productos a incluir. Dejar todas las casillas marcadas
+      -	**Company name**: Nombre de la empresa, i.e. Joaquín On Software
+      -	**Página web**: https://www.joaquinonsoft.com
+      -	**Intended use**: Seleccionar el valor `API integration for my company` en la lista desplegable
+      -	**Description**: Descripción de la aplicación, i.e. "Se utiliza para conectar Shutterstock con el servidor de OTMM de Joaquín On Soft"
+      -	**Terms of service**: Marque la casilla para aceptar las condiciones
+	  	  
 	  ![ShutterStock - Save new app](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-save-new-app.png)
 	  
    - Hacer clic en **Save**
@@ -50,14 +49,14 @@ Debemos acceder al portal de Desarrollador de ShutterStock:
    
    ![ShutterStock - Developers apps](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-developers-app.png)
    
-   - Para Clave de usuario y Secreto de usuario, haga clic en el globo ocular de la derecha con una línea que lo atraviesa para mostrar los valores. Copie estos valores para utilizarlos más tarde.
+   - Para Clave de usuario y Secreto de usuario, Hacer clic en el globo ocular de la derecha con una línea que lo atraviesa para mostrar los valores. Copie estos valores para utilizarlos más tarde.
 
 ### Actualización de las credenciales en OTMM
 
 A continuación debemos proporcionar las credenciales de la aplicación de Shutterstock en el panel de adminsitración de OTMM. 
 Para ello debemos seguir los siguientes pasos:
 
-   - Iniciar sesión en `Teams` en nuestro servidor de OTMM: http://<HOST_NAME>/teams
+   - Iniciar sesión en `Teams` en nuestro servidor de OTMM: http://[HOST_NAME]/teams
    - Hacer clic en `Security > Credentials`
    
    ![OpenText Media Management - Security > Credentials](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-security-credentials.png)
@@ -69,4 +68,29 @@ Para ello debemos seguir los siguientes pasos:
    - Hacer clic en `Save`
 
 
-![OpenText Media Management - Stock libraries - ShutterStock](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-stock-libraries-shutterstock.png)
+## Probando la integración con Shutterstock
+
+Una vez configurado la integración ente OpenText Media Management y ShutterStock vamos a probarla:
+
+   - Iniciar sesión en OTMM, i.e. http://[HOST_NAME]/teams
+   - Hacer clic en `Assets` en el menu lateral izquierdo
+   - Hacer clic en `Stock libraries (external)`
+   - Haz clic en `Shutterstock`
+   - Hacer clic en `Init Session in Shutterstock`
+   - Hacer clic en `Allow`
+   - Ahora veremos una lista de activos, imágenes y videos, de archivo que podemos buscar y/o importar. Si ha recibido un error relacionado con el nombre de host registrado, debe validar que el dominio de la URL del navegador es el mismo que introdujo en la URL de devolución de llamada y la referencia en la configuración anterior, yendo a la sección "Actualización de una aplicación API existente".
+
+   ![OpenText Media Management - Stock libraries - ShutterStock](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-stock-libraries-shutterstock.png)
+
+   - Para importar un activo, Hacer clic en él y se le presentará una lista de planes en la parte superior derecha. Esta lista puede cambiar con el tiempo y puede contener múltiples entradas
+   
+     > Si todos los planes tienen 0 descargas, no podremos descargar ningún recurso. 
+	 
+   - Después de seleccionar un plan, introduciremos los valores correspondientes para los campos *Purchase order (required)*, *Job*, *Client/Licensee* y *Other*. Estos campos pueden tomar los valores que deseemos.
+   
+   ![Shutterstock - Choose plan](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-shutterstock-choose-plan.png)
+   
+   - Hacer clic en `License`
+   - Rellenar el cuadro de diálogo `Import assets` según nuestras especificaciones
+   - Hacer clic en `Import`
+   - Un trabajo se ejecutará en segundo plano para importar el activo basado en sus especificaciones y posteriormente aparecera en Media Management. 
