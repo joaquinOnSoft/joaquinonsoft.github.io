@@ -30,18 +30,18 @@ Debemos acceder al portal de Desarrollador de ShutterStock:
    
    ![ShutterStock - Create new app](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-create-new-app.png)
    
-   -	Introduzca los siguientes valores sustituyendo su VM
+   - Introduzca los siguientes valores sustituyendo su VM
    
-      -	**AppName**: Nombre de nuestra aplicación, i.e. OTMM Joaquín On Software
-      -	**Callback URL**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
-      -	**Referrer**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
-      -	**Included products**: Lista de productos a incluir. Dejar todas las casillas marcadas
-      -	**Company name**: Nombre de la empresa, i.e. Joaquín On Software
-      -	**Página web**: https://www.joaquinonsoft.com
-      -	**Intended use**: Seleccionar el valor `API integration for my company` en la lista desplegable
-      -	**Description**: Descripción de la aplicación, i.e. "Se utiliza para conectar Shutterstock con el servidor de OTMM de Joaquín On Soft"
-      -	**Terms of service**: Marque la casilla para aceptar las condiciones
-	  	  
+      - **AppName**: Nombre de nuestra aplicación, i.e. OTMM Joaquín On Software
+	  -	**Callback URL**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
+	  -	**Referrer**: URL de nuestro servidor de OTMM, i.e. www.joaquinonsoft.com
+	  -	**Included products**: Lista de productos a incluir. Dejar todas las casillas marcadas
+	  -	**Company name**: Nombre de la empresa, i.e. Joaquín On Software
+	  -	**Página web**: https://www.joaquinonsoft.com
+	  -	**Intended use**: Seleccionar el valor `API integration for my company` en la lista desplegable
+	  -	**Description**: Descripción de la aplicación, i.e. "Se utiliza para conectar Shutterstock con el servidor de OTMM de Joaquín On Soft"
+	  -	**Terms of service**: Marque la casilla para aceptar las condiciones
+	  
 	  ![ShutterStock - Save new app](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-save-new-app.png)
 	  
    - Hacer clic en **Save**
