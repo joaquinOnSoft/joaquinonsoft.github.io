@@ -1,8 +1,8 @@
 ---
 title: "Integración de OpenText Media Management y ShutterStock"
 header:
-  image: /images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/pantalla-en-negro-tras-login-con-xrdp-en-suse.png
-  og_image: /images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/pantalla-en-negro-tras-login-con-xrdp-en-suse.png
+  image: /images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-stock-libraries-shutterstock.png
+  og_image: /images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-stock-libraries-shutterstock.png
 tags:
   - Shutterstock
   - OpenText Media Management
@@ -28,7 +28,7 @@ Debemos acceder al portal de Desarrollador de ShutterStock:
    -	Abrir un navegador web a la [página de desarrollador de Shutterstock para configurar aplicaciones API](https://www.shutterstock.com/account/developers/apps) 
    -	Hacer clic en el botón `Create new app`.
    
-   ![/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-create-new-app.png](ShutterStock - Create new app)
+   ![ShutterStock - Create new app](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-create-new-app.png)
    
    -	Introduzca los siguientes valores sustituyendo su VM
    
@@ -42,12 +42,13 @@ Debemos acceder al portal de Desarrollador de ShutterStock:
       h.	**Description**: Descripción de la aplicación, i.e. "Se utiliza para conectar Shutterstock con el servidor de OTMM de Joaquín On Soft"
       i.	**Terms of service**: Marque la casilla para aceptar las condiciones
 	  
-	  ![/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-save-new-app.png](ShutterStock - Save new app)
+	  
+	  ![ShutterStock - Save new app](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-save-new-app.png)
 	  
    - Hacer clic en **Save**
    - Buscar nuestra aplicación en la lista de aplicaciones
    
-   ![/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-developers-app.png](ShutterStock - Developers apps)
+   ![ShutterStock - Developers apps](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/shutterstock-developers-app.png)
    
    - Para Clave de usuario y Secreto de usuario, haga clic en el globo ocular de la derecha con una línea que lo atraviesa para mostrar los valores. Copie estos valores para utilizarlos más tarde.
 
@@ -59,7 +60,7 @@ Para ello debemos seguir los siguientes pasos:
    - Iniciar sesión en `Teams` en nuestro servidor de OTMM: http://<HOST_NAME>/teams
    - Hacer clic en `Security > Credentials`
    
-   ![/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-security-credentials.png](OpenText Media Management - Security > Credentials)
+   ![OpenText Media Management - Security > Credentials](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-security-credentials.png)
    
    - Hacer clic en Editar en la línea en la que el Nombre de credencial es `Shutterstock`
    - Introducir los valores de nuestra `App Shutterstock` como se indica a continuación
@@ -68,3 +69,4 @@ Para ello debemos seguir los siguientes pasos:
    - Hacer clic en `Save`
 
 
+![OpenText Media Management - Stock libraries - ShutterStock](/images/2023-01-17-integracion-de-opentext-media-management-y-shutterstock/opentext-media-management-stock-libraries-shutterstock.png)
