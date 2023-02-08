@@ -107,6 +107,10 @@ Por último, haremos clic en el botón `Generate Domain LM` y tras unos instante
 
 En nuestro ejemplo el DLM se llama "DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc"
 
+> Debemos copiar el fichero DLM que acabamos de generar al 
+> directorio *domainLM* de la instalación de Nuance Transcription Engine, 
+> en mi entorno, **C:\ProgramData\Nuance\Transcription Engine\domainLM**
+
 ### Deteniendo los servidores
 
 Una vez finalizado el trabajo mejora de la calidad de la transcrición es aconsejable detener los servidores:
