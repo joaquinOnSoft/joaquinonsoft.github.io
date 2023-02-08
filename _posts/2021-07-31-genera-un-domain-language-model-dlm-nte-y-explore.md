@@ -107,7 +107,7 @@ Por último, haremos clic en el botón `Generate Domain LM` y tras unos instante
 
 En nuestro ejemplo el DLM se llama "DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc"
 
-> Debemos copiar el fichero DLM que acabamos de generar al 
+> El DLM que acabamos de generar se copia automáticamente en el 
 > directorio *domainLM* de la instalación de Nuance Transcription Engine, 
 > en mi entorno, **C:\ProgramData\Nuance\Transcription Engine\domainLM**
 
