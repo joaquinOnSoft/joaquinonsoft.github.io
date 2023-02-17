@@ -78,7 +78,7 @@ Hemos de seguir estos pasos para volver a importar a *Solr*
   1. Borrar todos los registros de *Solr*
     - Desde la línea de comandos:
 
-    ```console
+    ```
     cd D:\SolrCloud\solr-7.3.3\example\exampledocs
 
     java -Dc=interaction -Ddata=args -Dcommit=true - jar post.jar "<delete><query>*</query></delete>"
