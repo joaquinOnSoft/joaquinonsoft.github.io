@@ -83,6 +83,7 @@ Hemos de seguir estos pasos para volver a importar a *Solr*
 
     java -Dc=interaction -Ddata=args -Dcommit=true - jar post.jar "<delete><query>*</query></delete>"
     ```
+    
     - También puede hacerse desde la interfaz de usuario de *Solr*.
 
   ![Solr delete documents](/images/2023-02-17-retranscribir-llamadas-en-opentext-explore/solr-delete-documents.png)
