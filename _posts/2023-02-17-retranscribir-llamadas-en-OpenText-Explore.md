@@ -79,11 +79,11 @@ Hemos de seguir estos pasos para volver a importar a *Solr*
 
      - Desde la línea de comandos:
 
-```console
-cd D:\SolrCloud\solr-7.3.3\example\exampledocs
+     ```console
+     cd D:\SolrCloud\solr-7.3.3\example\exampledocs
 
-java -Dc=interaction -Ddata=args -Dcommit=true - jar post.jar "<delete><query>*</query></delete>"
-```
+     java -Dc=interaction -Ddata=args -Dcommit=true - jar post.jar "<delete><query>*</query></delete>"
+     ```
 
      - También puede hacerse desde la interfaz de usuario de Solr
 
