@@ -87,11 +87,11 @@ Para **OTMM 22.4+**:
    1. Abra un `terminal/konsole`
    2. Ejecute uno o ambos de los siguientes comandos dependiendo de si necesita aplicar los cambios al entorno de creación, al entorno de ejecución o a ambos:
 
-   ```consolse
-   /home/otadmin/helm_charts/teamsite/bundle/applyAuthoringConfig.sh -n authoring
-   
-   /home/otadmin/helm_charts/teamsite/bundle/applyRuntimeConfig.sh -n runtime
-   ```
+```consolse
+/home/otadmin/helm_charts/teamsite/bundle/applyAuthoringConfig.sh -n authoring
+
+/home/otadmin/helm_charts/teamsite/bundle/applyRuntimeConfig.sh -n runtime
+```
 
    3. Esto forzará el reinicio de los pods. Espere a que los pods se inicien y pruebe su personalización.
 
