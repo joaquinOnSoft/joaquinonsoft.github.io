@@ -66,18 +66,20 @@ Habrá algunos ejemplos en la VM como `/home/otadmin/helm_charts/teamsite/bundle
 
 Después de haber actualizado los archivos de configuración, tendrás que aplicarlos haciendo una de las siguientes cosas dependiendo de la versión de la VM que tengas. 
 
-Para **22.4+**
+Para **OTMM 22.4+**
    1. Abra un `terminal/konsole`
    2. Ejecute uno o ambos de los siguientes comandos dependiendo de si necesita aplicar los cambios al entorno de creación, al entorno de ejecución o a ambos:
       a.	`/home/otadmin/helm_charts/teamsite/bundle/applyAuthoringConfig.sh -n authoring`
       b.	`/home/otadmin/helm_charts/teamsite/bundle/applyRuntimeConfig.sh -n runtime`
    3. Esto forzará el reinicio de los pods. Espere a que los pods se inicien y pruebe su personalización.
 
-Para **22.2**
+Para **OTMM 22.2**
    1. Abra una `terminal/konsole`
    2. Vaya a `/home/otadmin/Desktop/customization`
-   3. Ejecute `./customizehostname.sh <vmname>`.
-      a.	Para `<nombrevm>` no añada el **.eimdemo.com** o **-ui.eimdemo.com** o **-lsds.eimdemo.com** o **-lscs.eimdemo.com**.  Indique sólo el nombre de la máquina virtual.  
-	        Por ejemplo, si el nombre de su máquina virtual es *teamsite.eimdemo.com* (URL OTDS), indique sólo *teamsite* para *<nombrevm>*.
+   3. Ejecute `./customizehostname.sh <vm-name>`.
+      a.	Para `<vm-name>>` no añada el **.eimdemo.com** o **-ui.eimdemo.com** o **-lsds.eimdemo.com** o 
+         **-lscs.eimdemo.com**.  Indique sólo el nombre de la máquina virtual.  
+         Por ejemplo, si el nombre de su máquina virtual es *teamsite.eimdemo.com* (URL OTDS), 
+         indique sólo *teamsite* para *<vm-name>*.
       b.	Introduzca Y para aplicar las personalizaciones
    4. Esto forzará el reinicio de los pods. Espere a que se inicien los pods y pruebe su personalización.
