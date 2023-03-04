@@ -61,21 +61,37 @@ A continuación debemos aplicar los cambios descritos en la siguiente sección.
 Si necesitamos modificar los archivos de configuración predeterminados de la carpeta `/home/otadmin/helm_charts/teamsite/bundle/configfiles/`, estas instrucciones le ayudarán a aplicar los cambios después de realizarlos. 
 
 Tenga en cuenta que a partir de **Teamsite 22.4**, los archivos de configuración por defecto 
-se proporcionan en `/home/otadmin/helm_charts/teamsite/bundle/configfiles.default/` y cualquier cambio que deba realizarse requiere copiar primero el archivo y su jerarquía desde la carpeta `configfiles.default` 
-a la carpeta `/home/otadmin/helm_charts/teamsite/bundle/configfiles`.  
+se proporcionan en:
 
-Habrá algunos ejemplos en la VM como `/home/otadmin/helm_charts/teamsite/bundle/configfiles/webd/etc/iw.cfg`.
+```console
+/home/otadmin/helm_charts/teamsite/bundle/configfiles.default/
+```
 
-Después de haber actualizado los archivos de configuración, tendrás que aplicarlos haciendo una de las siguientes cosas dependiendo de la versión de la VM que tengas. 
+Cualquier cambio que deba realizarse requiere copiar primero el archivo y su jerarquía 
+desde la carpeta `configfiles.default` a la carpeta:
 
-Para **OTMM 22.4+**
+```console
+/home/otadmin/helm_charts/teamsite/bundle/configfiles
+```  
+
+Habrá algunos ejemplos en la VM como:
+
+```console
+/home/otadmin/helm_charts/teamsite/bundle/configfiles/webd/etc/iw.cfg
+```
+
+Después de haber actualizado los archivos de configuración, tendrás que aplicarlos haciendo una de las siguientes acciones, dependiendo de la versión de la VM que tengas. 
+
+Para **OTMM 22.4+**:
+
    1. Abra un `terminal/konsole`
    2. Ejecute uno o ambos de los siguientes comandos dependiendo de si necesita aplicar los cambios al entorno de creación, al entorno de ejecución o a ambos:
       -	`/home/otadmin/helm_charts/teamsite/bundle/applyAuthoringConfig.sh -n authoring`
       -	`/home/otadmin/helm_charts/teamsite/bundle/applyRuntimeConfig.sh -n runtime`
    3. Esto forzará el reinicio de los pods. Espere a que los pods se inicien y pruebe su personalización.
 
-Para **OTMM 22.2**
+Para **OTMM 22.2**:
+
    1. Abra una `terminal/konsole`
    2. Vaya a `/home/otadmin/Desktop/customization`
    3. Ejecute `./customizehostname.sh <vm-name>`.
