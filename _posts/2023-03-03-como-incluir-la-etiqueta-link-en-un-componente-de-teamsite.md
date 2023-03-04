@@ -37,7 +37,7 @@ Debemos añadir lo siguiente al final de `modsecurity.conf.template`
 SecRuleRemoveById 973321
 ```
 
-Debemos repetir los pasos anteriormente descritos para el fichero `modsecurity.conf.template` alojado en `/home/otadmin/helm_charts/teamsite/bundle/configfiles.default/webd`. 
+Tenemos que repetir los pasos anteriormente descritos para el fichero `modsecurity.conf.template` alojado en `/home/otadmin/helm_charts/teamsite/bundle/configfiles.default/webd`. 
 
 **Origen**
 
@@ -80,6 +80,6 @@ Para **OTMM 22.2**
       -	Para `<vm-name>` no añada el **.eimdemo.com** o **-ui.eimdemo.com** o **-lsds.eimdemo.com** o 
          **-lscs.eimdemo.com**.  Indique sólo el nombre de la máquina virtual.  
          Por ejemplo, si el nombre de su máquina virtual es *teamsite.eimdemo.com* (URL OTDS), 
-         indique sólo *teamsite* para `<vm-name>`.
+         indique sólo *teamsite* para `<vm-name>.
       -	Introduzca Y para aplicar las personalizaciones
    4. Esto forzará el reinicio de los pods. Espere a que se inicien los pods y pruebe su personalización.
