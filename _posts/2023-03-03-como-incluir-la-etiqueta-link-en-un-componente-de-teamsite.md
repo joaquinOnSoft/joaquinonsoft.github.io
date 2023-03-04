@@ -58,10 +58,12 @@ A continuación debemos aplicar los cambios descritos en la siguiente sección.
 
 ## Aplicación de cambios, en los archivos de configuración, a nuestro Teamsite basado en contenedores
 
-Si necesitamos modificar los archivos de configuración predeterminados de la carpeta `/home/otadmin/helm_charts/teamsite/bundle/configfiles/`, 
-estas instrucciones le ayudarán a aplicar los cambios después de realizarlos. Tenga en cuenta que a partir de **Teamsite 22.4**, los archivos de 
-configuración por defecto se proporcionan en `/home/otadmin/helm_charts/teamsite/bundle/configfiles.default/` y cualquier cambio que deba realizarse 
-requiere copiar primero el archivo y su jerarquía desde la carpeta configfiles.default a la carpeta `/home/otadmin/helm_charts/teamsite/bundle/configfiles`.  
+Si necesitamos modificar los archivos de configuración predeterminados de la carpeta `/home/otadmin/helm_charts/teamsite/bundle/configfiles/`, estas instrucciones le ayudarán a aplicar los cambios después de realizarlos. 
+
+Tenga en cuenta que a partir de **Teamsite 22.4**, los archivos de configuración por defecto 
+se proporcionan en `/home/otadmin/helm_charts/teamsite/bundle/configfiles.default/` y cualquier cambio que deba realizarse requiere copiar primero el archivo y su jerarquía desde la carpeta `configfiles.default` 
+a la carpeta `/home/otadmin/helm_charts/teamsite/bundle/configfiles`.  
+
 Habrá algunos ejemplos en la VM como `/home/otadmin/helm_charts/teamsite/bundle/configfiles/webd/etc/iw.cfg`.
 
 Después de haber actualizado los archivos de configuración, tendrás que aplicarlos haciendo una de las siguientes cosas dependiendo de la versión de la VM que tengas. 
