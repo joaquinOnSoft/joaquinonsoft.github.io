@@ -77,7 +77,7 @@ Para **OTMM 22.2**
    1. Abra una `terminal/konsole`
    2. Vaya a `/home/otadmin/Desktop/customization`
    3. Ejecute `./customizehostname.sh <vm-name>`.
-      -	Para `<vm-name>>` no añada el **.eimdemo.com** o **-ui.eimdemo.com** o **-lsds.eimdemo.com** o 
+      -	Para `<vm-name>` no añada el **.eimdemo.com** o **-ui.eimdemo.com** o **-lsds.eimdemo.com** o 
          **-lscs.eimdemo.com**.  Indique sólo el nombre de la máquina virtual.  
          Por ejemplo, si el nombre de su máquina virtual es *teamsite.eimdemo.com* (URL OTDS), 
          indique sólo *teamsite* para *<vm-name>*.
