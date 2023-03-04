@@ -56,7 +56,7 @@ Tenemos que repetir los pasos anteriormente descritos para el fichero `modsecuri
 A continuación debemos aplicar los cambios descritos en la siguiente sección.
 
 
-## Aplicación de los cambios en los archivos de configuración al sistema contenedor de Teamsite
+## Aplicación de cambios, en los archivos de configuración, a nuestro Teamsite basado en contenedores
 
 Si necesitamos modificar los archivos de configuración predeterminados de la carpeta `/home/otadmin/helm_charts/teamsite/bundle/configfiles/`, 
 estas instrucciones le ayudarán a aplicar los cambios después de realizarlos. Tenga en cuenta que a partir de **Teamsite 22.4**, los archivos de 
