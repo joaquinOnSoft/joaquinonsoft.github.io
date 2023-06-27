@@ -222,3 +222,15 @@ A **communication set** is a resource that combines other communication resource
 
 *Communication sets* can also be used to create communications that are the basis for *Content Author* templates.
 
+Follow these steps to create a *Communication set*:
+
+ - Click on `Communication asset library` option in the left-hand-side menu
+ - Click on `Communication sets` tab
+ - Click on `Add` button
+ - Provide the required information:
+    - **Name**: HelloWorld
+ - Click on `Save` button
+ 
+ ![Create new data source](../images/2023-06-26-hello-world-with-exstream/17-exstream-communications-set-hello-world.png)	  
+ 
+#### Delivery  
