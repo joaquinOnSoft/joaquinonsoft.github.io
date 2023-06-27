@@ -306,6 +306,8 @@ We´ll generate a second output queue following the previous steps, just changin
 
 ####  Communication sets (continued) 
 
+##### Adding output queues to 'HelloWorld' communication set
+
  - Click on `Communication asset library` option in the left-hand-side menu
  - Click on `Communication sets` tab
  - Click on `HelloWorld` communication set
@@ -323,9 +325,17 @@ We´ll generate a second output queue following the previous steps, just changin
 	
  ![Insert output queue to communication set](../images/2023-06-26-hello-world-with-exstream/22-exstream-insert-output-queue-to-communication-set.png )	  
 
- 
- 
- 
+##### Adding data sources to 'HelloWorld' communication set
+
+ - Click on `Communication asset library` option in the left-hand-side menu
+ - Click on `Communication sets` tab
+ - Click on `HelloWorld` communication set
+ - Click on `Add` button
+ - Click on `Data source` option
+ - Click on `Output queue` option
+ - On the `Properties` section
+    - Click on `Driver *driver*
+	- Click on `Insert` button
  
  
 
