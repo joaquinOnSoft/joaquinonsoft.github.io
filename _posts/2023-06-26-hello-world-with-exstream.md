@@ -304,6 +304,29 @@ We´ll generate a second output queue following the previous steps, just changin
 
   ![Approve output](../images/2023-06-26-hello-world-with-exstream/20-exstream-outputs.png)	  
 
+####  Communication sets (continued) 
 
+ - Click on `Communication asset library` option in the left-hand-side menu
+ - Click on `Communication sets` tab
+ - Click on `HelloWorld` communication set
+ - Click on `Add` button
+ - Click on `Output queue` option
+ 
+ ![Add output queue to communication set](../images/2023-06-26-hello-world-with-exstream/21-exstream-add-output-queue-to-communication-set.png)	  
+
+ - Click on `Output queue` option
+ - On the `Properties` section
+    - Click on `HTML email Q` *output queue*
+	- Click on `Insert` button
+    - Click on `PDFQ` *output queue*
+	- Click on `Insert` button
+	
+ ![Insert output queue to communication set](../images/2023-06-26-hello-world-with-exstream/22-exstream-insert-output-queue-to-communication-set.png )	  
+
+ 
+ 
+ 
+ 
+ 
 
   
