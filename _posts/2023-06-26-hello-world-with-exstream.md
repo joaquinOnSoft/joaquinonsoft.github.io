@@ -345,4 +345,8 @@ We´ll generate a second output queue following the previous steps, just changin
  - Click on `Approve` icon on the `HelloWorld` communication set
  
 ## Communicatios Designer
-  
+ 
+ - Click on `Communication launcher` option in the left-hand-side menu
+ - Click on `New` button on the `Communications` section
+
+24-exstream-new-communication.png 
