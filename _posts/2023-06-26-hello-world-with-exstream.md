@@ -109,7 +109,7 @@ Now that we have created a domain and assigned permissions to groups we must cli
 	
 ```
 
-The sample file is loaded.
+The sample file is loaded. Let's approve it to make it available for its use.
  
  ![Communication asset library](../images/2023-06-26-hello-world-with-exstream/10-exstream-design-asset-library-sample-file-cd-catalog.png)	
  
