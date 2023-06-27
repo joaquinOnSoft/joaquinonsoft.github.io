@@ -323,7 +323,7 @@ We´ll generate a second output queue following the previous steps, just changin
     - Click on `PDFQ` *output queue*
 	- Click on `Insert` button
 	
- ![Insert output queue to communication set](../images/2023-06-26-hello-world-with-exstream/22-exstream-insert-output-queue-to-communication-set.png )	  
+ ![Insert output queue to communication set](../images/2023-06-26-hello-world-with-exstream/22-exstream-insert-output-queue-to-communication-set.png)	  
 
 ##### Adding data sources to 'HelloWorld' communication set
 
@@ -336,6 +336,10 @@ We´ll generate a second output queue following the previous steps, just changin
  - On the `Properties` section
     - Click on `Driver *driver*
 	- Click on `Insert` button
+
+ ![Communication set](../images/2023-06-26-hello-world-with-exstream/23-exstream-communication-set.png)	  	
+	
+
  
  
 
