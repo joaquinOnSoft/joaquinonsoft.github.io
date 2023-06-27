@@ -340,13 +340,20 @@ We´ll generate a second output queue following the previous steps, just changin
 	
 #### Approving communication set
 
+Once we have set up our communication set, we just need to approve it.
+
  - Click on `Communication asset library` option in the left-hand-side menu
  - Click on `Communication sets` tab
  - Click on `Approve` icon on the `HelloWorld` communication set
  
 ## Communicatios Designer
+
+Now that we have all the scaffolding done, let's design a communication. Just follow these steps:
  
  - Click on `Communication launcher` option in the left-hand-side menu
  - Click on `New` button on the `Communications` section
 
-24-exstream-new-communication.png 
+ ![Communication set](../images/2023-06-26-hello-world-with-exstream/24-exstream-new-communication.png)	  	
+
+
+ 
