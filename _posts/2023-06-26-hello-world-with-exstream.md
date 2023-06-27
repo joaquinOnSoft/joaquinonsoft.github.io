@@ -235,15 +235,19 @@ Follow these steps to create a *Communication set*:
  
 #### Delivery  
 
-You can use the asset library panel in the *Communication asset library* view to add **outputs objects** to the asset library for 
-use with a communication. Output objects are communication assets to which you assign an output driver. After you assign an output 
-driver to an output object, you can customize the settings specific to output production.
+##### Output
+
+You can use the asset library panel in the *Communication asset library* view to add **outputs objects** to the 
+asset library for use with a communication. Output objects are communication assets to which you assign an output driver. 
+
+After you assign an output driver to an output object, you can customize the settings specific to output production.
 
 Follow these steps to create an *Ouput*:
 
  - Click on `Communication asset library` option in the left-hand-side menu
  - Click on `Delivery` tab
  - Click on `Add` button
+ - Click on `Output` option
  - In the `Create new output` section:
     - Provide required information:
 	   - **Name**: PDF
@@ -260,4 +264,46 @@ Follow these steps to create an *Ouput*:
   
   - Click on `Change` button on the `Workflow state change` pop-up
   
+We´ll generate a second output following the previous steps, just changing these values:
+
+ - **name**: HTML email
+ - **Output Type**: HTML email
+ - **Accessibility standard**: GCAG 2.0
+ - **Aligment**: Center
+ 
+##### Output Queue
+
+You can use the asset library panel in the *Communication asset library* view to add output queue objects to 
+the asset library for use with a communication. **Output queues** function as containers for production settings, 
+including those for output drivers.
+
+You can add multiple output queues to a communication set to produce output with a variety of high-volume 
+settings and output driver settings, including a mix of print and electronic drivers, while running the 
+engine only once in Exstream. When a communication set has multiple output queues, you can designate one 
+to be the primary queue. 
+  
+Follow these steps to create an *Ouput queue*:
+
+ - Click on `Communication asset library` option in the left-hand-side menu
+ - Click on `Delivery` tab
+ - Click on `Add` button
+ - Click on `Output Queue` option
+ - In the `Create new output queue` section:
+    - Provide required information:
+	   - **Name**: PDFQ
+	   - **Output**: PDF
+    - Click on `Save` button
+  - Click on `Approve` icon of our *output* called  *PDFQ* 
+  - Click on `Approve` option  
+  - Click on `Change` button on the `Workflow state change` pop-up
+  
+We´ll generate a second output queue following the previous steps, just changing these values:
+
+ - **name**: HTML email Q
+ - **Output**: HTML email
+
+  ![Approve output](../images/2023-06-26-hello-world-with-exstream/20-exstream-outputs.png)	  
+
+
+
   
