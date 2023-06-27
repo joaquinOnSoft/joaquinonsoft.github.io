@@ -77,7 +77,9 @@ Now that we have created a domain and assigned permissions to groups we must cli
  
  - Choose a XML with your data. In our example we'll use a XML file called *cd-catalog.xml* that looks like this:
  
- ```XML
+ 
+```xml 
+ 
 	<?xml version="1.0" encoding="UTF-8"?>
 	<CATALOG>
 	  <CD>
@@ -100,7 +102,8 @@ Now that we have created a domain and assigned permissions to groups we must cli
 		<YEAR>1987</YEAR>
 	  </CD>
 	</CATALOG>  
- ```
+	
+```
  
  ![Communication asset library](../images/2023-06-26-hello-world-with-exstream/10-exstream-design-asset-library-sample-file-cd-catalog.png)	
  
