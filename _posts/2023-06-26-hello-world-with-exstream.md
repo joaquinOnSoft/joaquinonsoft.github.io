@@ -62,12 +62,12 @@ You can configure one or more domains in a tenant to use the **simple workflow**
 **The simple workflow skips the Submitted for approval state**. In a domain with simple workflow, if your user role
 can approve resources that are associated with the domain, you can approve those resources in one step.	
 
-	- Clic on `workflow` tab
-	- Select **Simple** on the `Workflow type` drop-down list
+   - Clic on `workflow` tab
+   - Select **Simple** on the `Workflow type` drop-down list
 	
-	![Assign new role permissions to groups](../images/2023-06-26-hello-world-with-exstream/12-exstream-domain-workflow-type.png)
+   ![Assign new role permissions to groups](../images/2023-06-26-hello-world-with-exstream/12-exstream-domain-workflow-type.png)
 	
-	- Click on `Save`button
+   - Click on `Save`button
 	
 	
 	
