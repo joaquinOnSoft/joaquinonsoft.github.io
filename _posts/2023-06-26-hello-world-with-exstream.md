@@ -108,8 +108,18 @@ Now that we have created a domain and assigned permissions to groups we must cli
 	</CATALOG>  
 	
 ```
+
+The sample file is loaded.
  
  ![Communication asset library](../images/2023-06-26-hello-world-with-exstream/10-exstream-design-asset-library-sample-file-cd-catalog.png)	
+ 
+ - Click on the `Approve icon`
+ 
+ ![Communication asset library](../images/2023-06-26-hello-world-with-exstream/11-exstream-approve-sample-file-cd-catalog.png)	 
+ 
+  - Click on the `Submit for approval`
+  - In the `Workflow state change` pop-up, click `Change` button
+
  
  
 ### Communication asset library
