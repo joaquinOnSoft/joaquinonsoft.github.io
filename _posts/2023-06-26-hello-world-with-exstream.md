@@ -79,12 +79,21 @@ Now that we have created a domain and assigned permissions to groups we must cli
  
  We will see two clients:
  
- - **Communicatios Designer** is used to create your template
- - **Content Author** is used to... @TODO
+ - **Communications Designer** lets designers use resources that are set up either in Design Manager or the DAS asset library to create and customize new communications.
+ - **Content Author** lets business users add targeted content to communication designs that are created in Design and Production or in Communications Designer.
+ 
  
 ### Design asset library
 
+
+
 #### Design asset library - File Sample
+
+To provide a convenient way to preview communications with different variable values, the Exstream web client supports uploading **sample files** for use with Communications Designer and Content Author. This functionality is especially useful when previewing a communication that might change when the sample customer data changes, such as when regulations in a particular state require additional content to be included in a communication.
+
+Keep in mind that sample files are not used in engine orchestration jobs; they are used only to map data sources, generate previews for Content Author, and generate simulations for Communications Designer and Content Author.
+
+To add a simple file: 
 
  - Click on `Design asset library` on the left-hand-side menu
  
@@ -134,12 +143,16 @@ The sample file is loaded. Let's approve it to make it available for its use.
  
  ![Approve sample file cd-catalog.xml](../images/2023-06-26-hello-world-with-exstream/11-exstream-approve-sample-file-cd-catalog.png)	 
  
-  - Click on the `Submit for approval`
-  - In the `Workflow state change` pop-up, click `Change` button
+ - Click on the `Approve`
 
  
- 
 ### Communication asset library
+
+A data source is what Communications Designer uses to identify which sample file to use for a particular data map. The same sample file can be used in multiple data sources, and be mapped differently for each data source with which is it associated.
+
+When a data source is assigned to a communication, any variables mapped in the data source become available for use in the communication.
+
+Use the Communication asset library view to create and modify the data sources that can be used when fulfilling your communications.
  
  - Click on `Communication asset library` on the left-hand-side menu
  
