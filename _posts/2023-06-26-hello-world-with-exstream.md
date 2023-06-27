@@ -56,6 +56,21 @@ You just need to follow the steps described in the coming sections.
 	
 	- Click on `Apply` button
 	
+### Configuring the domain to use the simple workflow
+
+You can configure one or more domains in a tenant to use the **simple workflow** instead of the standard workflow. 
+**The simple workflow skips the Submitted for approval state**. In a domain with simple workflow, if your user role
+can approve resources that are associated with the domain, you can approve those resources in one step.	
+
+	- Clic on `workflow` tab
+	- Select **Simple** on the `Workflow type` drop-down list
+	
+	![Assign new role permissions to groups](../images/2023-06-26-hello-world-with-exstream/12-exstream-domain-workflow-type.png)
+	
+	- Click on `Save`button
+	
+	
+	
 ## Content Author & Communicatios Designer
 
 Now that we have created a domain and assigned permissions to groups we must click on `Current domain` on the top-right-hand side and select our domain, *hello-world*.
@@ -68,6 +83,8 @@ Now that we have created a domain and assigned permissions to groups we must cli
  - **Content Author** is used to... @TODO
  
 ### Design asset library
+
+#### Design asset library - File Sample
 
  - Click on `Design asset library` on the left-hand-side menu
  
