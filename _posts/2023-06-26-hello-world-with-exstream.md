@@ -73,7 +73,7 @@ can approve resources that are associated with the domain, you can approve those
 	
 	
 	
-## Content Author & Communicatios Designer
+## Content Author & Communications Designer
 
 Now that we have created a domain and assigned permissions to groups we must click on `Current domain` on the top-right-hand side and select our domain, *hello-world*.
  
@@ -85,11 +85,10 @@ Now that we have created a domain and assigned permissions to groups we must cli
  - **Content Author** lets business users add targeted content to communication designs that are created in Design and Production or in Communications Designer.
  
  
-### Design asset library
+## Design asset library
 
 
-
-#### Design asset library - File Sample
+### Design asset library - File Sample
 
 To provide a convenient way to preview communications with different variable values, the Exstream web client supports uploading **sample files** for use with *Communications Designer* and *Content Author*. This functionality is especially useful when previewing a communication that might change when the sample customer data changes, such as when regulations in a particular state require additional content to be included in a communication.
 
@@ -148,9 +147,9 @@ The sample file is loaded. Let's approve it to make it available for its use.
  - Click on the `Approve`
 
  
-### Communication asset library
+## Communication asset library
 
-#### Data source
+### Data source
 
 A **data source** is what *Communications Designer* uses to identify which sample file to use for a particular data map. 
 The same sample file can be used in multiple data sources, and be mapped differently for each data source with which is it associated.
@@ -193,7 +192,7 @@ Follow these steps to add a new data source:
 > You can use the automapping process to map the data source using new variables that are created as part of 
 > the automapping process, or using existing variables. 
 
-##### Marking the start of a new customer
+#### Marking the start of a new customer
 
 For each data source, you must specify which element starts a new customer. You must identify at least one element as a customer in the data; otherwise, the engine will not process your application.
 
@@ -216,7 +215,7 @@ We are back on *Communication asset library* screen, *Data* tab. So, we
  - Click on `Approve` option
  - Click on `Save` button on the `Workflow state change` pop-up
  
-####  Communication sets  
+###  Communication sets  
 
 A **communication set** is a resource that combines other communication resources into one collection. When you create a communication, you can associate it with a communication set, allowing for greater reuse if you want multiple communications to use the same set of resources. A communication set takes the place of a design pack when creating a *Communications Designer communication*, thus alleviating the need to make resource updates in *Design Manager*.
 
@@ -233,9 +232,9 @@ Follow these steps to create a *Communication set*:
  
  ![Create new data source](../images/2023-06-26-hello-world-with-exstream/17-exstream-communications-set-hello-world.png)	  
  
-#### Delivery  
+### Delivery  
 
-##### Output
+#### Output
 
 You can use the asset library panel in the *Communication asset library* view to add **outputs objects** to the 
 asset library for use with a communication. Output objects are communication assets to which you assign an output driver. 
@@ -271,7 +270,7 @@ We´ll generate a second output following the previous steps, just changing thes
  - **Accessibility standard**: GCAG 2.0
  - **Aligment**: Center
  
-##### Output Queue
+#### Output Queue
 
 You can use the asset library panel in the *Communication asset library* view to add output queue objects to 
 the asset library for use with a communication. **Output queues** function as containers for production settings, 
@@ -304,9 +303,9 @@ We´ll generate a second output queue following the previous steps, just changin
 
   ![Approve output](../images/2023-06-26-hello-world-with-exstream/20-exstream-outputs.png)	  
 
-####  Communication sets (continued) 
+###  Communication sets (continued) 
 
-##### Adding output queues to 'HelloWorld' communication set
+#### Adding output queues to 'HelloWorld' communication set
 
  - Click on `Communication asset library` option in the left-hand-side menu
  - Click on `Communication sets` tab
@@ -325,7 +324,7 @@ We´ll generate a second output queue following the previous steps, just changin
 	
  ![Insert output queue to communication set](../images/2023-06-26-hello-world-with-exstream/22-exstream-insert-output-queue-to-communication-set.png)	  
 
-##### Adding data sources to 'HelloWorld' communication set
+#### Adding data sources to 'HelloWorld' communication set
 
  - Click on `Communication asset library` option in the left-hand-side menu
  - Click on `Communication sets` tab
@@ -339,8 +338,11 @@ We´ll generate a second output queue following the previous steps, just changin
 
  ![Communication set](../images/2023-06-26-hello-world-with-exstream/23-exstream-communication-set.png)	  	
 	
+#### Approving communication set
 
+ - Click on `Communication asset library` option in the left-hand-side menu
+ - Click on `Communication sets` tab
+ - Click on `Approve` icon on the `HelloWorld` communication set
  
- 
-
+## Communicatios Designer
   
