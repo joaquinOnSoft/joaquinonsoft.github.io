@@ -12,16 +12,20 @@ last_modified_at: 2023-06-26T18:55:49-04:00
 In this article, we are going to describe how to create a basic communication completely from scratch. 
 We'll create the mythical Hello World! with **Exstream**.
 
-You just need to follow the steps described in the coming sections.
-
-> OpenText™ Exstream™ is a Customer Communications Management (CCM) software platform for creating ultra-personalized content delivered anytime, anywhere!
-> 
+> OpenText™ Exstream™ is a Customer Communications Management (CCM) software platform for creating ultra-personalized 
+> content delivered anytime, anywhere!
+>
 > OpenText™ Exstream™ gives organizations one secure, cost-effective, efficient and reliable solution for all 
 > customer communications. Part of the OpenText™ Experience Platform, Exstream is a CCM tool that scales to fit 
 > the customer engagement needs of any department or complex enterprise environment and speeds key business 
 > processes with accelerator packages offering easy integration with core systems.
 
+You just need to follow the steps described in the coming sections.
+
+
 ## Creating a Domain
+
+ A **domain** in a tenant is simply a logical grouping of resources in the DAS asset library. By default, when you add or create a resource, it is associated with the domain in which it is created. 
 
  - Access to `Design`, i.e.  https://MY_EXSTREAM_SERVER/design/index.html
  
