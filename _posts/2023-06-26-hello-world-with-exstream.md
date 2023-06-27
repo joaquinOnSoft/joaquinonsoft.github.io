@@ -27,6 +27,8 @@ You just need to follow the steps described in the coming sections.
 
  A **domain** in a tenant is simply a logical grouping of resources in the DAS asset library. By default, when you add or create a resource, it is associated with the domain in which it is created. 
 
+Follow these steps to create a new domain:
+
  - Access to `Design`, i.e.  https://MY_EXSTREAM_SERVER/design/index.html
  
  ![Exstream Design](../images/2023-06-26-hello-world-with-exstream/01-exstream-design.png)
@@ -62,12 +64,12 @@ You can configure one or more domains in a tenant to use the **simple workflow**
 **The simple workflow skips the Submitted for approval state**. In a domain with simple workflow, if your user role
 can approve resources that are associated with the domain, you can approve those resources in one step.	
 
-   - Clic on `workflow` tab
-   - Select **Simple** on the `Workflow type` drop-down list
+ - Clic on `workflow` tab
+ - Select **Simple** on the `Workflow type` drop-down list
 	
-   ![Assign new role permissions to groups](../images/2023-06-26-hello-world-with-exstream/12-exstream-domain-workflow-type.png)
-	
-   - Click on `Save`button
+ ![Assign new role permissions to groups](../images/2023-06-26-hello-world-with-exstream/12-exstream-domain-workflow-type.png)
+
+ - Click on `Save`button
 	
 	
 	
@@ -89,11 +91,11 @@ Now that we have created a domain and assigned permissions to groups we must cli
 
 #### Design asset library - File Sample
 
-To provide a convenient way to preview communications with different variable values, the Exstream web client supports uploading **sample files** for use with Communications Designer and Content Author. This functionality is especially useful when previewing a communication that might change when the sample customer data changes, such as when regulations in a particular state require additional content to be included in a communication.
+To provide a convenient way to preview communications with different variable values, the Exstream web client supports uploading **sample files** for use with *Communications Designer* and *Content Author*. This functionality is especially useful when previewing a communication that might change when the sample customer data changes, such as when regulations in a particular state require additional content to be included in a communication.
 
 Keep in mind that sample files are not used in engine orchestration jobs; they are used only to map data sources, generate previews for Content Author, and generate simulations for Communications Designer and Content Author.
 
-To add a simple file: 
+To add a sample file: 
 
  - Click on `Design asset library` on the left-hand-side menu
  
@@ -148,15 +150,29 @@ The sample file is loaded. Let's approve it to make it available for its use.
  
 ### Communication asset library
 
-A data source is what Communications Designer uses to identify which sample file to use for a particular data map. The same sample file can be used in multiple data sources, and be mapped differently for each data source with which is it associated.
+A **data source** is what *Communications Designer* uses to identify which sample file to use for a particular data map. 
+The same sample file can be used in multiple data sources, and be mapped differently for each data source with which is it associated.
 
 When a data source is assigned to a communication, any variables mapped in the data source become available for use in the communication.
 
 Use the Communication asset library view to create and modify the data sources that can be used when fulfilling your communications.
+ 
+Follow these steps to add a new data source:
  
  - Click on `Communication asset library` on the left-hand-side menu
  
   ![Communication asset library](../images/2023-06-26-hello-world-with-exstream/07-exstream-communication-asset-library.png)	
 
  - Click on `Data` tab
+ - Click on `Add` button
+ - Select `Data source` on the drop-down list
+ - Provide the required information
+    - **Name**: Driver
+	- **Data source format**: XML
+	- **Sample file**: cd-catalog.xml
+	- **Production data source name**: cd-catalog.xml
+ 
+ ![Create new data source](../images/2023-06-26-hello-world-with-exstream/13-exstream-create-new-data-source.png)	 
+ 
+  - Click on `Create` button
  
