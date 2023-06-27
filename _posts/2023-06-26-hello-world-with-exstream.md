@@ -234,3 +234,30 @@ Follow these steps to create a *Communication set*:
  ![Create new data source](../images/2023-06-26-hello-world-with-exstream/17-exstream-communications-set-hello-world.png)	  
  
 #### Delivery  
+
+You can use the asset library panel in the *Communication asset library* view to add **outputs objects** to the asset library for 
+use with a communication. Output objects are communication assets to which you assign an output driver. After you assign an output 
+driver to an output object, you can customize the settings specific to output production.
+
+Follow these steps to create an *Ouput*:
+
+ - Click on `Communication asset library` option in the left-hand-side menu
+ - Click on `Delivery` tab
+ - Click on `Add` button
+ - In the `Create new output` section:
+    - Provide required information:
+	   - **Name**: PDF
+	   - **Output type**: PDF
+    - Click on `Save` button
+  - In the `General` tab, select `PDF/UA` as **Accessibility standard** and click on `Save` button
+  - Click on `Approve` icon of our *output* called  *PDF*
+  
+  ![Create new output](../images/2023-06-26-hello-world-with-exstream/18-exstream-create-new-output.png)	  
+ 
+  - Click on `Approve` option
+  
+  ![Approve output](../images/2023-06-26-hello-world-with-exstream/19-exstream-approve-output.png)	  
+  
+  - Click on `Change` button on the `Workflow state change` pop-up
+  
+  
