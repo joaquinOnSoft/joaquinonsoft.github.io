@@ -150,6 +150,8 @@ The sample file is loaded. Let's approve it to make it available for its use.
  
 ### Communication asset library
 
+#### Data source
+
 A **data source** is what *Communications Designer* uses to identify which sample file to use for a particular data map. 
 The same sample file can be used in multiple data sources, and be mapped differently for each data source with which is it associated.
 
@@ -191,7 +193,7 @@ Follow these steps to add a new data source:
 > You can use the automapping process to map the data source using new variables that are created as part of 
 > the automapping process, or using existing variables. 
 
-#### Marking the start of a new customer
+##### Marking the start of a new customer
 
 For each data source, you must specify which element starts a new customer. You must identify at least one element as a customer in the data; otherwise, the engine will not process your application.
 
@@ -207,3 +209,16 @@ In the toolbar:
 
  - Click on `Save` button.
  - Click on `Close` button to return to the home page.
+ 
+We are back on *Communication asset library* screen, *Data* tab. So, we 
+
+ - Click on `Approve` icon of our data source called *Driver*
+ - Click on `Approve` option
+ - Click on `Save` button on the `Workflow state change` pop-up
+ 
+####  Communication sets  
+
+A **communication set** is a resource that combines other communication resources into one collection. When you create a communication, you can associate it with a communication set, allowing for greater reuse if you want multiple communications to use the same set of resources. A communication set takes the place of a design pack when creating a *Communications Designer communication*, thus alleviating the need to make resource updates in *Design Manager*.
+
+*Communication sets* can also be used to create communications that are the basis for *Content Author* templates.
+
