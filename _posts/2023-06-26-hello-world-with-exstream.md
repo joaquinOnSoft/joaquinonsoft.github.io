@@ -176,3 +176,30 @@ Follow these steps to add a new data source:
  
   - Click on `Create` button
  
+ Let's see the data source that we have created.
+ 
+  - Click on `Create` button
+  
+ ![Create new data source](../images/2023-06-26-hello-world-with-exstream/14-exstream-data-source-editor.png)	 
+
+- Click on the `Automap` button on the top menu
+
+ ![Create new data source](../images/2023-06-26-hello-world-with-exstream/15-exstream-data-source-editor-automap.png)	  
+ 
+
+> Automapping a data source lets you automatically find and map all of the data areas in a data source. 
+> You can use the automapping process to map the data source using new variables that are created as part of 
+> the automapping process, or using existing variables. 
+
+#### Marking the start of a new customer
+
+For each data source, you must specify which element starts a new customer. You must identify at least one element as a customer in the data; otherwise, the engine will not process your application.
+
+When you identify a data area as the start of a new customer, the Start of customer designation will propagate to the equivalent data areas within the data file.
+
+Select the data area that you want to use as the start of a new customer.
+
+In the toolbar, click the Start customer button .
+
+
+ ![Create new data source](../images/2023-06-26-hello-world-with-exstream/16-exstream-data-source-editor-start-customer.png)	  
