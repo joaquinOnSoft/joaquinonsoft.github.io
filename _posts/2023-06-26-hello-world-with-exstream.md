@@ -199,7 +199,11 @@ When you identify a data area as the start of a new customer, the Start of custo
 
 Select the data area that you want to use as the start of a new customer.
 
-In the toolbar, click the Start customer button .
+In the toolbar: 
 
+ - Click the `Start customer` button.
 
  ![Create new data source](../images/2023-06-26-hello-world-with-exstream/16-exstream-data-source-editor-start-customer.png)	  
+
+ - Click on `Save` button.
+ - Click on `Close` button to return to the home page.
