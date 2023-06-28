@@ -12,6 +12,7 @@ last_modified_at: 2023-06-28T20:37:51-43:38
 This article is the 2nd part of [Hello World with Exstream](2023-06-26-hello-world-with-exstream.md). It describes how to create a basic communication completely from scratch. 
 We'll create the mythical Hello World! with **Exstream**.
 
+> Please, see [Hello World with Exstream (1st Part)](../2023-06-26-hello-world-with-exstream)
 
 You just need to follow the steps described in the coming sections.
 
