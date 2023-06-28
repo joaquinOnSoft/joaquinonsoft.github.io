@@ -1,5 +1,5 @@
 ---
-title: "Hello World with Exstream"
+title: "Hello World with Exstream (1st Part)"
 header:
   image: /images/2023-06-26-hello-world-with-exstream/01-exstream-design.png
   og_image: /images/2023-06-26-hello-world-with-exstream/01-exstream-design.png
@@ -345,15 +345,8 @@ Once we have set up our communication set, we just need to approve it.
  - Click on `Communication asset library` option in the left-hand-side menu
  - Click on `Communication sets` tab
  - Click on `Approve` icon on the `HelloWorld` communication set
- 
-## Communicatios Designer
-
-Now that we have all the scaffolding done, let's design a communication. Just follow these steps:
- 
- - Click on `Communication launcher` option in the left-hand-side menu
- - Click on `New` button on the `Communications` section
-
- ![Communication set](../images/2023-06-26-hello-world-with-exstream/24-exstream-new-communication.png)	  	
 
 
- 
+## 2nd part
+
+You can read the 2nd part of this article in [Hello World with Exstream (2nd Part)](2023-06-28-hello-world-with-exstream-part-2.md)
