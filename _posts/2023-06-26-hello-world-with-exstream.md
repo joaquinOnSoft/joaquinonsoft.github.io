@@ -350,5 +350,5 @@ Once we have set up our communication set, we just need to approve it.
 ## 2nd part
 
 Now that we have all the scaffolding done, you can read the 2nd part of this article in 
-[Hello World with Exstream (2nd Part)](2023-06-28-hello-world-with-exstream-part-2.md), where I'll explaing
+[Hello World with Exstream (2nd Part)](./2023-06-28-hello-world-with-exstream-part-2.md), where I'll explaing
 how to create the communication design.
