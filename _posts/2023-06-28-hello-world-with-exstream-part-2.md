@@ -110,6 +110,6 @@ To do it, we must just follow these instructions:
    
 If you repeat this operation with some of the other available variables your page will look like this:
 
+   ![Communicator designer: using variables](../images/2023-06-28-hello-world-with-exstream/41-exstream-communicator-designer-variable.png) 
 
-
-  
+ - Click on `Save` icon 
