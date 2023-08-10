@@ -31,6 +31,13 @@ Now that we have all the scaffolding done, let's design a communication. Just fo
 
  ![New Communication. Select communication set](../images/2023-06-28-hello-world-with-exstream/26-exstream-new-communication-create.png)	  	
 
+We must provide the details of our communication:
+
+ - **Name**: HelloWorld
+ - **Description**: My First Exstream communication
+
+Now click on `Create` button
+ 
 
 
  
