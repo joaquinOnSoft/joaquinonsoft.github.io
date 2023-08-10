@@ -146,6 +146,38 @@ The sample file is loaded. Let's approve it to make it available for its use.
  
  - Click on the `Approve`
 
+### Design asset library - Paper type
+
+**Paper types** define the physical properties of the sheet or sheets of paper that correspond to the page (for example, the paper dimensions and paper color).
+ 
+Follow these steps to add a paper types: 
+
+ - Click on `Design asset library` on the left-hand-side menu
+ - Click on `Common` tab
+ - Click on `Add` button
+ - Select `Paper type` option from the drop-down list
+ 
+  ![New Paper type](../images/2023-06-26-hello-world-with-exstream/28-exstream-new-paper-type.png)	
+  
+ > **NOTE**: Exstream uses `inches` by default as the unit of measurement.
+ > You can change your preferences in the `Settings` menu on the left-hand-side hamburger icon
+
+In the `Create new paper type` properties panel you must provide the following information:
+
+ - **Name**: A4
+ - **Description**: A piece of A4 paper measures 21 x 29.7 cm
+ - **Width**: 21
+ - **Height****: 29.7
+ - **Color**: White
+ 
+  ![New Paper type](../images/2023-06-26-hello-world-with-exstream/29-exstream-new-paper-type.png)	
+
+- Click on `Create`
+- Click on the `Aprpove` icon on the new Paper type
+- Click on `Change` on the *Workflow state change* pop-up
+
+  ![Workflow state change](../images/2023-06-26-hello-world-with-exstream/30-exstream-workflow-state-change.png)	
+
  
 ## Communication asset library
 

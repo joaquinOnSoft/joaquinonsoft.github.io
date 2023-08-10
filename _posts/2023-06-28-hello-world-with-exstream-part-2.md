@@ -36,8 +36,19 @@ We must provide the details of our communication:
  - **Name**: HelloWorld
  - **Description**: My First Exstream communication
 
-Now click on `Create` button
+Now click on `Create` button.
  
+A communication can be composed of one or more documents. So, now we are going to add a new document.
 
+ - Click on `(+)` icon
+ - Provide the details for your new document
+    - **Name**: HelloWorld
+    - **Description**: My First Exstream communication (PDF and e-mail)
+
+ ![New Communication. New document](../images/2023-06-28-hello-world-with-exstream/27-exstream-new-communication-new-document.png) 
+ 
+ - Click on `Create` button
+ 
+ A couple of designs , **Pages** (pdf) and **Emails** (e-mail), are added automatically due to the two outputs that we have created previously included in our communications set.
 
  
