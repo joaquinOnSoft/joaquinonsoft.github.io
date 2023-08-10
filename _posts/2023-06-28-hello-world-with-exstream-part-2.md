@@ -61,8 +61,21 @@ A communication can be composed of one or more documents. So, now we are going t
  
   - Click on `Create` button
  
-The design has been created, now we just need to click on it to open it.
+The design has been created, now we just need to double click on it to open it.
  
   ![New page design](../images/2023-06-28-hello-world-with-exstream/32-exstream-page-design-pdf.png) 
 
+### Communicatios Designer: Page
+
+An empty page is shown. Now, lets follow these steps to create out first communication, a pdf document:
+
+ - Click on the `Text box` icon
+
+  ![Communicator designer: page](../images/2023-06-28-hello-world-with-exstream/35-exstream-communicator-designer.png) 
+
+ - Use the mouse to define the are where your text box will be placed
+ - Click on the text box
+ - Write a text, i.e. 'Hello World!'
+
+  ![Communicator designer: page](../images/2023-06-28-hello-world-with-exstream/36-exstream-communicator-designer.png) 
  

@@ -192,6 +192,7 @@ Follow these steps to add a font:
  
    ![Select fong](../images/2023-06-26-hello-world-with-exstream/33-select-font.png)	
  
+  - Mark `Enable for use in Content Author` check box
   - Click on `Create` button
 
    ![Create new font](../images/2023-06-26-hello-world-with-exstream/34-create-new-font.png)	
