@@ -108,4 +108,6 @@ To do it, we must just follow these instructions:
 
    ![Communicator designer: using variables](../images/2023-06-28-hello-world-with-exstream/40-exstream-communicator-designer-variable.png) 
 
+
+
   
