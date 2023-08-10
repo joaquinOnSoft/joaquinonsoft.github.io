@@ -78,4 +78,8 @@ An empty page is shown. Now, lets follow these steps to create out first communi
  - Write a text, i.e. 'Hello World!'
 
   ![Communicator designer: page](../images/2023-06-28-hello-world-with-exstream/36-exstream-communicator-designer.png) 
+  
+ - Click on `Save` button
+ - Click on the `hamburger icon` on the left-hand-side
+ - Click on `Return to home page`
  
