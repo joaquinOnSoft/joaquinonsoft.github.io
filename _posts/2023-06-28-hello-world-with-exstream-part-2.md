@@ -103,10 +103,12 @@ To do it, we must just follow these instructions:
 
  - Select the text box
  - Add this text at the ent of the box: "Welcome , author of in ."
- - Place your mouse between **Welcome**  and **,**
+ - Place your mouse between "**Welcome**"  and "**,**"
  - Click on `ARTIST` in the *Variable* section in the righ-hand-side
 
    ![Communicator designer: using variables](../images/2023-06-28-hello-world-with-exstream/40-exstream-communicator-designer-variable.png) 
+   
+If you repeat this operation with some of the other available variables your page will look like this:
 
 
 
