@@ -178,6 +178,25 @@ In the `Create new paper type` properties panel you must provide the following i
 
   ![Workflow state change](../images/2023-06-26-hello-world-with-exstream/30-exstream-workflow-state-change.png)	
 
+### Design asset library - Font
+
+A **font** refers to a set of printable or displayable typography or text characters in a specific style and size.
+
+Follow these steps to add a font:
+
+ - Click on `Design asset library` on the left-hand-side menu
+ - Click on `Common` tab
+ - Click on `Add` button
+ - Select `Font` option from the drop-down list
+ - Select a font from your computer
+ 
+   ![Select fong](../images/2023-06-26-hello-world-with-exstream/33-select-font.png)	
+ 
+  - Click on `Create` button
+
+   ![Create new font](../images/2023-06-26-hello-world-with-exstream/34-create-new-font.png)	
+ 
+  - `Approve` the font that you have created
  
 ## Communication asset library
 
