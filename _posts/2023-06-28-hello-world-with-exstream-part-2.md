@@ -83,6 +83,29 @@ An empty page is shown. Now, lets follow these steps to create out first communi
  - Click on the `hamburger icon` on the left-hand-side
  - Click on `Return to home page`
  
- Now we are going to run a simulation to see how looks like our communication. Let's browse to `Communication launcher > Communication Designer`. Once we have selected 
+Now we are going to run a simulation to see how looks like our communication. Let's browse to `Communication launcher > Communication Designer`. Once we have selected our communication we must click on the `Run simulation` button
  
- 38-run-simulation.png
+   ![Communicator designer: page](../images/2023-06-28-hello-world-with-exstream/38-run-simulation.png) 
+
+#### Using variables in our communication (page)
+
+Let's go back to the our communication design. Now we are going to customize a little bit our page, adding a text like this at the end of the page:
+
+```
+ Welcome (ARTIST), author of (TITLE) in (YEAR)
+```
+
+To do it, we must just follow these instructions:
+
+ - Click on `Variable` icon
+
+   ![Communicator designer: using variables](../images/2023-06-28-hello-world-with-exstream/39-exstream-communicator-designer-variable.png) 
+
+ - Select the text box
+ - Add this text at the ent of the box: "Welcome , author of in ."
+ - Place your mouse between **Welcome**  and **,**
+ - Click on `ARTIST` in the *Variable* section in the righ-hand-side
+
+   ![Communicator designer: using variables](../images/2023-06-28-hello-world-with-exstream/40-exstream-communicator-designer-variable.png) 
+
+  
