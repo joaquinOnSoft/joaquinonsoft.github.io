@@ -150,7 +150,7 @@ The sample file is loaded. Let's approve it to make it available for its use.
 
 **Paper types** define the physical properties of the sheet or sheets of paper that correspond to the page (for example, the paper dimensions and paper color).
  
-Follow these steps to add a paper types: 
+Follow these steps to add a paper type: 
 
  - Click on `Design asset library` on the left-hand-side menu
  - Click on `Common` tab

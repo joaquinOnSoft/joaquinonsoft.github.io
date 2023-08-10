@@ -49,6 +49,15 @@ A communication can be composed of one or more documents. So, now we are going t
  
  - Click on `Create` button
  
- A couple of designs , **Pages** (pdf) and **Emails** (e-mail), are added automatically due to the two outputs that we have created previously included in our communications set.
+ A couple of designs , **Pages** (pdf) and **Emails** (e-mail), are added automatically due to the two output that we have created previously included in our communications set.
+ 
+ - Click on `Pages`	
+ - Click on `(+)` icon
+ - Provide the properties for the new desing:
+    - **Name**: HelloWorldPage
+    - **Paper type**: A4	
 
+ ![New page design](../images/2023-06-28-hello-world-with-exstream/31-exstream-page-design.png) 
+ 
+  - Click on `Create` button
  
