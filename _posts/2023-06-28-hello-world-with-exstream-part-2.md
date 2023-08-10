@@ -23,7 +23,14 @@ Now that we have all the scaffolding done, let's design a communication. Just fo
  - Click on `Communication launcher` option in the left-hand-side menu
  - Click on `New` button on the `Communications` section
 
- ![Communication set](../images/2023-06-28-hello-world-with-exstream/24-exstream-new-communication.png)	  	
+ ![New Communication](../images/2023-06-28-hello-world-with-exstream/24-exstream-new-communication.png)	  	
+- Select a `Communication set`. *HelloWorld* in our example.
+
+ ![New Communication. Select communication set](../images/2023-06-28-hello-world-with-exstream/25-exstream-new-communication-select-communication-set.png)	  	
+- Click on `Next` button 
+
+ ![New Communication. Select communication set](../images/2023-06-28-hello-world-with-exstream/26-exstream-new-communication-create.png)	  	
+
 
 
  
