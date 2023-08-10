@@ -83,3 +83,6 @@ An empty page is shown. Now, lets follow these steps to create out first communi
  - Click on the `hamburger icon` on the left-hand-side
  - Click on `Return to home page`
  
+ Now we are going to run a simulation to see how looks like our communication. Let's browse to `Communication launcher > Communication Designer`. Once we have selected 
+ 
+ 38-run-simulation.png
