@@ -43,7 +43,8 @@ Click on the `Sign in` button to log in.
 You can change the language used in the user interface doing click on the `world` icon at the bottom of the login page.
 
  ![Select desired language](../images/2023-08-11-send-sms-with-opentext-notifications/02-myportal-select-desired-language.png)	
- At the moment of writing this article, there are 8 languages supported by default.
+
+At the moment of writing this article, there are 8 languages supported by default.
 
 ## Upload a client list
 
@@ -69,5 +70,20 @@ When the import is finished, a pop-up window will appear with a summary of the n
 
  ![Client list import summary](../images/2023-08-11-send-sms-with-opentext-notifications/05-myportal-upload-list-import-summary.png)
 
+## Create a message
 
+Next, we are going to create a message. Just follow these steps:
 
+ - Click on `Jobs > Create/Send job > SMS`
+ - Click on `Select stored list` icon
+
+ ![New SMS message](../images/2023-08-11-send-sms-with-opentext-notifications/06-myportal-new-message.png)
+ 
+In the `Select stored list` pop-up:
+
+ - Select the list created previously (*#updateapp.sms*)
+ - Click on `Add` button
+ - Click on `Done` button
+ 
+  ![Select stored list](../images/2023-08-11-send-sms-with-opentext-notifications/07-myportal-select-stored-list.png)
+ 
