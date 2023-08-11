@@ -112,4 +112,10 @@ If you repeat this operation with some of the other available variables your pag
 
    ![Communicator designer: using variables](../images/2023-06-28-hello-world-with-exstream/41-exstream-communicator-designer-variable.png) 
 
- - Click on `Save` icon 
+ - Click on `Save` icon
+
+If we go back to the `Communication composer` page we can run a simulation to see how it looks with our example data set. 
+
+   ![Communicator designer: run simulation](../images/2023-06-28-hello-world-with-exstream/42-exstream-run-simulation.png) 
+
+### Communicatios Designer: Email
