@@ -1,8 +1,8 @@
 ---
 title: "Hello World with Exstream (2nd Part)"
 header:
-  image: ../images/2023-06-28-hello-world-with-exstream/45-exstream-email-design-hello-world.png
-  og_image: /images/2023-06-28-hello-world-with-exstream/45-exstream-email-design-hello-world.png
+  image: /images/2023-06-28-hello-world-with-exstream/46-exstream-run-simulation-email.png
+  og_image: /images/2023-06-28-hello-world-with-exstream/46-exstream-run-simulation-email.png
 tags:
   - Exstream
 last_modified_at: 2023-06-28T20:37:51-43:38
@@ -139,3 +139,10 @@ Next, let's open the email design by double-clicking on `HelloWorldMail` design
 We can follow the same steps done in the page design, so we can get an email that looks like this:
    
    ![Edit Hello World email design](../images/2023-06-28-hello-world-with-exstream/45-exstream-email-design-hello-world.png)    
+
+
+Once we have saved our design we can run a simulation to see the final result:
+
+   ![Run simulation - email](../images/2023-06-28-hello-world-with-exstream/46-exstream-run-simulation-email.png)    
+
+Congrats, you have created your first communications, one pdf, and one e-mail.
