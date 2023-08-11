@@ -119,3 +119,15 @@ If we go back to the `Communication composer` page we can run a simulation to se
    ![Communicator designer: run simulation](../images/2023-06-28-hello-world-with-exstream/42-exstream-run-simulation.png) 
 
 ### Communicatios Designer: Email
+
+Let's go back to our communication called *HelloWorld* in *Communication designer*. Now we'll create a new design for an e-mail. Just:
+
+ - Click on `Documents > HelloWorld`
+ - Click on `Design > Emails`
+ - Click on `(+)` icon
+
+   ![Communicator designer: New e-mail design](../images/2023-06-28-hello-world-with-exstream/43-exstream-new-email-design.png) 
+
+ - Introduce the required information:
+    - **Name**: HelloWorldMail
+ - Click on `Create` button
