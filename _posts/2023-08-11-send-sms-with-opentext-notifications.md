@@ -89,10 +89,10 @@ In the `Select stored list` pop-up:
  
  - Introduce the text for your message in the text box `Type/edit your message`, i.e.
  
- ```
+```
  Hello, a required update for your app has been released, Pls visit www.innovate.com/ 
  to download the latest version and stay up2date
- ```
+```
   
   ![Select stored list](../images/2023-08-11-send-sms-with-opentext-notifications/08-myportal-type-edit-your-message.png)
  
