@@ -131,3 +131,7 @@ Let's go back to our communication called *HelloWorld* in *Communication designe
  - Introduce the required information:
     - **Name**: HelloWorldMail
  - Click on `Create` button
+
+Next, let's open the email design by double-clicking on `HelloWorldMail` design
+
+   ![Edit email design](../images/2023-06-28-hello-world-with-exstream/44-exstream-email-design.png) 
