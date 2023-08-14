@@ -25,8 +25,8 @@ A new product has been launched, so we want to inform our clients, through SMS, 
 Our client list is a *CSV* file that looks like this:
 
 ```csv
-REF,ADDR,INS_1,INS_2,INS_3
-Summer campaign 2023,699-999-999,Joaquin,Garzon,joaquin@joaquinonsft.com
+REF,ADDR,INS_1,INS_2,INS_3,INS_4
+Summer campaign 2023,699-999-999,Joaquin,Garzon,joaquin@joaquinonsft.com,MyApp
 ```
 
 ## Login
@@ -90,11 +90,51 @@ In the `Select stored list` pop-up:
  - Introduce the text for your message in the text box `Type/edit your message`, i.e.
  
 ```
- Hello, a required update for your app has been released, Pls visit www.innovate.com/ 
- to download the latest version and stay up2date
+ Hello, a required update for your app has been released. 
+ Pls visit www.innovate.com/ to download the latest version 
+ and stay up2date
 ```
   
   ![Select stored list](../images/2023-08-11-send-sms-with-opentext-notifications/08-myportal-type-edit-your-message.png)
  
+
+Now, let's customize our communication adding some variables.
+ 
+```
+ Hello (i1), a required update for your (i4) app has been released. 
+ Pls visit www.innovate.com/(i4) to download the latest version 
+ and stay up2date
+``` 
+
+Where `(i1)` makes references to column `INS_1` (client name) and `(i4)` refers to column `(INS_4)` (app name) in our *CSV* file.
+
+  ![Adding variables](../images/2023-08-11-send-sms-with-opentext-notifications/09-myportal-adding-variables.png)
+ 
+ > **NOTE**: Instead of writing a text by myself, I could also select a file that 
+ > already contains a meaningful text, using the `Text message body file` option. This can ensure 
+ > that the text is created in accordance with company policies and of course it 
+ > saves time when dealing with more complex texts with variables and business logic. 
+
+Finally I add the campaign name and the billing code. That makes it easier to find the related report after the SMS has been sent out and create an invoice based on these. Just follow these steps:
+
+ - Click on `Job tracking and Report Options`
+ - Provide a `Campaign name (Cust Ref)`, i.e. *Summer campaign 2023*
+ - Provide a `Billing code`, i.e. *20230814*
+
+ ![Job tracking and Report Options](../images/2023-08-11-send-sms-with-opentext-notifications/10-myportal-job-tracking-and-report-options.png)
+  
+ - Click on `Save Template` button at the top of the page
+ 
+  ![Job tracking and Report Options](../images/2023-08-11-send-sms-with-opentext-notifications/11-myportal-save-job-template.png)
+ 
+ - Provide a `Job Template Name`, i.e. *UpdatedApp_SMS_2023.1*
+ - Click on `Save Template`
+
+The template has been saved, next time we don't have to enter the billing code or other details manually nor do I have to select the correct list of recipients. 
+
+> **TIP**: To load a *Job Template* previously saved, just: 
+>
+> - Browse to `Jobs > Create/Send Job > SMS` 
+> - Select a template from the `Select Template` drop-down list 
  
 WORK IN PROGRESS!!!
