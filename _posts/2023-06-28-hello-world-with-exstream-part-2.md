@@ -145,4 +145,6 @@ Once we have saved our design we can run a simulation to see the final result:
 
    ![Run simulation - email](../images/2023-06-28-hello-world-with-exstream/46-exstream-run-simulation-email.png)    
 
+> **NOTE**: You need to approve your *Designs*, *Documents* ans Communications to be able to use it.
+
 Congrats, you have created your first communications, one pdf, and one e-mail.
