@@ -153,7 +153,9 @@ Until the job expires, the job number will show up in this section.
  
  ![Check Job Status](../images/2023-08-11-send-sms-with-opentext-notifications/13-myportal-check-job-status.png) 
 
-In the line at the bottom I see that my message was processed and sent, and that there was no error
+Click on the job number. The `Details for job X` pop-up is shown.
+
+In the line at the bottom, we can see that my message was processed and sent and that there was no error
  
  ![Check Job Status](../images/2023-08-11-send-sms-with-opentext-notifications/14-myportal-job-details.png)  
  
