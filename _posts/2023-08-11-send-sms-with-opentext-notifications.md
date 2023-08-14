@@ -8,7 +8,7 @@ tags:
 last_modified_at: 2023-08-11T18:37:48-43:38
 ---
 
-In this article we'll learn how to send SMS with OpenText Notifications.
+In this article, we'll learn how to send SMS with OpenText Notifications.
 
 > OpenText™ Notifications brings email, SMS, push, voice and fax messaging channels together 
 > into a single, cloud-based messaging platform, eliminating siloed communication services. 
