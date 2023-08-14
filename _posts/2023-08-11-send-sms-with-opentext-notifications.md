@@ -147,6 +147,14 @@ The *Job Number* under which I'll find the job report in the next step is shown 
  
 ## Check job status
 
- - Click on `Jobs > Check Job Status`
+To check the job status click on `Jobs > Check Job Status`. 
+
+Until the job expires, the job number will show up in this section.
+ 
+ ![Check Job Status](../images/2023-08-11-send-sms-with-opentext-notifications/13-myportal-check-job-status.png) 
+
+In the line at the bottom I see that my message was processed and sent, and that there was no error
+ 
+ ![Check Job Status](../images/2023-08-11-send-sms-with-opentext-notifications/14-myportal-job-details.png)  
  
 WORK IN PROGRESS!!!
