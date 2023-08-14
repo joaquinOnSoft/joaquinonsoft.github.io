@@ -151,12 +151,29 @@ To check the job status click on `Jobs > Check Job Status`.
 
 Until the job expires, the job number will show up in this section.
  
+Click on the job number. 
+
  ![Check Job Status](../images/2023-08-11-send-sms-with-opentext-notifications/13-myportal-check-job-status.png) 
 
-Click on the job number. The `Details for job X` pop-up is shown.
+The `Details for job X` pop-up is shown.
 
-In the line at the bottom, we can see that my message was processed and sent and that there was no error
+In the bottom line, we can see that our message was processed and sent and that there was no error
  
  ![Check Job Status](../images/2023-08-11-send-sms-with-opentext-notifications/14-myportal-job-details.png)  
  
+Click on `Reports` tab. You'll see additional information. The most relevant info usually is the `Delivery Receipt` that shows us that the delivery is confirmed (**DELC** = **DEL**ivery *C*onfirmed).
+ 
+ ![Check Job Status - reports](../images/2023-08-11-send-sms-with-opentext-notifications/15-myportal-job-details-reports.png)   
+ 
+
+If we want to double-check our message text after we have sent it out, we just need to click on `Download` icon under `Actions` section.
+
+ ![Check Job Status - reports](../images/2023-08-11-send-sms-with-opentext-notifications/16-myportal-actions.png)   
+ 
+Click on `Ok` button to close the `SMS Content` pop-up.
+
+On our mobile phone, we can see the message exactly as it would  appear on the devices of our customers.
+
+ ![on my mobile phone](../images/2023-08-11-send-sms-with-opentext-notifications/17-myportal-mobile-phone.png)   
+
 WORK IN PROGRESS!!!
