@@ -145,5 +145,8 @@ The *Job Number* under which I'll find the job report in the next step is shown 
  
   ![Job no](../images/2023-08-11-send-sms-with-opentext-notifications/12-myportal-job-no.png) 
  
+## Check job status
+
+ - Click on `Jobs > Check Job Status`
  
 WORK IN PROGRESS!!!
