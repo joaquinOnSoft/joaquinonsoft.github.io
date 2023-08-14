@@ -181,3 +181,5 @@ In addition to checking the status via the frontend, we also get an e-mail that 
  ![Summary reports for job X](../images/2023-08-11-send-sms-with-opentext-notifications/18-myportal-summary-reports-for-job.png)   
 
 
+
+
