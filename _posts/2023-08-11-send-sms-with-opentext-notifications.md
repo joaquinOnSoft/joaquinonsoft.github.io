@@ -3,6 +3,7 @@ title: "Send SMS with OpenText Notifications"
 header:
   image: /images/2023-08-11-send-sms-with-opentext-notifications/17-myportal-mobile-phone.png
   og_image: /images/2023-08-11-send-sms-with-opentext-notifications/17-myportal-mobile-phone.png
+featured_image: /images/2023-08-11-send-sms-with-opentext-notifications/17-myportal-mobile-phone.png
 tags:
   - Notifications
 last_modified_at: 2023-08-11T18:37:48-43:38
