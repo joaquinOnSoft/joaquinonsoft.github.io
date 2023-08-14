@@ -136,5 +136,14 @@ The template has been saved, next time we don't have to enter the billing code o
 >
 > - Browse to `Jobs > Create/Send Job > SMS` 
 > - Select a template from the `Select Template` drop-down list 
+>
+> And everything is back again after selecting the template
+ 
+Click on `Submit` button on the top right-hand side.
+
+The *Job Number* under which I'll find the job report in the next step is shown in a pop-up.
+ 
+  ![Job no](../images/2023-08-11-send-sms-with-opentext-notifications/12-myportal-job-no.png) 
+ 
  
 WORK IN PROGRESS!!!
