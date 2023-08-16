@@ -93,6 +93,9 @@ Let's browse to `Communication composer`:
  
 A new section, called `Components`, has been added to the `Communication composer` page.
 
+ ![Components](../images/2023-08-14-my-first-exstream-reusable-component/10-components.png) 
+
+
 ## Reusing our component
 
 Now we are going reuse our `Logo` component in another design.
