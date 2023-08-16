@@ -1,8 +1,8 @@
 ---
 title: "My first Exstream reusable component"
 header:
-  image: /images/2023-08-14-my-first-exstream-reusable-component/joaquin-on-soft.png
-  og_image: /images/2023-08-14-my-first-exstream-reusable-component/joaquin-on-soft.png
+  image: /images/2023-08-14-my-first-exstream-reusable-component/14-reusable-component-inserted.png
+  og_image: /images/2023-08-14-my-first-exstream-reusable-component/14-reusable-component-inserted.png
 tags:
   - Exstream
   - CCM
