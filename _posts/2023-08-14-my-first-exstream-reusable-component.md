@@ -95,6 +95,7 @@ A new section, called `Components`, has been added to the `Communication compose
 
  ![Components](../images/2023-08-14-my-first-exstream-reusable-component/10-components.png) 
 
+ - Approve your component
 
 ## Reusing our component
 
