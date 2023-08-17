@@ -30,7 +30,7 @@ approval. Comments or metadata can be stored with templates.
 >
 > - [Hello World with Exstream (1st Part)](/hello-world-with-exstream)
 > - [Hello World with Exstream (2nd Part)](/hello-world-with-exstream-part-2)
->
+> - [Hello World with Exstream (3rd Part)](/hello-world-with-exstream-3rd-part)
 
 ## Create new component
 
