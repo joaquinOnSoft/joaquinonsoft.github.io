@@ -401,8 +401,10 @@ Once we have set up our communication set, we just need to approve it.
  - Click on `Approve` icon on the `HelloWorld` communication set
 
 
-## 2nd part
+## 2nd and 3rd part
 
 Now that we have all the scaffolding done, you can read the 2nd part of this article in 
 [Hello World with Exstream (2nd Part)](/hello-world-with-exstream-part-2), where I'll explaing
-how to create the communication design.
+how to create the communication design. 
+
+[Hello World with Exstream (3rd Part)](/hello-world-with-exstream-3rd-part) explains how to orchestrate your communication.

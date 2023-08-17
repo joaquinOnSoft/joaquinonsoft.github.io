@@ -15,6 +15,7 @@ This article is the 2nd part of [Hello World with Exstream](/hello-world-with-ex
 We'll create a communication design of the mythical Hello World! with **Exstream**.
 
 > Please, see [Hello World with Exstream (1st Part)](/hello-world-with-exstream)
+> and [Hello World with Exstream (3rd Part)](/hello-world-with-exstream-3rd-part)
 
 You just need to follow the steps described in the coming sections.
 
