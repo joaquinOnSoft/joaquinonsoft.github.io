@@ -35,7 +35,7 @@ To create a *Flow context* we'll follow these steps:
 
  ![Communication designer](../images/2023-08-16-hello-world-with-exstream-3rd-part/01-orchestration-add-flow-context.png)	  	
 
- - Provide the required inforamation in the `Create new flow context` section
+ - Provide the required information in the `Create new flow context` section
     - **Name**: HelloWorldFC
 	- **Description HelloWorld Flow Context
  - Click on `Create`
