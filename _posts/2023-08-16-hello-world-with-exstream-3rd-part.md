@@ -1,8 +1,8 @@
 ---
 title: "Hello World with Exstream (3rd Part)"
 header:
-  image: /images/2023-08-16-hello-world-with-exstream-3rd-part/46-exstream-run-simulation-email.png
-  og_image: /images/2023-08-16-hello-world-with-exstream-3rd-part/46-exstream-run-simulation-email.png
+  image: /images/2023-08-16-hello-world-with-exstream-3rd-part/19-exstream-pdf-output.png
+  og_image: /images/2023-08-16-hello-world-with-exstream-3rd-part/19-exstream-pdf-output.png
 tags:
   - Exstream
   - CCM
@@ -204,7 +204,7 @@ Now we must approve and publish the flow model.
  
  - Click on `Publish` button in the `Properties` section of the `HelloWorldFM` flow context 
   
-  
+So, our orchestration is completed. Let's check if it works.  
   
 ## Provide an input 
 
@@ -239,3 +239,22 @@ The input file looks like this:
 </CATALOG>
   
 ```
+
+After a few seconds, the output is generated in the output folder that we previously configured.
+
+ ![Exstream output - sFTP server](../images/2023-08-16-hello-world-with-exstream-3rd-part/18-exstream-sftp-output.png)
+
+If we download the output files generated we can view the result:
+
+ - File **PDFQ** (renamed to `PDFQ.pdf`) 
+ 
+ ![Exstream pdf output](../images/2023-08-16-hello-world-with-exstream-3rd-part/19-exstream-pdf-output.png)	 
+
+ - File **HTML email Q** (renamed to `HTML email Q.html`)  
+ 
+ ![Exstream email output](../images/2023-08-16-hello-world-with-exstream-3rd-part/20-exstream-mail-output.png)	 
+
+
+
+
+
