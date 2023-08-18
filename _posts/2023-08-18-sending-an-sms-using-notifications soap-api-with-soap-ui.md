@@ -22,7 +22,7 @@ Today we'll learn how to send an SMS using [Notifications SOAP API](https://apif
 > [REST API](https://developer.opentext.com/ce/products/notifications), 
 > but currently (August 2023), exposes fewer functions than the SOAP API. 
 
-** JobSubmit function
+## JobSubmit function
 
 The [JobSubmit](https://apiforums.easylink.com/emapidocs/26/JobSubmit/JobSubmit.html) function allows one 
 or more documents to be submitted for delivery to one or more destinations. This is one of the most basic, 
@@ -30,7 +30,7 @@ and also one of the most complex, functions available through the *Cloud Fax and
 
 We will use it to send an SMS to our mobile phone.
 
-** SOAP UI
+## SOAP UI
 
 We'll use **SoapUI**, an automated testing tool for SOAP and REST APIs, to invoke 
 *Notifications SOAP API* to send an SMS.
