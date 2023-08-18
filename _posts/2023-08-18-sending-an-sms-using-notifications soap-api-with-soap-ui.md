@@ -30,10 +30,12 @@ and also one of the most complex, functions available through the *Cloud Fax and
 
 We will use it to send an SMS to our mobile phone.
 
-## SOAP UI
+## SoapUI
 
 We'll use **SoapUI**, an automated testing tool for SOAP and REST APIs, to invoke 
 *Notifications SOAP API* to send an SMS.
+
+> Recomended reading: [Getting Started](https://www.soapui.org/docs/soap-and-wsdl/) with SoapUI
 
 Let's create a new SOAP project. Just follow these steps:
 
@@ -132,3 +134,15 @@ After a few seconds the SMS is received in our mobile phone.
   
  ![SMS sent by OT Notifications](/images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/08-sms-in-mobile-phone.jpg)  
  
+## Jobs status in MyPortal
+
+We can check the status of our job in `MyPortal`, the Notifications web interface.
+
+Just select `Jobs  » Check Job Status` on the top menu.
+
+ ![Check Job Status](/images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/09-check-job-status-my-portal.png)  
+If you click on the row with the same `Job Id` that was returned in our call you'll see a more detailed information.
+ ![Check Job Status - details](/images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/10-check-job-status-details-my-portal.png)  
+
+
+
