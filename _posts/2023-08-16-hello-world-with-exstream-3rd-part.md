@@ -162,7 +162,7 @@ To create a *Flow model* we'll follow these steps:
  
  - Provide the required inforamation in the `Create new flow model` section
     - **Name**: HelloWorldFM
-	- **Description HelloWorld Flow Model
+	- **Description**: HelloWorld Flow Model
  - Click on `Create` 
  - Click on `HelloWorldFM` in the `Orchestration asset library`
   
