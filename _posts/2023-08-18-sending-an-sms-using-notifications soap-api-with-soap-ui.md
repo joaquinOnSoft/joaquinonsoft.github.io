@@ -1,8 +1,8 @@
 ---
 title: "Sending an SMS using Notifications SOAP API with SOAP UI"
 header:
-  image: /images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/08-sms-in-mobile-phone.jpg
-  og_image: /images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/08-sms-in-mobile-phone.jpg
+  image: /images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/00-sms-in-mobile-phone.jpg
+  og_image: /images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/00-sms-in-mobile-phone.jpg
 tags:
   - Notifications
   - CCM
@@ -37,7 +37,7 @@ We'll use **SoapUI**, an automated testing tool for SOAP and REST APIs, to invok
 
 Let's create a new SOAP project. Just follow these steps:
 
- - Click on `File &amps; New SOAP project`
+ - Click on `File » New SOAP project`
  
  ![New SOAP project](/images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/01-new-soap-project.png)	  	
 
