@@ -37,7 +37,7 @@ To create a *Flow context* we'll follow these steps:
 
  - Provide the required information in the `Create new flow context` section
     - **Name**: HelloWorldFC
-	- **Description**: HelloWorld Flow Context
+	- **Description**: HelloWorld Flow Context 
  - Click on `Create`
  
 ### Flow context: Input
