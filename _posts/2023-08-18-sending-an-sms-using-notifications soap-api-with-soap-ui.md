@@ -142,6 +142,7 @@ Just select `Jobs  » Check Job Status` on the top menu.
 
  ![Check Job Status](/images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/09-check-job-status-my-portal.png)  
 If you click on the row with the same `Job Id` that was returned in our call you'll see a more detailed information.
+
  ![Check Job Status - details](/images/2023-08-18-sending-an-sms-using-notifications-soap-api-with-soap-ui/10-check-job-status-details-my-portal.png)  
 
 
