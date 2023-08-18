@@ -169,7 +169,7 @@ In the `Create new paper type` properties panel you must provide the following i
  - **Name**: A4
  - **Description**: A piece of A4 paper measures 21 x 29.7 cm
  - **Width**: 21
- - **Height****: 29.7
+ - **Height**: 29.7
  - **Color**: White
  
   ![New Paper type](../images/2023-06-26-hello-world-with-exstream/29-exstream-new-paper-type.png)	
