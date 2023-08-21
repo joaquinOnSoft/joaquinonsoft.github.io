@@ -114,5 +114,5 @@ The request is done and we receive the Notifications Job Identifier that we can 
  
 After a few seconds we receive the SMS in our mobile phone.
  
-  ![SMS received](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/07-sms-received.ppg)  
+  ![SMS received](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/07-sms-received.jpg)  
  
