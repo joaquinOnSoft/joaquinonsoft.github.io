@@ -34,6 +34,8 @@ We'll use **Postman**, an API platform for building and using APIs, to invoke
 
 > Recomended reading: [Welcome to Postman](https://learning.postman.com/docs/getting-started/overview/)
 
+## Send SMS
+
 Let's create a new *Collection*. Just follow these steps:
 
  - Click on `New` button 
@@ -106,7 +108,7 @@ Let's create a new *Collection*. Just follow these steps:
  - Click on `Save` button	
  - Click on `Send` button	
  
- The request is done and we receive the Notifications Job Identifier that we can use to track it.
+The request is done and we receive the Notifications Job Identifier that we can use to track it.
  
   ![Postman - Send SMS response](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/06-postman-request-response.png) 
  
