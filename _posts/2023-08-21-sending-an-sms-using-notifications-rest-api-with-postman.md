@@ -23,10 +23,6 @@ with [Postman](https://www.postman.com/).
 > [Notifications SOAP API](https://apiforums.easylink.com/emapidocs/).
 > Currently (August 2023), SOAP API exposes more functions than the REST API. 
 
-## POST - /mra/v1/outbound/sms
-
-`POST` - `/mra/v1/outbound/sms`: This API call submits a request to send a SMS. It requires use of pure JSON request body wherein the SMS metadata (recipient SMS address and user-specified options) and text to be sent in SMS are part of the same JSON construct.	
-
 ## Postman
 
 We'll use **Postman**, an API platform for building and using APIs, to invoke 
@@ -35,6 +31,12 @@ We'll use **Postman**, an API platform for building and using APIs, to invoke
 > Recomended reading: [Welcome to Postman](https://learning.postman.com/docs/getting-started/overview/)
 
 ## Send SMS
+
+### POST - /mra/v1/outbound/sms
+
+`POST` - `/mra/v1/outbound/sms`: This API call submits a request to send a SMS. It requires use of pure JSON request body wherein the SMS metadata (recipient SMS address and user-specified options) and text to be sent in SMS are part of the same JSON construct.	
+
+### Send SMS with Postman
 
 Let's create a new *Collection*. Just follow these steps:
 
@@ -186,4 +188,10 @@ The request, in our examples, looks like this:
 ```
 
  ![SMS Status response](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/10-postman-sms-status-response.png)  
+## Check job status
+
+We can also use `MyPortal` to check the job status. You just need to browse to `Jobs » Check job status` and look for the 
+Job Identifier returned by `Send SMS` request, i.e. *44417320*.
+
+ ![MyPortal - Check job status](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/11-myportal-check-jobs-status.png)  
 
