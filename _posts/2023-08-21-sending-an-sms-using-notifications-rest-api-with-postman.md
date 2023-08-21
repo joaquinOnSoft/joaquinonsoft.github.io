@@ -77,7 +77,7 @@ Let's create a new *Collection*. Just follow these steps:
 
  - Paste this *JSON* into the `Body` tab
 
-```json
+```JSON
 {
     "options": {
         "billing_code": "SUMMER-PROMO",
@@ -116,3 +116,74 @@ After a few seconds we receive the SMS in our mobile phone.
  
   ![SMS received](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/07-sms-received.jpg)  
  
+ 
+## SMS Status
+
+Once SMS request has been successfully accepted and a job ID is returned, `[GET ]- SMS Status` method allows 
+users to request the information about the job as it is being processed by the OpenText messaging service.
+
+Let's follow these steps to check the SMS status with *Postman*:
+
+ - Click on 3 dots icon, close to the `Notifications` collection 
+ - Select `Add request` on the drop-down list 
+ 
+  ![Add request](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/08-add-request.png)  
+ 
+ - Provide the basic request information:  
+    - **Name**: SMS Status
+	- **Method**: GET
+	- **URL**: https://api.eu.cloudmessaging.opentext.com/mra/v1/outbound/sms/status/
+
+  ![GET - SMS status](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/09-postman-sms-status.png)  
+
+ - Click on `Authorization` tab	
+ - Select `Basic Auth` on the `Type` drop-down list 
+ - Provide the authentication information:
+    - **Username**
+	- **Password**	
+ 
+ - Click on `Params` tab
+ - Add a new param:
+    - **Key**: job_id
+	- **Value**: xsi2-44417320 (In our example)
+
+ - Click on `Save` button	
+ - Click on `Send` button	
+	
+The request, in our examples, looks like this:
+
+```JSON
+{
+    "job_id": "xsi2-44417320",
+    "billing_code_base64": "U1VNTUVSLVBST01P",
+    "customer_reference_base64": "Sm9hcXVpbk9uU29mdA==",
+    "entry_time": "2023-08-21T09:25:26.000Z",
+    "job_state": [
+        "Complete",
+        "Posted"
+    ],
+    "deliveries": [
+        {
+            "ref_base64": "Sm9hcXVpbi1SRUY=",
+            "sms": "0034626790770",
+            "delivery_attempts": [
+                {
+                    "state": "Sent",
+                    "first_attempt": "2023-08-21T10:25:26.000Z"
+                }
+            ],
+            "events": {
+                "sms_delivery_events": [
+                    {
+                        "event_time": "2023-08-21T10:26:00.000Z",
+                        "status": "Confirmed"
+                    }
+                ]
+            }
+        }
+    ]
+}
+```
+
+ ![SMS Status response](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/10-postman-sms-status-response.png)  
+
