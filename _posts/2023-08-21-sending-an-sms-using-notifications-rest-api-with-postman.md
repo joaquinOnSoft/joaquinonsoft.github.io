@@ -152,7 +152,7 @@ Let's follow these steps to check the SMS status with *Postman*:
  - Click on `Save` button	
  - Click on `Send` button	
 	
-The request, in our examples, looks like this:
+The response, in our examples, looks like this:
 
 ```JSON
 {
@@ -190,8 +190,7 @@ The request, in our examples, looks like this:
  ![SMS Status response](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/10-postman-sms-status-response.png)  
 ## Check job status
 
-We can also use `MyPortal` to check the job status. You just need to browse to `Jobs » Check job status` and look for the 
-Job Identifier returned by `Send SMS` request, i.e. *44417320*.
+We can also use `MyPortal` to check the job status. You just need to browse to `Jobs » Check job status` and look for the Job Identifier returned by `Send SMS` response, i.e. *44417320*.
 
  ![MyPortal - Check job status](/images/2023-08-21-sending-an-sms-using-notifications-rest-api-with-postman/11-myportal-check-jobs-status.png)  
 
