@@ -28,7 +28,7 @@ with [Postman](https://www.postman.com/).
 We'll use **Postman**, an API platform for building and using APIs, to invoke 
 *Notifications REST API* to send an SMS.
 
-> Recomended reading: [Welcome to Postman](https://learning.postman.com/docs/getting-started/overview/)
+> Recommended reading: [Welcome to Postman](https://learning.postman.com/docs/getting-started/overview/)
 
 ## Send SMS
 
