@@ -55,7 +55,7 @@ docker run --hostname HOSTNAME IMAGE
 docker run --hostname srv nginx
 ```
 
-... and add a DNS enry
+... and add a DNS entry
 
 ```
 docker run --add-host HOSTNAME:IP IMAGE 
