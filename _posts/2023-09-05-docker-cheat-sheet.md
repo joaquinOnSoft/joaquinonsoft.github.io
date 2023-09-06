@@ -9,7 +9,7 @@ last_modified_at: 2023-09-05T20:27:15-04:00
 ---
 
 
-This is a web wersion of the [Cheatsheet for Docker CLI](https://dockerlabs.collabnix.com/docker/cheatsheet/) [image](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet8.png).
+This is a text-based version of the [Cheatsheet for Docker CLI](https://dockerlabs.collabnix.com/docker/cheatsheet/) [image](https://raw.githubusercontent.com/sangam14/dockercheatsheets/master/dockercheatsheet8.png).
 
 ## Run a new Container 
 
