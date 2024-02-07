@@ -10,6 +10,10 @@ tags:
 last_modified_at: 2024-02-06T15:39:28-04:00
 ---
 
+> Please, not this is a translation of the original article
+> [Generar un Domain Language Model (DLM) para NTE y Explore](/2021-07-31-genera-un-domain-language-model-dlm-nte-y-explore).
+> It has been updated to include the changes and improvements in NTE 4.7.1
+
 Each Nuance Transcription Engine (NTE) language pack contains a "language model", 
 which has been trained on the text of thousands of conversations. The language model observes how certain 
 combinations of words appear more frequently than others in the text. From this, a language model can 
@@ -113,10 +117,10 @@ In our example the DLM is called "DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede7
 Once the work on improving the quality of the transcription has been completed, it is advisable to stop the servers:
 
    - Stop **Transcription DomainLM Client**: We must press `Ctrl + C` in the console that runs the 
-   NTE server
+   *Transcription DomainLM Client* server
 
    - Stop **NTE (Transcription Engine) server**: We must press `Ctrl + C` in the console that runs the 
-   NTE server
+   *NTE server*
    ![Stop NTE server](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/17-stop-server-transcription-engine.png)
 
 
@@ -169,3 +173,14 @@ to the attribute **"Nuance > DomainLM > Name "**. Our configuration file should 
     }
 
 ```
+
+
+> El valor del "name" es el mismo que obtuvimos al generar el DLM en un apartado anterior.
+
+### Inicializando STeMS
+
+Por último, pero no por ello menos importante. Debemos reiniciar el servicio de STeMS.
+
+![](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/starting-stems.png)
+
+Ahora ya estamos listos para utilizar el motor de trasncripción con nuestro nuevo DLM.
