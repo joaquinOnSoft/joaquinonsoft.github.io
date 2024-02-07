@@ -130,7 +130,7 @@ Access the **develoment.yaml** file to change the value of the attribute
 **startAsGenerator** to *false*.
 
 
-````yaml
+```yaml
 domainLMGeneration:
     startAsGenerator: false  
 ```
@@ -142,7 +142,7 @@ we must assign the new value **"DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745
 to the attribute **"Nuance > DomainLM > Name "**. Our configuration file should look something like this:
 
 
-````json
+```json
  ...
  
  "Nuance": {
