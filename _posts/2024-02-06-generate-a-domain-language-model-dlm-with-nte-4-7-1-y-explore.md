@@ -56,7 +56,7 @@ domainLMGeneration:
 ### Start transcription engine  
 
 Once the configuration is finished we must execute the **startEngine.bat** script 
-located in **C:\Program Files "Transcription Engine".
+located in **C:\Program Files\Nuance\Transcription Engine**.
 
 ![startEngine.bat](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/06-start-transcription-engine.png)
 
@@ -68,7 +68,7 @@ When the service has successfully initialized we will see a screen similar to th
 ### Start transcription web client
 
 We must also start the **Transcription DomainLM Client**. To do so, run the script **start-server.bat** 
-located at **C:\Program Files** **Transcription DomainLM Client**.
+located at **C:\Program Files\Nuance\Transcription DomainLM Client**.
 
 ![Initialize NTE Web Client](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/starServer-bat-transcription-domain-lm-client.png)
 
