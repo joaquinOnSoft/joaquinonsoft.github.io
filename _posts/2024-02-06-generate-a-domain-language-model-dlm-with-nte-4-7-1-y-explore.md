@@ -52,3 +52,44 @@ We will access the **develoment.yaml** file to change the value of the attribute
 domainLMGeneration:
     startAsGenerator: true  
 ```
+
+### Start transcription engine  
+
+Once the configuration is finished we must execute the **startEngine.bat** script 
+located in **C:\Program Files "Transcription Engine".
+
+![startEngine.bat](/images/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/06-start-transcription-engine.png)
+
+When the service has successfully initialized we will see a screen similar to this:
+ 
+![Transcription Engine initialized](/images/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/07-transcription-engine-started.png)
+
+
+### Start transcription web client
+
+We must also start the **Transcription DomainLM Client**. To do so, run the script **start-server.bat** 
+located at **C:\Program Files** **Transcription DomainLM Client**.
+
+![Initialize NTE Web Client](/images/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/starServer-bat-transcription-domain-lm-client.png)
+
+
+
+### Access to the Transcription DomainLM Client
+
+Finally we will access the *Transcription DomainLM Client* at the address `http://172.31.18.241:3030/` (IP and port may vary).
+
+![Transcription DomainLM Client web access](/images/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/transcription-domainlm-client.png)
+
+Now we are ready to generate a *Domain Language Model*.
+
+### Provide training data
+
+Training data usually consists of text files containing fragments of conversations, or full transcripts of conversations. 
+conversations, or complete transcripts of calls that we have made manually.
+A training file might look something like this (but with many more sentences):
+
+```
+it was stalled and would not go forward or backward
+and that tells you
+ok let me do a test
+```
