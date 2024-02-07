@@ -138,8 +138,8 @@ domainLMGeneration:
 ### Update appsettings.json file ("Language": "spa-ESP")  
 
 The last configuration file to update is **appsettings.json**. Where 
-we must assign the new value **"DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc "** to the attribute **"Nuance >". 
-to the attribute **"Nuance > DomainLM > Name "**. Our configuration file should look something like this:
+we must assign the new value **"DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc "** to the attribute 
+**"Nuance > DomainLM > Name "**. Our configuration file should look something like this:
 
 
 ```json
