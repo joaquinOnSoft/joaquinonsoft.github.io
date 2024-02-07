@@ -48,7 +48,7 @@ the **OpenText STeMS service**. Just right-click on the name of the service and 
 We will access the **develoment.yaml** file to change the value of the attribute 
 **startAsGenerator** to *true*.
 
-````yaml
+```yaml
 domainLMGeneration:
     startAsGenerator: true  
 ```
