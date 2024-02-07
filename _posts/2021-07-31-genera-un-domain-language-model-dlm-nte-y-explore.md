@@ -18,7 +18,7 @@ idioma puede predecir las palabras que la persona dijo en una conversación, en 
 Podemos mejorar, o en otras palabras: "entrenar" el modelo de idioma, utilizando texto del dominio 
 de negocio que nos interese. A partir del texto, el paquete de idioma puede aprender nuevas palabras 
 específicas para nuestro dominio y qué combinaciones de palabras son más probables. NTE compila estas 
-nuevas palabras y/o combinaciones de palabras en un "Domain Language Model", o DLM. Este DLM complementa el 
+nuevas palabras y/o combinaciones de palabras en un *"Domain Language Model" (DLM)*. Este DLM complementa el 
 modelo de idioma genérico que se encuentra en el paquete de idioma instalado.
 
 ## Configuración del entorno
