@@ -1,5 +1,5 @@
 ---
-title: "Generating a Domain Language Model (DLM) for NTE 4.7.1 and Explore 22.4
+title: "Generating a Domain Language Model (DLM) for NTE 4.7.1 and Explore 22.4"
 header:
   image: /images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/24-nte-transcribe-2nd-time.png
   og_image: /images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/24-nte-transcribe-2nd-time.png
