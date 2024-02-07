@@ -12,7 +12,7 @@ last_modified_at: 2024-02-05T15:39:28-04:00
 
 
 > Please, note this is a translation of the original article
-> [Mejorando la calidad de la transcripción de las llamadas con Add Words en NTE y Explore](/genera-un-domain-language-model-dlm-nte-y-explore).
+> [Mejorando la calidad de la transcripción de las llamadas con Add Words en NTE y Explore](/mejorando-la-calidad-de-la-transcripcion-de-las-llamadas-con-add-words-en-nte-y-explore).
 > It has been updated to include the changes and improvements in NTE 4.7.1 and Explore 22.4
 
 
