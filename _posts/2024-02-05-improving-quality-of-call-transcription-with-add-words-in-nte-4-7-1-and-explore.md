@@ -65,7 +65,7 @@ Once we have added all the phrases we want to teach the system, we have to trans
 You will notice that when the system uses some of the phrases it has learnt, the phrases are shown with
 with underscores, '_', instead of spaces.
 
-Transcribe the call for the 2nd time](/images/2024-02-05-improving-quality-of-call-transcription-with-add-words-in-nte-4-7-1-and-explore/24-nte-transcribe-2nd-time.png)
+![Transcribe the call for the 2nd time](/images/2024-02-05-improving-quality-of-call-transcription-with-add-words-in-nte-4-7-1-and-explore/24-nte-transcribe-2nd-time.png)
 
 You can repeat this process (Add Words - transcribe call) as many times as you like.
 
