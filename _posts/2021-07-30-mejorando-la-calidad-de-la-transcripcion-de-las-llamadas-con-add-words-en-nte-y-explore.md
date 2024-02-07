@@ -15,7 +15,7 @@ para su posterior análisis, lo que nos permitirá realizar clasificaciones, ide
 
 ## Acceso al cliente NTE
 
-> Lectura recomendada: [Como configurar Nuance Transcription Engine (NTE) para OpenText Explore](/como-configurar-nuance-transcription-engine-para-opentext-explore/)
+> Lectura recomendada: [Como configurar Nuance Transcription Engine (NTE) para OpenText Explore](/mejorando-la-calidad-de-la-transcripcion-de-las-llamadas-con-add-words-en-nte-y-explore/)
 
 En primer lugar debemos acceder al *Cliente NTE* en la dirección `http://172.31.18.241:3000/` (la IP y el puerto pueden variar).
 

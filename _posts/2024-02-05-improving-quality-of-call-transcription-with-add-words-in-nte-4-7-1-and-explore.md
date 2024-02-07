@@ -10,6 +10,12 @@ tags:
 last_modified_at: 2024-02-05T15:39:28-04:00
 ---
 
+
+> Please, note this is a translation of the original article
+> [Mejorando la calidad de la transcripción de las llamadas con Add Words en NTE y Explore](/genera-un-domain-language-model-dlm-nte-y-explore).
+> It has been updated to include the changes and improvements in NTE 4.7.1 and Explore 22.4
+
+
 Let's see how to improve the quality and accuracy of the transcription made in OpenText Explore 
 for later analysis, which will allow us to perform classifications, identify trends...
 
@@ -50,3 +56,39 @@ block and add the words or phrases we want to teach the system. In our example w
 
    * hello my name is Ana
    * nice to meet you
+   
+
+![NTE - Add words](/images/2024-02-05-improving-quality-of-call-transcription-with-add-words-in-nte-4-7-1-and-explore/23-nte-add-words.png)
+
+Once we have added all the phrases we want to teach the system, we have to transcribe the call again.
+
+You will notice that when the system uses some of the phrases it has learnt, the phrases are shown with
+with underscores, '_', instead of spaces.
+
+Transcribe the call for the 2nd time](/images/2024-02-05-improving-quality-of-call-transcription-with-add-words-in-nte-4-7-1-and-explore/24-nte-transcribe-2nd-time.png)
+
+You can repeat this process (Add Words - transcribe call) as many times as you like.
+
+After one or more iterations, we can repeat the process again, but this time with a different call. 
+In this way, we can identify common expressions in conversations or phrases that are transcribed incorrectly.
+This will allow us to compose a collection of phrases that we can later use for the elaboration of our Domain Language Model (DLM).
+our Domain Language Model (DLM).
+
+> Recommended reading: [Generating a Domain Language Model (DLM) for NTE 4.7.1 and Explore 22.4](/generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore)
+
+
+### Stopping the servers
+
+Once the work on improving the quality of the transcription is finished, it is advisable to stop the servers:
+
+   - **Stop the Domain Language Model Client (DomainLM Client)**: Simply go to 
+   **C:\Program Files\Nuance\Transcription Webclient** and execute the script:
+
+```shell
+   server.bat stop
+```
+   
+   - **Stop the NTE (Transcription Engine) server**: We must press `Ctrl + C` on the console running the 
+   NTE server
+   ![Stop the NTE server](/images/17-stop-server-transcription-engine.png)
+
