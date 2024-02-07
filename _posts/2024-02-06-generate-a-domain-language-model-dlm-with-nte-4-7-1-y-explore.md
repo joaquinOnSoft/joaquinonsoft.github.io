@@ -11,7 +11,7 @@ last_modified_at: 2024-02-06T15:39:28-04:00
 ---
 
 > Please, note this is a translation of the original article
-> [Generar un Domain Language Model (DLM) para NTE y Explore](/2021-07-31-genera-un-domain-language-model-dlm-nte-y-explore).
+> [Generar un Domain Language Model (DLM) para NTE y Explore](/genera-un-domain-language-model-dlm-nte-y-explore).
 > It has been updated to include the changes and improvements in NTE 4.7.1 and Explore 22.4
 
 Each Nuance Transcription Engine (NTE) language pack contains a "language model", 
