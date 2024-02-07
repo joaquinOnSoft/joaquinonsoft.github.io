@@ -175,12 +175,12 @@ to the attribute **"Nuance > DomainLM > Name "**. Our configuration file should 
 ```
 
 
-> El valor del "name" es el mismo que obtuvimos al generar el DLM en un apartado anterior.
+> The value of the "name" is the same as the one we obtained when generating the DLM in a previous section.
 
-### Inicializando STeMS
+### Initialising STeMS
 
-Por último, pero no por ello menos importante. Debemos reiniciar el servicio de STeMS.
+Last but not least, we must restart the STeMS service. We must restart the STeMS service.
 
 ![](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/starting-stems.png)
 
-Ahora ya estamos listos para utilizar el motor de trasncripción con nuestro nuevo DLM.
+Now we are ready to use the transcription engine with our new DLM.
