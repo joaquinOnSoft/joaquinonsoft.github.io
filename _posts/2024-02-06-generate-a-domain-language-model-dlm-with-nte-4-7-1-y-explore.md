@@ -121,6 +121,7 @@ Once the work on improving the quality of the transcription has been completed, 
 
    - Stop **NTE (Transcription Engine) server**: We must press `Ctrl + C` in the console that runs the 
    *NTE server*
+   
    ![Stop NTE server](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/17-stop-server-transcription-engine.png)
 
 
