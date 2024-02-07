@@ -66,7 +66,7 @@ When the service has successfully initialized we will see a screen similar to th
 
 ### Start transcription web client
 
-We must also start the **Transcription DomainLM Client**. To do so, run the script **start-server.bat** 
+We must also start the **Transcription DomainLM Client**. To do so, run the script **startServer.bat** 
 located at **C:\Program Files\Nuance\Transcription DomainLM Client**.
 
 ![Initialize NTE Web Client](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/starServer-bat-transcription-domain-lm-client.png)
@@ -74,7 +74,7 @@ located at **C:\Program Files\Nuance\Transcription DomainLM Client**.
 
 ### Access to the Transcription DomainLM Client
 
-Finally we will access the *Transcription DomainLM Client* at the address `http://172.31.18.241:3030/` (IP and port may vary).
+Finally we will access the *Transcription DomainLM Client* at the address `http://172.31.18.241:3030/` (IP and port can vary).
 
 ![Transcription DomainLM Client web access](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/transcription-domainlm-client.png)
 
@@ -112,10 +112,10 @@ In our example the DLM is called "DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede7
 
 Once the work on improving the quality of the transcription has been completed, it is advisable to stop the servers:
 
-   * Stopping the Transcription DomainLM Client**: Simply go to 
-   **C:\Program Files\Nuance\Transcription Webclient** and execute the script **stop-server.bat**.
+   - Stop **Transcription DomainLM Client**: We must press `Ctrl + C` in the console that runs the 
+   NTE server
 
-   **Stop the NTE (Transcription Engine) server**: We must press `Ctrl + C` in the console that runs the 
+   - Stop **NTE (Transcription Engine) server**: We must press `Ctrl + C` in the console that runs the 
    NTE server
    ![Stop NTE server](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/17-stop-server-transcription-engine.png)
 
@@ -125,3 +125,47 @@ Once the work on improving the quality of the transcription has been completed, 
 Access the **develoment.yaml** file to change the value of the attribute 
 **startAsGenerator** to *false*.
 
+
+````yaml
+domainLMGeneration:
+    startAsGenerator: false  
+```
+
+### Update appsettings.json file ("Language": "spa-ESP")  
+
+The last configuration file to update is **appsettings.json**. Where 
+we must assign the new value **"DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc "** to the attribute **"Nuance >". 
+to the attribute **"Nuance > DomainLM > Name "**. Our configuration file should look something like this:
+
+
+````json
+ ...
+ 
+ "Nuance": {
+    "NTE": {
+      "IP": "172.31.18.241",
+      "httpPort": "8000",
+      "httpsPort": "7000",
+      "useShellExecute": "true",
+      "createNoWindow": "false",
+      "application": "C:\Program Files FilesTranscription Engine StartEngine.bat",
+      "applicationName": "nte"
+    },
+    "NTECallbackURL": "http://172.31.18.241/api/STeMS/NTECallback",
+    "installType": "onPrem",
+    "queueWatermark": "2",
+    "queueOverflowMultiplier": ".5",
+    "language": "spa-ESP",
+    "houseCleaningTimeout": "60",
+    "coreOverride": "8",
+    "NoAudioText": "Transcription for all of the segments has failed",
+    "LogStatistics": "",
+	"AddWords": [],
+    "AWSTableName": "STeMSTracker",
+	"DomainLM": {
+      "Name": "DomainLM-TEST_5532d8a0-f152-11eb-87ec-e377ede745dc",
+      "Url": "",
+      "Weight": "High"
+    }
+
+```
