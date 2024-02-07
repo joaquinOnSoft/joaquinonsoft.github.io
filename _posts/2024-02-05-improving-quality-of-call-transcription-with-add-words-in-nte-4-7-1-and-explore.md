@@ -1,5 +1,5 @@
 ---
-title: "Improving call transcription quality with Add Words in NTE and Explore"
+title: "Improving call transcription quality with Add Words in NTE 4.7.1 and Explore 22.4"
 header:
   image: /images/2024-02-05-improving-quality-of-call-transcription-with-add-words-in-nte-4-7-1-and-explore/24-nte-transcribe-2nd-time.png
   og_image: /images/2024-02-05-improving-quality-of-call-transcription-with-add-words-in-nte-4-7-1-and-explore/24-nte-transcribe-2nd-time.png
