@@ -91,4 +91,8 @@ Once the work on improving the quality of the transcription is finished, it is a
    - **Stop the NTE (Transcription Engine) server**: We must press `Ctrl + C` on the console running the 
    NTE server
    ![Stop the NTE server](/images/17-stop-server-transcription-engine.png)
-
+   
+## Related readings
+   
+   1. Improving call transcription quality with Add Words in NTE 4.7.1 and Explore 22.4 (This article)
+   2. [Generating a Domain Language Model (DLM) for NTE 4.7.1 and Explore 22.4](/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore)

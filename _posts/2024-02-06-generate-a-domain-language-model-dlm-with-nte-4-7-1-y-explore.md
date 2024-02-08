@@ -185,3 +185,8 @@ Last but not least, we must restart the STeMS service. We must restart the STeMS
 ![](/images/2024-02-06-generate-a-domain-language-model-dlm-with-nte-4-7-1-y-explore/starting-stems.png)
 
 Now we are ready to use the transcription engine with our new DLM.
+
+## Related readings
+
+   1. [Improving call transcription quality with Add Words in NTE 4.7.1 and Explore 22.4](/improving-quality-of-call-transcription-with-add-words-in-nte-4-7-1-and-explore)
+   2. Generating a Domain Language Model (DLM) for NTE 4.7.1 and Explore 22.4 (This article)   
