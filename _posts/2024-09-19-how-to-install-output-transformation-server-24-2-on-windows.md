@@ -17,11 +17,10 @@ high-volume documents and reduce paper usage.
 
 ## Prerequisites: 3rd party software
 
-Download and install these products in your environment
+Download and install these products in your environment:
 
    - *Mandatory*
       - [Java SE 8](https://jdk.java.net/java-se-ri/8-MR5), [Java SE 11](https://jdk.java.net/java-se-ri/11-MR2) or [Java SE 17](https://jdk.java.net/java-se-ri/17) (Recommended)
-	  - [PostgreSQL 15](https://www.enterprisedb.com/downloads/postgres-postgresql-downloads)
 	  - [Tomcat 9](https://tomcat.apache.org/download-90.cgi)
 
    - *Recommended:*
@@ -31,7 +30,7 @@ Download and install these products in your environment
 ## OTS software 
 
  - Browse to [OpenText My Support](https://support.opentext.com)
- - Click on Knowledge > Software Download
+ - Click on `Knowledge > Software Download`
 
 ![Knowledge software](/images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/01-knowledge-software.png)
 
@@ -82,7 +81,7 @@ Download and install these products in your environment
 > **NOTE:** The license is provided by OpenText once you adquire your software license
  
    - Rename it as `license.txt`
-   - Browse to `<OTS_BASE>\maint in Windows Explorer
+   - Browse to `<OTS_BASE>\maint in Windows Explorer`
    - Double click on `OnTimeSetup.bat`
       - Enter `Y` and press `Enter` to accept the EULA
       - The installer expands all the modules
