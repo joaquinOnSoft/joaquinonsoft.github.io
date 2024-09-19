@@ -100,4 +100,4 @@ Download and install these products in your environment:
 Congrats! You have successfully installed Output Transformation Server (OTS) 24.2 on Windows.
 
 
-> **Recommended reading**: [How to install OTSManager 24.2 on Windows??](./2024-09-20-how-to-install-otsmanager-24-2-on-windows.md)
+> **Recommended reading**: [How to install OTSManager 24.2 on Windows?](./2024-09-20-how-to-install-otsmanager-24-2-on-windows.md)

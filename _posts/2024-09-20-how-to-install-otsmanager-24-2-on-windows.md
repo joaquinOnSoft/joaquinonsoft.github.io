@@ -7,7 +7,7 @@ tags:
   - OpenText
   - Output Transformation Server
   - OTS
-last_modified_at: 2024-09-19T23:54:18-04:00
+last_modified_at: 2024-09-20T23:54:18-04:00
 ---
 
 This article will show you **how to install OTSManager 24.2 on Windows** step by step.
