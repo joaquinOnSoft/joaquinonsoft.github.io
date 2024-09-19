@@ -97,3 +97,4 @@ Download and install these products in your environment
 
 ![Output Transformation Designer](/images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/08-Output-Transformation-Designer.png)
 
+Congrats! You have successfully installed Output Transformation Server (OTS) 24.2 on Windows.
