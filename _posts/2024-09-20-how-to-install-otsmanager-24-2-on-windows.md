@@ -34,7 +34,7 @@ You must complete the following prerequisites before installing OTSManager:
 
  - Install **Output Transformation Server 24.2** 
 
-> Recommended reading: [How to install Output Transformation Server 24.2 on Windows?](./2024-09-19-how-to-install-output-transformation-server-24-2-on-windows.md)
+> Recommended reading: [How to install Output Transformation Server 24.2 on Windows?](/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows)
 
  - Install [Tomcat 9](https://tomcat.apache.org/download-90.cgi)
  - Verify that `localhost` is defined in `c:\Windows\System32\drivers\etc\hosts`
