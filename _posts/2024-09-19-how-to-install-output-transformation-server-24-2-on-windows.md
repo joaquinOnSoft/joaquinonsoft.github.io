@@ -10,10 +10,12 @@ tags:
 last_modified_at: 2024-09-19T20:24:18-04:00
 ---
 
-OpenText *Output Transformation Server (OTS)* enables organizations to transform, store and present 
-print-ready documents at scale, as well as in highly complete and structured accessible formats. 
-Through high-performance document transformation, organizations can also index and archive 
-high-volume documents and reduce paper usage.
+This article will show you **how to install Output Transformation Server 24.2 on Windows** step by step.
+
+> OpenText *Output Transformation Server (OTS)* enables organizations to transform, store and present 
+> print-ready documents at scale, as well as in highly complete and structured accessible formats. 
+> Through high-performance document transformation, organizations can also index and archive 
+> high-volume documents and reduce paper usage.
 
 ## Prerequisites: 3rd party software
 
@@ -21,7 +23,6 @@ Download and install these products in your environment:
 
    - *Mandatory*
       - [Java SE 8](https://jdk.java.net/java-se-ri/8-MR5), [Java SE 11](https://jdk.java.net/java-se-ri/11-MR2) or [Java SE 17](https://jdk.java.net/java-se-ri/17) (Recommended)
-	  - [Tomcat 9](https://tomcat.apache.org/download-90.cgi)
 
    - *Recommended:*
 	  - [Acrobat Reader](https://get.adobe.com/reader/)
@@ -97,3 +98,6 @@ Download and install these products in your environment:
 ![Output Transformation Designer](/images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/08-Output-Transformation-Designer.png)
 
 Congrats! You have successfully installed Output Transformation Server (OTS) 24.2 on Windows.
+
+
+> **Recommended reading**: [How to install OTSManager 24.2 on Windows??](./2024-09-20-how-to-install-otsmanager-24-2-on-windows.md)
