@@ -81,12 +81,12 @@ Download and install these products in your environment:
  
    - Rename it as `license.txt`
    - Browse to `<OTS_BASE>\maint in Windows Explorer`
-   - Double click on `OnTimeSetup.bat`
+   - Double click on `OneTimeSetup.bat`
       - Enter `Y` and press `Enter` to accept the EULA
       - The installer expands all the modules
       - Press `Enter` to close the Console once the installation is complete
 
-![OnTimeSetup.bat](/images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/06-OneTimeSetup.bat.png)
+![OneTimeSetup.bat](/images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/06-OneTimeSetup.bat.png)
 
 ## Launch Designer
 
