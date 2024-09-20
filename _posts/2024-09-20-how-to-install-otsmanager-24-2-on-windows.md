@@ -1,8 +1,8 @@
 ---
 title: "How to install OTSManager 24.2 on Windows?"
 header:
-  image: /images/2020-04-20-error-en-la-publicacion-de-teamsite-error-while-executing-task-production-deployment/70-ots-manager.png
-  og_image: /images/2020-04-20-error-en-la-publicacion-de-teamsite-error-while-executing-task-production-deployment/70-ots-manager.png
+  image: /images/2020-04-20-error-en-la-publicacion-de-teamsite-error-while-executing-task-production-deployment/71-ots-manager-resources.png
+  og_image: /images/2020-04-20-error-en-la-publicacion-de-teamsite-error-while-executing-task-production-deployment/71-ots-manager-resources.png
 tags:
   - OpenText
   - Output Transformation Server
