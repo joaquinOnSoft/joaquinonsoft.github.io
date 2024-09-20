@@ -48,7 +48,7 @@ Just follow these steps to complete the installation:
  - Browse to  `<OTS_BASE>\maint`, e.g. **C:\OpenText\OTS 24.2\maint**
  - Double click on `SetupDocumentAccessibility.bat`
  
- ![143-setup-document-accesibility.png](/images/2024-09-21-how-to-install-document-accessibility-da-24-2-on-windows/142-setup-document-accessibility.png)
+ ![SetupDocumentAccessibility.bat](/images/2024-09-21-how-to-install-document-accessibility-da-24-2-on-windows/142-setup-document-accessibility.png)
 
 `SetupDocumentAccessibility.bat` is going a make several questions. Use the default answers, except for these questions:
 

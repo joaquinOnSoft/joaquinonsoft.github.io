@@ -100,3 +100,4 @@ Congrats! You have successfully installed Output Transformation Server (OTS) 24.
 ## Related readings
 
 [How to install OTSManager 24.2 on Windows?](/how-to-install-otsmanager-24-2-on-windows)
+[How to install Document Accessibility (DA)24.2 on Windows](/how-to-install-document-accessibility-da-24-2-on-windows)
