@@ -43,8 +43,6 @@ Download and install these products in your environment:
 
  - Download following componets:
 
-![My Support - OTS](/images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/04-mysupport.opentext.com-ots.png)
-
 |               | Description                                           | Link (My Support)                                                                                              |
 | ------------- | ----------------------------------------------------- | -------------------------------------------------------------------------------------------------------------- |
 | Base          | Output Transformation Server Base 24.2                | [ots_base.zip](https://support.opentext.com/csm?id=kb_article_view&sys_kb_id=debb7ccb47750e10fd2258e5536d4372) |
