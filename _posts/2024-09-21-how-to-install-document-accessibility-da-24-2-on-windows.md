@@ -1,5 +1,5 @@
 ---
-title: "How to install Document Accessibility (DA)24.2 on Windows"
+title: "How to install Document Accessibility (DA) 24.2 on Windows"
 header:
   image: /images/2024-09-21-how-to-install-document-accessibility-da-24-2-on-windows/150-auto-tag.png
   og_image: /images/2024-09-21-how-to-install-document-accessibility-da-24-2-on-windows/150-auto-tag.png
