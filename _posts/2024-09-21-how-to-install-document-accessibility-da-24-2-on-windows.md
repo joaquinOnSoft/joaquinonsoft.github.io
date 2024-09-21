@@ -7,7 +7,7 @@ tags:
   - OpenText
   - Document Accessibility
   - DA
-last_modified_at: 2024-09-21T00:17:14-04:00
+last_modified_at: 2024-09-21T06:54:18-04:00
 ---
 
 This article will show you **how to install Document Accessibility (DA24.2 on Windows** step by step.
