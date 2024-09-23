@@ -1,5 +1,5 @@
 ---
-title: "How to train a custom autotagging model in Opentext Document Accessibility?"
+title: "How to train a custom autotagging model in Opentext Document Accessibility"
 header:
   image: /images/2024-09-22-how-to-train-a-custom-autotagging-model-in-opentext-document-accessibility/181-auto-tag-with.png
   og_image: /images/2024-09-22-how-to-train-a-custom-autotagging-model-in-opentext-document-accessibility/181-auto-tag-with.png
@@ -7,7 +7,7 @@ tags:
   - OpenText
   - Document Accessibility
   - DA
-last_modified_at: 2024-09-22T00:04:14-04:00
+last_modified_at: 2024-09-22T08:34:18-04:00
 ---
 
 This article will show you **how to train a custom autotagging model in Opentext Document Accessibility** step by step.

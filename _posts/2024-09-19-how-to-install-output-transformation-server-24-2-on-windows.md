@@ -1,5 +1,5 @@
 ---
-title: "How to install Output Transformation Server 24.2 on Windows?"
+title: "How to install Output Transformation Server 24.2 on Windows"
 header:
   image: /images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/08-Output-Transformation-Designer.png
   og_image: /images/2024-09-19-how-to-install-output-transformation-server-24-2-on-windows/08-Output-Transformation-Designer.png
@@ -99,5 +99,5 @@ Congrats! You have successfully installed Output Transformation Server (OTS) 24.
 
 ## Related readings
 
-[How to install OTSManager 24.2 on Windows?](/how-to-install-otsmanager-24-2-on-windows)
-[How to install Document Accessibility (DA)24.2 on Windows](/how-to-install-document-accessibility-da-24-2-on-windows)
+ - [How to install OTSManager 24.2 on Windows](/how-to-install-otsmanager-24-2-on-windows)
+ - [How to install Document Accessibility (DA)24.2 on Windows](/how-to-install-document-accessibility-da-24-2-on-windows)
