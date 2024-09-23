@@ -35,11 +35,11 @@ Follow this steps to set the tag that you want to use to auto-tag your document 
  - Click on `Auto Detect` tab
  - Click on `[…]` close to `Auto Detect Options`
 
-![Auto detect options]](/images/2024-09-23-output-transformation-server-tips-and-tricks/06-auto-detect-options.png)
+![Auto detect options](/images/2024-09-23-output-transformation-server-tips-and-tricks/06-auto-detect-options.png)
 
  - Edit `Default` auto detect options
 
-![Auto detect options: edit]](/images/2024-09-23-output-transformation-server-tips-and-tricks/07-auto-detect-options-edit.png)
+![Auto detect options: edit](/images/2024-09-23-output-transformation-server-tips-and-tricks/07-auto-detect-options-edit.png)
 
  - Right click on `TextToTag[0]`
  - Click on `+ Add`
