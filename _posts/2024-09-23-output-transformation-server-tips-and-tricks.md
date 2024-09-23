@@ -119,7 +119,7 @@ Ideally we must use `<TH>` in headers cells
 
 ![Table columns](/images/2024-09-23-output-transformation-server-tips-and-tricks/17-table-column.png)
 
-Follow these steps to fix it:
+Follow these steps to improve it:
 
  - Select you table
  - Right click on table
