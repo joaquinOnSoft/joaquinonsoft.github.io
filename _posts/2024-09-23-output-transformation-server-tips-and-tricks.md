@@ -13,7 +13,7 @@ last_modified_at: 2024-09-23T08:34:18-04:00
 This article explains how to solve some common challenges that you can face during a 
 document remediation using OpenText Output Transformation Server.
 
-> OpenText Output Transformation Server automatically transform and present archived content 
+> **OpenText Output Transformation Server (OTS)** automatically transform and present archived content 
 > in a highly usable, navigable and accessible format, such as PDF/UA, for persons 
 > requiring accessible technologies.
 
@@ -150,7 +150,7 @@ If you check the DOM tree you can see that now `<TH>` is used in the header row
 
 ## The language of my document is not English
 
-Sometimes work is done on remediations of documents written in a language other than English.
+Sometimes you work in document remediation with documents written in a language other than English.
 
 > **NOTE**: 
 > You can check the language of your document in Acrobat Reader at Menu > Document properties.
@@ -159,6 +159,7 @@ Sometimes work is done on remediations of documents written in a language other 
 
 ![Reading options language](/images/2024-09-23-output-transformation-server-tips-and-tricks/25-reading-options-language.png)
 
+Follow these steps to set the default language of a document in Output Transformation Server:
 
  - Right click on your `Document` at the `XFT Field Technology` menu
  - Click on `Edit`
@@ -176,7 +177,7 @@ Sometimes work is done on remediations of documents written in a language other 
 
 > **NOTE:**
 > If the language of your document is not included in the drop-down list you can 
-> use the ISO language code, i.e. you can user `ca_ES` for Catalan.
+> use the ISO language code, i.e. you can use `ca_ES` for Catalan.
 
 
 
