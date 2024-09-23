@@ -148,6 +148,40 @@ If you check the DOM tree you can see that now `<TH>` is used in the header row
 
 ![TH used in table header](/images/2024-09-23-output-transformation-server-tips-and-tricks/22-th-used-in-table-header.png)
 
+## The language of my document is not English
+
+Sometimes work is done on remediations of documents written in a language other than English.
+
+> **NOTE**: 
+> You can check the language of your document in Acrobat Reader at Menu > Document properties.
+> At Advanced tab in the Document properties pop-up you can see the language.
+> This language will be used by the screen reader to choose the right voice.
+
+![Reading options language](/images/2024-09-23-output-transformation-server-tips-and-tricks/25-reading-options-language.png)
+
+
+ - Right click on your `Document` at the `XFT Field Technology` menu
+ - Click on `Edit`
+
+![Edit document](/images/2024-09-23-output-transformation-server-tips-and-tricks/26-edit-document.png)
+
+ - Click on `DOM properties` tab
+
+![DOM properties](/images/2024-09-23-output-transformation-server-tips-and-tricks/27-xft-document-dom-properties.png)
+
+ - Select the document Language at the `Language` drop-down list
+ - Click `OK`
+
+![DOM properties](/images/2024-09-23-output-transformation-server-tips-and-tricks/28-xft-document-dom-properties.png)
+
+> **NOTE:**
+> If the language of your document is not included in the drop-down list you can 
+> use the ISO language code, i.e. you can user `ca_ES` for Catalan.
+
+
+
+
+
 
 
 
