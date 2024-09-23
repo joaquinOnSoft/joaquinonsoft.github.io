@@ -10,6 +10,13 @@ tags:
 last_modified_at: 2024-09-23T08:34:18-04:00
 ---
 
+This article explains how to solve some common challenges that you can face during a 
+document remediation using OpenText Output Transformation Server.
+
+> OpenText Output Transformation Server automatically transform and present archived content 
+> in a highly usable, navigable and accessible format, such as PDF/UA, for persons 
+> requiring accessible technologies.
+
 ## `<P>` tag is used in a header  when Auto Detect is enabled
 
 Follow this steps to set the tag that you want to use to auto-tag your document title:
@@ -104,6 +111,61 @@ How you can do it?. Just follow these steps:
 Now the paragraph is merged, using only one <p> tag for the full paragraph
 
 ![Auto Detect Options](/images/2024-09-23-output-transformation-server-tips-and-tricks/15-paragraph-merged.png)
+
+## `<TD>` used in table header row instead of `<TH>`
+
+When you autodetect the columns in a table that contains a header row `<TD>` tag is used by default.
+Ideally we must use `<TH>` in headers cells
+
+![Table columns](/images/2024-09-23-output-transformation-server-tips-and-tricks/17-table-column.png)
+
+Follow these steps to fix it:
+
+ - Select you table
+ - Right click on table
+ - Click on `Edit`
+ 
+![Edit table](/images/2024-09-23-output-transformation-server-tips-and-tricks/18-edit-table.png)
+ 
+ - Click on `Cells` tab
+  
+![Cells tab in XFT table field properties](/images/2024-09-23-output-transformation-server-tips-and-tricks/19-cells-tab-in-xft-table-field-properties.png)
+
+ - Right click on `RowHeaderColumns[0]`
+ - Click on `+ Add`
+
+![Add RowHeaderColumns - Cells tab](/images/2024-09-23-output-transformation-server-tips-and-tricks/20-add-RowHeaderColumns-cells-tab-in-xft-table-field-properties.png)
+
+ - Click on Value cell at the `RowHeaderColumns[0] > [0]` row
+ - Set value to `1`
+
+![Add RowHeaderColumns - Cells tab](/images/2024-09-23-output-transformation-server-tips-and-tricks/21-add-RowHeaderColumns-cells-tab-in-xft-table-field-properties.png)
+
+
+ - Click `OK`
+
+If you check the DOM tree you can see that now `<TH>` is used in the header row
+
+![TH used in table header](/images/2024-09-23-output-transformation-server-tips-and-tricks/22-th-used-in-table-header.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
