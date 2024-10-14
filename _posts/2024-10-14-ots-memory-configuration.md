@@ -12,10 +12,11 @@ last_modified_at: 2024-10-14T08:34:18-04:00
 
 As multiple versions of **OpenText Output Transformation Server (OTS)** can be installed at any given time, 
 you can use the `<OTS_home>\settings\startup.properties` file to control which version is used 
-upon starting the application.
+upon starting the application. This file also gives us the option to set the maximum and minumum 
+heap memory used by OTS Designer or Engine.
 
 
-## Java Virtual Machine's -Xms and -Xmx parameters I 
+## Java Virtual Machine's -Xms and -Xmx parameters 
 
 The `-Xms` and `-Xmx` parameters are used to control the initial and maximum heap size allocated 
 to the Java Virtual Machine (JVM). This is the amount of memory in bytes that will be used for 
@@ -102,7 +103,9 @@ a maximum of 4 Gb for Designer and 6 Gb for Engine:
 designer.jvmargs=-Xmx4G -Xms300M
 designer.version=24.2.00_11801
 designer.name=designer
+
 #…
+
 engine.jvmargs=-Xmx6G -Xms300M
 engine.version=24.2.00_11801
 engine.name=engine
