@@ -151,7 +151,7 @@ Now that we have created the *locators* we can complete the configuration to man
  - Check `"Enable Dynamic Positioning"`
  - Click on  `"Positioning"` tab
  
- ![Enable dynamic positioning](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/23-enable-dynamic-positioning.png)
+ ![Positioning](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/24-positioning.png)
  
  - Click on  `+` icon
  - Select `"riepilogoImportiLoc"` in the `Locator Name` drop down list
