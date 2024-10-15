@@ -10,7 +10,7 @@ tags:
 last_modified_at: 2024-10-15T08:34:18-04:00
 ---
 
-Sometimes we found bills, contracts... that **contains floating position tables**. How can we remediate these tables using Output Transformation Server?
+Sometimes we found bills, contracts... that **contains floating position tables**. How can we remediate these tables using **Output Transformation Server (OTS)**?
 
 In this example the table called “REPLIEGO IMPORTI” always appear on the right-hand side of the title *"IMPORTO"*.
 Let’s define 3 locators do manage this floating table
@@ -146,12 +146,8 @@ Now that we have created the *locators* we can complete the configuration to man
  - Check `"Enable Dynamic Positioning"`
 
  ![Enable dynamic positioning](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/23-enable-dynamic-positioning.png)
-
- - Click on  `"General"` tab
- - Check `"Enable Dynamic Positioning"`
- - Click on  `"Positioning"` tab
  
- ![Positioning](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/24-positioning.png)
+ - Click on  `"Positioning"` tab
  
  - Click on  `+` icon
  - Select `"riepilogoImportiLoc"` in the `Locator Name` drop down list
@@ -186,7 +182,7 @@ Now `TH` tag is used in the cells of the first row.
 
  ![table cells](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/26-table-with-headers.png)
 
-
+It's done. We have remediated a document with a floating positioning table using **OpenText Output Transformation Server (OTS)**.
 
 
 
