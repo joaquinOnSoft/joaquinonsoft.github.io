@@ -25,7 +25,7 @@ We are going a define 3 locators:
 
 ![floating position on a page](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/01bis-locators.png)
 
-## "Importo" Text locator I
+## "Importo" Text locator 
 
 Follow these steps to create the first locator:
 
@@ -72,7 +72,7 @@ And the last locator:
  - Right click on `Field Technology > Locator`
  - Select `Add Text Locator`
 
-![Add locator](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/09-add-locator-totale-documento.pngg)
+![Add locator](/images/2023-10-15-how-to-remediate-floating-position-tables-with-ots/09-add-locator-totale-documento.png)
 
  - Creates a rectangle around the area where the table footer `"Totale Documento"` can appear
 
